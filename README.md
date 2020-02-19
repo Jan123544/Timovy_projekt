@@ -1,5 +1,4 @@
 # Timovy_projekt
-__Heeej amigos tom tu a skusam commit a push__
 
 ## Názov projektu: 	Riadenie nelineárnych spojitých systémov
 
