@@ -57,4 +57,4 @@ Hláste sa na (=> znamená, že to ďalšie nadvezuje):
     Princíp SVL - VS
     Princíp SVL - VV
     Príklady na SVL = VS => aplikácia metódy na výpočet regulátora => simulácia  
-    Príklady na SVL - VS => aplikácia metódy na výpočet regulátora => simulácia 
+    Príklady na SVL - VV => aplikácia metódy na výpočet regulátora => simulácia  [Marek]
