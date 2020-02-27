@@ -53,7 +53,7 @@ Pri riešení postupujte podľa zásad tímového projektu.
 
 
 Hláste sa na (=> znamená, že to ďalšie nadvezuje):
-    Matematická princípy
+    Matematické princípy
     Princíp SVL - VS
     Princíp SVL - VV
     Príklady na SVL = VS => aplikácia metódy na výpočet regulátora => simulácia  
