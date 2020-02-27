@@ -50,3 +50,11 @@ Vypracujte posudok na projekt druhého tímu
 Pri riešení postupujte podľa zásad tímového projektu. 
     zápisnica, určenie vedúceho, určenie úloh jednotlivých členov 
 
+
+
+Hláste sa na (=> znamená, že to ďalšie nadvezuje):
+    Matematická princípy
+    Princíp SVL - VS
+    Princíp SVL - VV
+    Príklady na SVL = VS => aplikácia metódy na výpočet regulátora => simulácia  
+    Príklady na SVL - VS => aplikácia metódy na výpočet regulátora => simulácia 
