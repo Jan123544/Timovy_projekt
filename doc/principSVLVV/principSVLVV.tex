@@ -1,0 +1,58 @@
+\input{../preamble.tex}
+
+\begin{document}
+    \section{Princíp spätnovezbovej ilnearizácie}
+    Pred vysvetlením princípu spätnovezobnej linearizácie vstupno výstupnej, uľahčuje našu prácu vysvetliť, princíp spätnovazbovej linearizácie ako takej.
+
+    Zoberme si systém daný stavový opisom \cref{eqn:svlvv_sys0}.
+    \begin{equation}
+        \begin{gathered}
+        \begin{pmatrix} 
+            \dot{x}_1 \\ 
+            \dot{x}_2
+        \end{pmatrix} = \begin{pmatrix}
+            2x_2 + x_2^2 + u \\
+            x_2 + 3x_1
+        \end{pmatrix}\\
+        y = x_1
+        \end{gathered}
+        \label{eqn:svlvv_sys0}
+    \end{equation}
+    Všimnime si, že tento systém je nelineárny, kvôli členu $x_2^2$ nachádzajúceho s v rovnici pre $\dot{x}_1$. Avšak zavedením pravidla $u = v - x_2^2$, kde $v$ je nový vstup do systému (my sme si ho zaviedli), dostaneme nový systém daný \cref{eqn:svlvv_sys1}.
+    \begin{equation}
+        \begin{gathered}
+        \begin{pmatrix} 
+            \dot{x}_1 \\ 
+            \dot{x}_2
+        \end{pmatrix} = \begin{pmatrix}
+            2x_2 + v \\
+            x_2 + 3x_1
+        \end{pmatrix}\\
+        y = x_1
+        \end{gathered}
+        \label{eqn:svlvv_sys1}
+    \end{equation}
+    Tento systém narozdiel od pôvodného, je lineárny, čo nám dovoľuje pri návrhu regulátora využiť metódy vyvynuté pre lineárne systémy.
+
+    \section{Princíp spätnovezbovej linearizácie vstupno výstupnej}
+    Princíp spätnovezobnej linearizácie vstupno výstupnej, je podobný ako princíp uvedený vyššie. Predpokladajme systém so stavovým opisom z \cref{eqn:svlvv_sys2}.
+    \begin{equation}
+        \begin{gathered}
+        \begin{pmatrix} 
+            \dot{x}_1 \\ 
+            \dot{x}_2
+        \end{pmatrix} = \begin{pmatrix}
+            x_1^2 + u \\
+            x_2^3 + x_1
+        \end{pmatrix}\\
+            y = x_1
+        \end{gathered}
+        \label{eqn:svlvv_sys2}
+    \end{equation}
+    Naším cieľom je násť pravidlo, podľa ktorého ak budeme meniť vstup do systému, teda veličinu $u$, tak výstup zo systému bude sledovať predpísanú hodnotu $y_d$, čo je vo všeobecnosti funkciou času $t$(zapisujeme $y_d(t)$).
+
+    V ďalšom kroku chceme odvodiť závislosť $y = f(u)$, lebo potom vieme zaviesť pravidlo $u = f^{-1}(y_d(t))$ z čoho máme $y = y_d(t)$, čo je naším cieľom.
+
+
+\end{document}
+
