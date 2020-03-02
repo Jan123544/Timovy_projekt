@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300) (preloaded format=pdflatex 2020.2.21)  1 MAR 2020 16:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300) (preloaded format=pdflatex 2020.2.21)  2 MAR 2020 08:04
 entering extended mode
 **./principSVLVV.tex
 (principSVLVV.tex
@@ -721,28 +721,28 @@ LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line
 (/home/dot/.miktex/texmfs/install/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (63.01189pt too wide) in paragraph at lines 37--37
-[]\T1/lmr/bx/n/17.28 Princíp spätnovezbovej linearizácie vstupno výstupnej 
- []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 37.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
 [1
 
 {/home/dot/.miktex/texmfs/data/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
  (principSVLVV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 57.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 58.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 13028 strings out of 483484
- 244275 string characters out of 2967132
- 493771 words of memory out of 3000000
- 27772 multiletter control sequences out of 15000+200000
+ 13021 strings out of 483484
+ 244048 string characters out of 2967132
+ 491583 words of memory out of 3000000
+ 27768 multiletter control sequences out of 15000+200000
  566549 words of font info for 60 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 38i,13n,42p,319b,727s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,13n,42p,512b,727s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/home/dot/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-mathsy.enc}{/home/dot
 /.miktex/texmfs/install/fonts/enc/dvips/lm/lm-mathit.enc}{/home/dot/.miktex/tex
 mfs/install/fonts/enc/dvips/lm/lm-rm.enc}{/home/dot/.miktex/texmfs/install/font
@@ -752,11 +752,11 @@ lm/lm-ec.enc}</home/dot/.miktex/texmfs/install/fonts/type1/public/lm/lmbx12.pfb
 .miktex/texmfs/install/fonts/type1/public/lm/lmmi12.pfb></home/dot/.miktex/texm
 fs/install/fonts/type1/public/lm/lmmi8.pfb></home/dot/.miktex/texmfs/install/fo
 nts/type1/public/lm/lmr12.pfb></home/dot/.miktex/texmfs/install/fonts/type1/pub
-lic/lm/lmr8.pfb></home/dot/.miktex/texmfs/install/fonts/type1/public/lm/lmsy10.
-pfb></home/dot/.miktex/texmfs/install/fonts/type1/public/lm/lmsy8.pfb>
-Output written on principSVLVV.pdf (1 page, 100268 bytes).
+lic/lm/lmr8.pfb></home/dot/.miktex/texmfs/install/fonts/type1/public/lm/lmsy8.p
+fb>
+Output written on principSVLVV.pdf (1 page, 95999 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 PDF objects out of 1000 (max. 8388607)
+ 4 named destinations out of 1000 (max. 500000)
+ 9 words of extra memory for PDF output out of 10000 (max. 10000000)
 
