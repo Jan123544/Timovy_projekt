@@ -58,7 +58,7 @@
  	\end{aligned}
 	\label{eqn:svlvvPr1Dosadenie}
 	\end{equation}
-	Nakoniec ak zvolíme $v$ podľa \cref{eqn:svlvvPr1ZakonRiadenia}, tak pre dostávame rovnicu pre dynamiku odchýlky \cref{eqn:svlvvPr1DynamikaOdchylky}. Ak zvolíme koeficienty $k$ všetky kladné, dynamika odchýlky bude vždy stabilná a bude konvergovať k 0. Voľba tohto zákona, pre $v$, povedzme zákona riadenia linearizovaného systému, je posledným krokom tejto metódy.
+	Nakoniec ak zvolíme $v$ podľa \cref{eqn:svlvvPr1ZakonRiadenia}, tak dostávame rovnicu pre dynamiku odchýlky \cref{eqn:svlvvPr1DynamikaOdchylky}. Ak zvolíme koeficienty $k$ všetky kladné, dynamika odchýlky bude vždy stabilná a bude konvergovať k 0. Voľba tohto zákona, pre $v$, povedzme zákona riadenia linearizovaného systému, je posledným krokom tejto metódy.
 	\begin{equation}
 	\begin{aligned}
 	 v &= \ddot{r}  +k_1 \dot{e} + k_2 e \\
@@ -81,7 +81,7 @@
 		\caption{Regulácia výstupu na konštantnú hodnotu nelin. regulátorom navrhnutým pomocou metódy spätnoväzbovej linearizácie vstupno-výstupnej \cref{eqn:svlvvPr1SyavovyOpis}}
 		\label{fig:svlvvPr1Vysledok}
 	\end{figure}
-	Pre porovnanie skúsme navrhnúť ešte regulátor pre tento systém, ktorý linearizujeme v rovnovažnom bode $x_1 = x_2 = 0$. Po linearizovaní bude mať systém tvar \cref{eqn:svlvvPr1LinearizovanySystem}. 
+	Pre porovnanie skúsme navrhnúť ešte PID regulátor pre systém linearizovaný v rovnovažnom bode $x_1 = x_2 = 0$. Po linearizovaní bude mať systém tvar \cref{eqn:svlvvPr1LinearizovanySystem}. 
 	\begin{equation}
 	\begin{gathered}
 	\Delta \dot{x_1}  = \Delta u \\
@@ -98,7 +98,7 @@
 	\end{aligned}
 	\label{eqn:svlvvPr1VyjadreniePrenosuLinSys}
 	\end{equation}
-	Zapojme na vstup systému PID regulátor, ako je na \cref{fig:svlvvPr1ZapojeinePIDNaLinSys}. Ktorý mý prenos \cref{eqn:svlvvPr1PIDPrenos}, kde $P, D, I$ sú parametre regulátora. Pre zjednodušenie ešte prenosy systému roznásobme, dostaneme tak prenos otvoreného obvodu $G_{ORO}$ daný \cref{eqn:svlvvPr1PIDPrenosORO}. 
+	Zapojme na vstup systému PID regulátor, ako je na \cref{fig:svlvvPr1ZapojeinePIDNaLinSys}. Ktorý mý prenos \cref{eqn:svlvvPr1PIDPrenos}, kde $P, D, I$ sú parametre regulátora. Pre zjednodušenie ešte prenosy systému a regulátora roznásobme, dostaneme tak prenos otvoreného obvodu $G_{ORO}$ daný \cref{eqn:svlvvPr1PIDPrenosORO}. 
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=0.8\linewidth]{svlvvPr1/svlvvPr1ZapojeniePID-crop}
@@ -131,9 +131,9 @@
 		\end{aligned}
 		\label{eqn:svlvvPr1PrenosURO}
 	\end{equation}
-	Využime teraz metódu Pole-Placement na návrh parametrov regulátora, umiestnime póly na nasledovných pozíciách komplexnej roviny $p_1 = -5, p_2 = -4, p_3 = -3$. Teda nech sú póly reálne a záporné, čo zabezpečí stabilitu systému, keďže na kvalitu riadenia zatiaľ nekladieme dôraz.
+	Využime teraz metódu Pole-Placement na návrh parametrov regulátora, umiestnime póly na nasledovných pozíciách komplexnej roviny $p_1 = -1, p_2 = -0.5, p_3 = -0.5$. Teda nech sú póly reálne a záporné, čo zabezpečí stabilitu lineárneho systému, keďže na kvalitu riadenia zatiaľ nekladieme dôraz.
 
-	Polynóm ktorý bude mať zvolené korene, získame roznásobením polynmov prvého stupňa, ktorých korene sú zvolené póly, teda roznásobením \cref{eqn:svlvvPr1VznikZiadanehoPolynomu}. 
+	Polynóm, ktorý bude mať zvolené korene, získame roznásobením polynómov prvého stupňa, ktorých korene sú zvolené póly, teda roznásobením \cref{eqn:svlvvPr1VznikZiadanehoPolynomu}. 
 		\begin{equation}
 	\begin{aligned}
 	P(s) &= (s - p_1)(s - p_2)(s - p_3) \\
@@ -165,13 +165,13 @@
 	\end{aligned}
 	\label{eqn:svlvvPr1RovniceParametrovPID}
 	\end{equation}
-	Skúsme tento regulátor aplikovať na nelineárny systém, ktorý chceme riadiť. Výsledok zo simulácie je na \cref{fig:svlvPr1VysledokPID}.
+	Aplikujme tento regulátor aplikovať na nelineárny systém, ktorý chceme riadiť. Výsledok zo simulácie je na \cref{fig:svlvPr1VysledokPID}.
 		\begin{figure}[h!]
 			\centering
 		\includegraphics[width=\linewidth]{svlvvPr1/svlvvPr1PIDVysledok-crop}
 		\caption{Regulácia výstupu na konštantnú hodnotu PID regulátorom navrhnutým pomocou metódy pole-placement}
 		\label{fig:svlvPr1VysledokPID}
 	\end{figure}
-	Z tohto môžeme usúdiť, že nelineárne riadenie je v tomto prípade, nevyhnutné.
+	Z výsledku môžeme usúdiť, že nelineárne riadenie je v tomto prípade, nevyhnutné.
 	
 \end{document}
