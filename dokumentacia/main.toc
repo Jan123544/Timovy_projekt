@@ -1,26 +1,26 @@
-\select@language {slovak}
-\contentsline {section}{Zoznam pou\IeC {\v z}it\IeC {\'y}ch skratiek}{5}{section*.2}
-\contentsline {section}{\numberline {1}\IeC {\'U}vod}{6}{section.1}
-\contentsline {section}{\numberline {2}Matematick\IeC {\'e} z\IeC {\'a}klady}{7}{section.2}
-\contentsline {section}{\numberline {3}Met\IeC {\'o}da sp\IeC {\"a}tnov\IeC {\"a}zobnej lineariz\IeC {\'a}cie}{8}{section.3}
-\contentsline {section}{\numberline {4}Vstupno-stavov\IeC {\'a} met\IeC {\'o}da sp\IeC {\"a}tnov\IeC {\"a}zobnej lineariz\IeC {\'a}cie}{9}{section.4}
-\contentsline {subsection}{N\IeC {\'a}vrh riadenia - Pr\IeC {\'\i }klad 1.}{9}{section*.3}
-\contentsline {subsection}{Simula\IeC {\v c}n\IeC {\'a} sch\IeC {\'e}ma - Pr\IeC {\'\i }klad 1.}{9}{section*.4}
-\contentsline {subsection}{Overenie navrhnut\IeC {\'e}ho riadenia - Pr\IeC {\'\i }klad 1.}{9}{section*.5}
-\contentsline {subsection}{N\IeC {\'a}vrh riadenia - Pr\IeC {\'\i }klad 2.}{9}{section*.6}
-\contentsline {subsection}{Simula\IeC {\v c}n\IeC {\'a} sch\IeC {\'e}ma - Pr\IeC {\'\i }klad 2.}{9}{section*.7}
-\contentsline {subsection}{Overenie navrhnut\IeC {\'e}ho riadenia - Pr\IeC {\'\i }klad 2.}{9}{section*.8}
-\contentsline {subsection}{Porovnanie navrhnut\IeC {\'e}ho riadenia s line\IeC {\'a}rnym regul\IeC {\'a}torom}{9}{section*.9}
-\contentsline {section}{\numberline {5}Vstupno-v\IeC {\'y}stupn\IeC {\'a} met\IeC {\'o}da sp\IeC {\"a}tnov\IeC {\"a}zobnej lineariz\IeC {\'a}cie}{10}{section.5}
-\contentsline {subsection}{N\IeC {\'a}vrh riadenia - Pr\IeC {\'\i }klad 1.}{10}{section*.10}
-\contentsline {subsection}{Simula\IeC {\v c}n\IeC {\'a} sch\IeC {\'e}ma - Pr\IeC {\'\i }klad 1.}{10}{section*.11}
-\contentsline {subsection}{Overenie navrhnut\IeC {\'e}ho riadenia - Pr\IeC {\'\i }klad 1.}{10}{section*.12}
-\contentsline {subsection}{N\IeC {\'a}vrh riadenia - Pr\IeC {\'\i }klad 2.}{10}{section*.13}
-\contentsline {subsection}{Simula\IeC {\v c}n\IeC {\'a} sch\IeC {\'e}ma - Pr\IeC {\'\i }klad 2.}{10}{section*.14}
-\contentsline {subsection}{Overenie navrhnut\IeC {\'e}ho riadenia - Pr\IeC {\'\i }klad 2.}{10}{section*.15}
-\contentsline {subsection}{Porovnanie navrhnut\IeC {\'e}ho riadenia s line\IeC {\'a}rnym regul\IeC {\'a}torom}{10}{section*.16}
-\contentsline {section}{\numberline {6}Prehlad takych zakladnych latex veci - Tato sekcia tu nebude }{11}{section.6}
-\contentsline {subsection}{Enumeration}{12}{section*.17}
-\contentsline {subsection}{Itemization}{13}{section*.18}
-\contentsline {section}{\numberline {7}Z\IeC {\'a}ver}{14}{section.7}
-\contentsline {section}{Literat\'ura}{15}{section.7}
+\babel@toc {slovak}{}
+\contentsline {section}{Zoznam pou\IeC {\v z}it\IeC {\'y}ch skratiek}{4}{section*.2}% 
+\contentsline {section}{\numberline {1}\IeC {\'U}vod}{5}{section.1}% 
+\contentsline {section}{\numberline {2}Matematick\IeC {\'e} z\IeC {\'a}klady}{6}{section.2}% 
+\contentsline {section}{\numberline {3}Met\IeC {\'o}da sp\IeC {\"a}tnov\IeC {\"a}zobnej lineariz\IeC {\'a}cie}{7}{section.3}% 
+\contentsline {section}{\numberline {4}Vstupno-stavov\IeC {\'a} met\IeC {\'o}da sp\IeC {\"a}tnov\IeC {\"a}zobnej lineariz\IeC {\'a}cie}{8}{section.4}% 
+\contentsline {subsection}{N\IeC {\'a}vrh riadenia - Pr\IeC {\'\i }klad 1.}{8}{section*.3}% 
+\contentsline {subsection}{Simula\IeC {\v c}n\IeC {\'a} sch\IeC {\'e}ma - Pr\IeC {\'\i }klad 1.}{8}{section*.4}% 
+\contentsline {subsection}{Overenie navrhnut\IeC {\'e}ho riadenia - Pr\IeC {\'\i }klad 1.}{8}{section*.5}% 
+\contentsline {subsection}{N\IeC {\'a}vrh riadenia - Pr\IeC {\'\i }klad 2.}{8}{section*.6}% 
+\contentsline {subsection}{Simula\IeC {\v c}n\IeC {\'a} sch\IeC {\'e}ma - Pr\IeC {\'\i }klad 2.}{8}{section*.7}% 
+\contentsline {subsection}{Overenie navrhnut\IeC {\'e}ho riadenia - Pr\IeC {\'\i }klad 2.}{8}{section*.8}% 
+\contentsline {subsection}{Porovnanie navrhnut\IeC {\'e}ho riadenia s line\IeC {\'a}rnym regul\IeC {\'a}torom}{8}{section*.9}% 
+\contentsline {section}{\numberline {5}Vstupno-v\IeC {\'y}stupn\IeC {\'a} met\IeC {\'o}da sp\IeC {\"a}tnov\IeC {\"a}zobnej lineariz\IeC {\'a}cie}{9}{section.5}% 
+\contentsline {subsection}{N\IeC {\'a}vrh riadenia - Pr\IeC {\'\i }klad 1.}{9}{section*.10}% 
+\contentsline {subsection}{Simula\IeC {\v c}n\IeC {\'a} sch\IeC {\'e}ma - Pr\IeC {\'\i }klad 1.}{9}{section*.11}% 
+\contentsline {subsection}{Overenie navrhnut\IeC {\'e}ho riadenia - Pr\IeC {\'\i }klad 1.}{9}{section*.12}% 
+\contentsline {subsection}{N\IeC {\'a}vrh riadenia - Pr\IeC {\'\i }klad 2.}{9}{section*.13}% 
+\contentsline {subsection}{Simula\IeC {\v c}n\IeC {\'a} sch\IeC {\'e}ma - Pr\IeC {\'\i }klad 2.}{9}{section*.14}% 
+\contentsline {subsection}{Overenie navrhnut\IeC {\'e}ho riadenia - Pr\IeC {\'\i }klad 2.}{9}{section*.15}% 
+\contentsline {subsection}{Porovnanie navrhnut\IeC {\'e}ho riadenia s line\IeC {\'a}rnym regul\IeC {\'a}torom}{9}{section*.16}% 
+\contentsline {section}{\numberline {6}Prehlad takych zakladnych latex veci - Tato sekcia tu nebude }{10}{section.6}% 
+\contentsline {subsection}{Enumeration}{11}{section*.17}% 
+\contentsline {subsection}{Itemization}{12}{section*.18}% 
+\contentsline {section}{\numberline {7}Z\IeC {\'a}ver}{13}{section.7}% 
+\contentsline {section}{Literat\'ura}{14}{section.7}% 
