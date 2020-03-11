@@ -1,0 +1,53 @@
+
+\newpage
+\begin{center}
+\thispagestyle{empty}
+\ifthenelse {\boolean{english}}
+{
+	{\large Slovak University of Technology in Bratislava}\textbf{}\\
+	{\Large Faculty of Electrical Engineering and Information Technology}\textbf{}\\[\baselineskip]
+}
+{
+	{\large \textbf{SLOVENSKÁ TECHNICKÁ UNIVERZITA V BRATISLAVE}}\\
+	{\large \textbf{FAKULTA ELEKTROTECHNIKY A INFORMATIKY}}\\[\baselineskip]
+}
+\vspace*{5.5cm}
+{\Large \textbf{\Title}}\textbf{}\\
+\ifthenelse {\boolean{english}}
+{
+	\ifthenelse {\boolean{bachelor}}
+	{
+		{\large Bachelor thesis}\\
+	}
+	{
+		{\large Master thesis}\\
+	}
+}
+{
+	\ifthenelse {\boolean{bachelor}}
+	{
+		{\textbf {TÍMOVÝ PROJEKT}}\\
+	}
+	{
+		{\large Diplomová práca}\\
+	}
+}
+\end{center}
+\vspace*{5cm}
+\ifthenelse {\boolean{english}}
+{
+	Study program: \Program\\ 
+	Field of Study: \Field\\
+	Place: \Place\\
+	Vedúci práce: \Supervisor \\\\
+}
+{
+	Študijný program: \hspace*{34.5mm} \Program\\ 
+	Študijný odbor: \hspace*{39mm} \Field\\
+	Školiace pracovisko: \hspace*{30mm} \Workspace\\
+	Vedúci projektu: \hspace*{37.5mm} \Supervisor \\\\\\\\\\
+}
+\large \textbf{\Place \Year} \hspace*{6.5cm} \large \textbf{\Author}\\
+\hspace*{10cm} \large \textbf{Bc. Marek Trebuľa}\\
+\hspace*{10.0cm} \large \textbf{Bc. Denis Vasko}\\
+\hspace*{10cm} \large \textbf{Bc. Ján Urdianyk}

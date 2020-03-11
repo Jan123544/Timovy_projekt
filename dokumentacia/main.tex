@@ -1,0 +1,202 @@
+
+% Language: english, slovak
+% Document type: article (bachelor thesis), report (master thesis)
+%%
+%% CHECK THE PLACE WITH "!!!!"
+%%
+
+%%
+%% !!!! select one for BACHELOR THESIS
+%%
+%\documentclass[a4paper,english,12pt,appendix]{article}
+\documentclass[a4paper,slovak,12pt,appendix,twoside,openright]{article}
+
+%%
+%% !!!! select one for MASTER THESIS
+%%
+%\documentclass[a4paper,english,12pt,appendix]{report}
+%\documentclass[a4paper,slovak,12pt,appendix]{report}
+
+\usepackage{ifthen}
+\newboolean{english}
+\newboolean{bachelor}
+
+%%
+%% !!!! for MASTER THESIS set to FALSE
+%%
+\setboolean{bachelor}{true}
+
+%%
+%% !!!! for SLOVAK VERSION set to FALSE
+%%
+\setboolean{english}{false}
+
+
+
+%%
+%% Formats and Defs
+%%
+\input{FormatsAndDefs.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% !!!! set your own definitions
+
+%-------definitions-----
+\newcommand{\Author}{Bc. Eva Štalmachová} 
+\newcommand{\Title}{RIADENIE NELINEÁRNYCH SPOJITÝCH SYSTÉMOV}
+\newcommand{\Supervisor}{Prof. Ing. Ján Murgaš, PhD.}
+\newcommand{\Place}{Bratislava }
+\newcommand{\Workspace}{Ústav robotiky a kybernetiky}
+\newcommand{\Year}{2020}
+\newcommand{\Month}{Marec}
+\newcommand{\FIIT}{}
+\newcommand{\Field}{Kybernetika}
+\newcommand{\Program}{Robotika a kybernetika}
+\newcommand{\Oponent}{}
+
+%%
+%% DON'T TOUCH
+%%
+%% PDF meta-data 
+\hypersetup{%
+pdftitle={\Title},%
+pdfauthor={\Author},%
+pdfkeywords={robot stopar robotika kybernetika},%
+}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%%
+%% Title Page
+%%
+\input{titlepage.tex}
+
+\includepdf[pages=1]{zadanie.jpg}
+%%
+%% Anotation
+%%
+
+% Arabske cislovanie dov hlavnej prace
+%\pagenumbering{roman}\setcounter{page}{2}
+%\input{anotation.tex}
+
+%%
+%% Declaration
+%%
+%\input{declaration.tex}
+
+%%
+%% Contents
+%%
+%\pagestyle{empty}
+\newpage
+\tableofcontents{}
+\setcounter{secnumdepth}{0}
+\newpage
+\section{Zoznam použitých skratiek}
+
+ 
+\setcounter{secnumdepth}{1}
+%%
+%% Lists
+%%
+% \newpage
+% List of Figures
+% \listoffigures  
+% \newpage
+% List of Tables
+% \listoftables
+% \newpage
+% List of Listings
+% \lstlistoflistings
+
+
+%%
+%% Clear Page And Set New Page Counter
+%%
+% Klasicke cislova, ked zapnes rimske zapni aj toto 
+%\clearpage
+%\pagenumbering{arabic}
+%\setcounter{page}{1}
+
+\ifthenelse {\boolean{bachelor}}
+{
+	\sectionfont{\sectionrule{0pt}{0pt}{-2ex}{0.5pt}}
+}
+{
+	\sectionfont{\sectionrule{0pt}{0pt}{-2ex}{0pt}}
+}
+%\thispagestyle{empty}%
+%\addtocounter{page}{-1}%
+%\newpage
+%%
+%% Introduction
+%%
+\input{introduction.tex}
+
+%%
+%% analysis
+%%
+\input{analysis.tex}
+
+%%
+%% design
+%%
+%\input{design.tex}
+
+%%
+%% test
+%%
+%\input{results.tex}
+
+%%
+%% Conclusion
+%%
+\input{conclusions.tex}
+
+%%
+%% References
+%%
+\newpage
+\addcontentsline{toc}{section}{\refname}
+\bibliographystyle{plain}
+%\bibliography{references.bib}
+
+\begin{thebibliography}{9}
+
+
+	
+\end{thebibliography}
+%%
+%% Appendix
+%%
+%\ifthenelse {\boolean{bachelor}}
+%{
+%}
+%{
+%	\ifthenelse {\boolean{english}}
+%	{
+%		\renewcommand{\appendixname}{Appendix}
+%		\renewcommand{\appendixtocname}{Appendix}
+%	}
+%	{
+%		\renewcommand{\appendixname}{Príloha}
+%		\renewcommand{\appendixtocname}{Prílohy}
+%	}
+%	\pagenumbering{bychapter}
+%}
+\appendix
+\input{appendix.tex}
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%
+%% !!!! set your own details
+%%
+\begin{comment}
+[x] [], [Tímový projekt]
+\end{comment}
