@@ -2,11 +2,48 @@
 \documentclass[../main.tex]{subfiles}
 
 \begin{document}
-	\subsection{Stavový opis}
+
+\subsection{Stavový opis}
 	
-	\subsection{Rovnvoažné stavy}
+\subsection{Rovnvoažné stavy}
 	
-	\subsection{Linearizácia}
+\subsection{Linearizácia}
 	
-	
+\subsection{Riešenie preurčenej sústavy rovníc}
+
+Preurčená sústava rovníc, obsahuje viac rovníc ako neznámych premenných. Pri riešení preurčene sústavy rovníc použijeme metódu najmenších štvorcov. Pomocou metódy najmenších štvorcov sa budeme snažiť aproximovať riešenie $x$ preurčenej sústavy rovníc \ref{eqn:MaticovyZapisPSR}.
+
+\begin{equation}
+	Ax \approx b
+	\label{eqn:MaticovyZapisPSR}
+\end{equation}
+
+Uvažujeme nasledovnú preurčenú sústavu rovníc:
+
+\begin{equation}
+	\begin{split}
+	 x+y  & = 5 \\
+	 2x+4y+10 & = 8 \\
+	 x+5y & = 15 \\
+	 -2x+4y+10 & = 8 \\
+	\end{split}
+	\label{eqn:PreurcenySystem}
+\end{equation}
+
+Preurčenú sústavu rovníc \ref{eqn:PreurcenySystem} môžeme maticovo zapísať v tvare:
+\begin{equation}
+\begin{bmatrix} 1 & 1\\ 2 & 4 \\1 &5 \\-2& 4\end{bmatrix}\begin{bmatrix}x \\y \end{bmatrix} = \begin{bmatrix} 5 \\-2\\15\\-2 \end{bmatrix}
+ \label{eqn:MaticovyZapisPiklad}
+\end{equation}
+
+Na výpočet neznámych premenných x,y použijeme metódu najmenších štvorcov :
+\begin{equation}
+	\begin{split}
+	\begin{bmatrix}x \\y \end{bmatrix} &=  (A^TA)^{-1}A^Tb\\
+	\begin{bmatrix}x \\y \end{bmatrix} &=  \begin{bmatrix} 1.4265 \\0.9559\end{bmatrix}
+	\end{split}
+	\label{eqn:MNS}
+\end{equation}
+
+		
 \end{document}
