@@ -204,7 +204,7 @@ s\Delta \dot{x_2} & = -\Delta x_1 - \Delta x_2 + \Delta u \\\\
 s\Delta x_1(s+1) & = -\Delta x_1 - \Delta x_1(s+1) + \Delta u\\
 s\Delta x_1(s+1) + \Delta x_1 + \Delta x_1(s+1) & = \Delta u\\\\
 \Delta u & = \Delta x_1(s^2+2s+2)\\\\
-\frac{\Delta u}{\Delta x_1} & = \frac{1}{(s^2+2s+2)}\
+\frac{\Delta x_1}{\Delta u} & = \frac{1}{(s^2+2s+2)}\
  \end{split}
  \label{eqn:PF}
 \end{equation}	
@@ -213,31 +213,33 @@ Na výpočet parametrov PID regulátora použijeme metódu Pole-Placement. Aby s
 
 \begin{equation}
 	\begin{aligned}
-	G_{URO} &= \frac{(P+Ds+\frac{I}{s})(s^2+2s+2)}{1+(P+Ds+\frac{I}{s})(s^2+2s+2)}  \\
-		N(s)	&= s^4D+s^3(2D+P)+s^2(2P+2D+I)+s(1+2P+2I)+2I
+	G_{URO} &= \frac{(P+Ds+\frac{I}{s})(\frac{1}{s^2+2s+2})}{1+(P+Ds+\frac{I}{s})(\frac{1}{s^2+2s+2})}  \\
+		N(s)	&= s^3+s^2(2+D)+s(2+P)+I
 	\end{aligned}
 	\label{eqn:GURO}
 \end{equation}
 
-Keď sme získali charakteristický polynóm N(s), využijeme  metódu Pole-Placement, ktorá spočíva v porovnaní charakteristického polynómu so žalaným polynómom P(s). Umiestníme póly žalaného polynómu P(s) do zápornej reálnej polroviny. My si zvolíme štvornásobný koreň $p = -1$, čím sme zabezpečíme stabilitu lineárneho systému. Polynóm P(s) potom bude mať nasledujúci tvar (rovnica \ref{eqn:Ps}). 
+Keď sme získali charakteristický polynóm N(s), využijeme  metódu Pole-Placement, ktorá spočíva v porovnaní charakteristického polynómu so žalaným polynómom P(s). Umiestníme póly žalaného polynómu P(s) do zápornej reálnej polroviny. My si zvolíme korene: $p_1 = -1$, $p_2 = -2$, $p_3 = -3$, čím sme zabezpečíme stabilitu lineárneho systému. Polynóm P(s) potom bude mať nasledujúci tvar (rovnica \ref{eqn:Ps}). 
 \begin{equation}
 	\begin{aligned}
-	P(s) &= (s + 1)^4 \\
-		 &= s^4+4s^3+6s^2+4s+1 \\
+	P(s) &= (s + 1)(s + 2)(s + 3) \\
+		 &= s^3 + 6s^2 + 11s + 6 \\
 	\end{aligned}
 \label{eqn:Ps}
 \end{equation}
 
-Porovnaním želaného polynómu P(s) s charakteristickým polynómom N(s), dostaneme preučeným systém rovníc:
+Porovnaním želaného polynómu P(s) s charakteristickým polynómom N(s) \ref{eqn:PR_porovnanie}, dostaneme parametre regulátora \ref{eqn:PR}.
 \begin{equation}
-\begin{bmatrix} 0 & 0& 1 \\ 1 & 0  & 2\\2 &1&  2 \\2& 2& 0\\ 0& 2& 0 \end{bmatrix}\begin{bmatrix}P \\I\\ D \end{bmatrix} = \begin{bmatrix} 1 \\4\\6\\3\\1 \end{bmatrix}
- \label{eqn:PP}
+	\begin{aligned}
+	P(s) &= N(s) \\
+	s^3 + 6s^2 + 11s + 6 &= s^3+s^2(2+D)+s(2+P)+I\\
+	\end{aligned}
+ \label{eqn:PR_porovnanie}
 \end{equation}	
 
-Pomocou metódy najmenších štvorcov vyjadríme parametre regulátora (\ref{eqn:MNS}).
  \begin{equation}
-\begin{bmatrix}P \\I\\ D \end{bmatrix} = \begin{bmatrix} 1.1852 \\0.4444\\1.4444 \end{bmatrix}
- \label{eqn:MNS}
+\begin{bmatrix}P \\I\\ D \end{bmatrix} = \begin{bmatrix} 9 \\6\\4 \end{bmatrix}
+ \label{eqn:PR}
 \end{equation}
 
 Výsledky overíme simulačne pomocou schémy na obrázku \ref{fig:PrikladsRiadenimPID}.
