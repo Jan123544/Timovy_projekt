@@ -36,7 +36,7 @@ Bod [0 0 0] je rovnovážny stav systému. V tomto bode sú časové derivácie 
 \newpage
 \subsection*{Návrh riadenia pomocou Vstupno-stavovej linearizácie - príklad 2}
 
-	Našim cieľom je riadiť tento systém tak, aby výstup $y$ dosiahol žiadanú hodnotu $r$. Systém obsahuje nelinearity v dvoch rovniciach, preto je ťažké určiť zákon riadenia len pohľadom na tieto rovnice. Použijeme metódu Vstupno-stavovej linearizácie, pri ktorej navrhneme linearizačnú slučku, s ktorou sa náš systém bude správať ako lineárny. Pre tento lineárny systém potom navrhneme regulátor, ktorý zabezpečí že sa výstup systému ustály na žiadanej hodnote.
+	Našim cieľom je riadiť tento systém tak, aby výstup $y$ dosiahol žiadanú hodnotu $r$. Systém obsahuje nelinearity v dvoch rovniciach, preto je ťažké určiť zákon riadenia len pohľadom na tieto rovnice. Použijeme metódu Vstupno-stavovej linearizácie, pri ktorej navrhneme linearizačnú slučku, s ktorou sa náš systém bude správať ako lineárny. Pre tento lineárny systém potom navrhneme regulátor, ktorý zabezpečí že sa výstup systému ustáli na žiadanej hodnote.
 
 Prvým krokom metódy je určenie transformačných vzťahov \cref{eqn:svlvs2_transformacneRovnice}.
 
@@ -73,7 +73,7 @@ Druhým krokom je transformácia nášho systému zo stavov $x_1$, $x_2$ a $x_3$
 		\label{eqn:svlvs2_transformovanySystem}
 	\end{equation}
 
-Na základe \cref{eqn:svlvs2_transformovanySystem} dokážeme zvoliť taký zákon riadenia, ktorý vykompenzuje nelinearity pôvodného systému,  \cref{eqn:svlvs2_zakonRiadenia}. Prvý člen tejto rovnice zabezbezpečí linearizáciu systému, tvorí linearizačnú slučku. Druhý člen $v$ zabezpečí stabilitu dynamiky systému, \cref{eqn:svlvs2_zakonRiadeniaStabilita}. Posledný člen $r$ predstavuje našu žiadanú hodnotu. Kedže náš linearizovaný systém nemusí mať jednotkové zosilnenie, musíme túto hodnotu predeliť statickým zosilnením linearizovaného systému $K$. Druhou možnosťou je zvoliť také konštanty $k_1$, $k_2$ a $k_3$ aby zosilnenie bolo rovné jednej.
+Na základe \cref{eqn:svlvs2_transformovanySystem} dokážeme zvoliť taký zákon riadenia, ktorý vykompenzuje nelinearity pôvodného systému,  \cref{eqn:svlvs2_zakonRiadenia}. Prvý člen tejto rovnice zabezpečí linearizáciu systému, tvorí linearizačnú slučku. Druhý člen $v$ zabezpečí stabilitu dynamiky systému, \cref{eqn:svlvs2_zakonRiadeniaStabilita}. Posledný člen $r$ predstavuje našu žiadanú hodnotu. Keďže náš linearizovaný systém nemusí mať jednotkové zosilnenie, musíme túto hodnotu predeliť statickým zosilnením linearizovaného systému $K$. Druhou možnosťou je zvoliť také konštanty $k_1$, $k_2$ a $k_3$ aby zosilnenie bolo rovné jednej.
 
 	\begin{equation}
 		u(z,v,r) = cos(z_1)(z_2+z_3) + v + r/K										\\
@@ -101,7 +101,7 @@ Dosadením zákona riadenia do nášho transformovaného systému dosiahneme lin
 		\label{eqn:svlvs2_linearnySystem}
 	\end{equation}
 
-Tento system mozeme zapísať v kanonickej forme riaditelnosti pomocou matice $A$ a vektorov $b$, $c$ a $d$.
+Tento systém môžeme zapísať v kanonickej forme riaditeľnosti pomocou matice $A$ a vektorov $b$, $c$ a $d$.
 
         \begin{center}
 		$ A = 
@@ -152,7 +152,7 @@ Zosilnenie systému získame ak limitujeme $s$ k nule. Potom dostaneme \cref{eqn
 		\label{eqn:svlvs2_statickeZosilnenie}
 	\end{equation}
 
-Konštanty $k_1$, $k_2$ a $k_3$ maju zabezpečiť stabilitu dynamiky systému. Môže ich určiť na základe vlastných čisiel matice $A$. Aby bol systém stabilný, musí maš matica $A$ záporne definitné vlastné čísla.
+Konštanty $k_1$, $k_2$ a $k_3$ majú zabezpečiť stabilitu dynamiky systému. Môže ich určiť na základe vlastných čísiel matice $A$. Aby bol systém stabilný, musí matica $A$ mať záporne definitné vlastné čísla.
 
 	\begin{equation}
 		\begin{aligned}
@@ -198,25 +198,39 @@ Z toho určíme zosilnenie $K$, \cref{eqn:svlvs2_hodnotaK}.
 \newpage
 \subsection*{Návrh riadenia pomocou obyčajnej linearizácie s PID regulátorom - príklad 2}
 
-Rozvojom do taylorovho radu dostaneme z povodnych \cref{eqn:svlvs2_rovniceSystemu} nové \cref{eqn:svlvs2_rovniceSystemuLinearizovane}. Pracovný bod nech je [0 0 0]. Po linearizacii dokazeme odvodit prenosovu funkciu \cref{eqn:svlvs2_prenosSystemuLinearizovane} a navrhnut PID regulator pomocou PPM.
+Rozvojom do Taylorovho radu dostaneme z pôvodných \cref{eqn:svlvs2_rovniceSystemu} nové \cref{eqn:svlvs2_rovniceSystemuLinearizovane}. Pracovný bod nech je [0 0 0]. Po linearizácií dokážeme odvodiť prenosovú funkciu \cref{eqn:svlvs2_prenosSystemuLinearizovane} a navrhnúť PID regulátor pomocou PPM.
 
 \begin{equation}
 		\begin{aligned}
 		\dot{\Delta x_1} &= \Delta x_1 + 2\Delta x_2 - \Delta x_3 			\\	
 		\dot{\Delta x_2} &= - \Delta x_1 - \Delta x_2 					\\
-		\dot{\Delta x_3} &=  \Delta x_1 + \Delta x_3 - \Delta u 				\\
+		\dot{\Delta x_3} &=  \Delta x_1 - \Delta x_3 - \Delta u 				\\
 		\end{aligned}
 		\label{eqn:svlvs2_rovniceSystemuLinearizovane}
-	\end{equation}
+\end{equation}
 
 \begin{equation}
 		\begin{aligned}
-		G(s) = \frac{1}{s}\frac{s+1}{s^2+s+1}
+		G(s) = \frac{s+1}{s^3+s^2+s+2}
 		\end{aligned}
 		\label{eqn:svlvs2_prenosSystemuLinearizovane}
-	\end{equation}
+\end{equation}
 
-Nech požadované koreňe uzavretého regulačného obvodu sú -1, -0.5 a -0.5. Porovnaním žiadaného polynómu (\cref{eqn:svlvs2_ziadanaURO}) a polynómu uzavretého regulačného obvodu (\cref{eqn:svlvs2_nasaURO}) dostaneme vztahy na výpocet parametrov PID regulátora \cref{eqn:svlvs2_parametrePID}.
+\begin{equation}
+		\begin{aligned}
+		R(s) = \frac{I + Ps + Ds^2}{s}
+		\end{aligned}
+		\label{eqn:svlvs2_prenosRegulatoraPID}
+\end{equation}
+
+\begin{equation}
+		\begin{aligned}
+		G_{URO}(s) = \frac{(s+1)(I + Ps + Ds^2)}{Ds^3+(P+D)s^2+(I+P)s+I}
+		\end{aligned}
+		\label{eqn:svlvs2_prenosUROSystemuLinearizovane}
+\end{equation}
+
+Nech požadované póly uzavretého regulačného obvodu sú -1, -0.5 a -0.5. Porovnaním žiadaného polynómu (\cref{eqn:svlvs2_ziadanaURO}) a polynómu uzavretého regulačného obvodu (\cref{eqn:svlvs2_nasaURO}) dostaneme vzťahy na výpočet parametrov PID regulátora \cref{eqn:svlvs2_parametrePID}.
 
 \begin{equation}
 		\begin{aligned}
@@ -227,7 +241,7 @@ Nech požadované koreňe uzavretého regulačného obvodu sú -1, -0.5 a -0.5. 
 
 \begin{equation}
 		\begin{aligned}
-		(D+1)s^3+(1+D+P)s^2+(I+P)s+I=0
+		Ds^3+(P+D)s^2+(I+P)s+I=0
 		\end{aligned}
 		\label{eqn:svlvs2_nasaURO}
 	\end{equation}
@@ -236,7 +250,7 @@ Nech požadované koreňe uzavretého regulačného obvodu sú -1, -0.5 a -0.5. 
 		\begin{aligned}
 		P &= 1 						\\
 		I &= 0.25 						\\
-		D &= 0						 \\
+		D &= 1						 \\
 		\end{aligned}
 		\label{eqn:svlvs2_parametrePID}
 	\end{equation}
@@ -244,7 +258,7 @@ Nech požadované koreňe uzavretého regulačného obvodu sú -1, -0.5 a -0.5. 
 \newpage
 \subsection*{Simulácie - príklad 2}
 
-Navrhnuté riadenia môžeme porovnať pomocou Matlab-simulink. Simulačná schéma s nelineárnym riadením je na \cref{fig:svlvs2_modelRiadenia} a s PID regulátorom je na \cref{fig:svlvs2_modelRiadeniaPID}. Pri nelineárnom riadení urobíme skok žiadanej hodnoty na 10, zatial čo pri PID regulátore len na 0,01, aby sme zostali čo najbližšie pri pracovnom bode.
+Navrhnuté riadenia môžeme porovnať pomocou simulácie v prostredí Matlab-simulink. Simulačná schéma s nelineárnym riadením je na \cref{fig:svlvs2_modelRiadenia} a s PID regulátorom je na \cref{fig:svlvs2_modelRiadeniaPID}. Pri nelineárnom riadení urobíme skok žiadanej hodnoty na 10. Pri PID regulátore urobime dva skoky, na hodnotu 0.1 a 1, aby sme zostali čo najbližšie pri pracovnom bode.
 
 	\begin{figure}[h!]
 		\centering
@@ -261,26 +275,34 @@ Navrhnuté riadenia môžeme porovnať pomocou Matlab-simulink. Simulačná sch�
 		\label{fig:svlvs2_modelRiadeniaPID}
 	\end{figure}
 
-Na \cref{fig:svlvs2_simulaciaNelin} a \cref{fig:svlvs2_SimulaciaPID} môžeme vidieť, že takto navrhnutý PID regulátor nedokáže uriadiť náš systém ani v blízkom okolí pracovného bodu. Je to spôsobené tým, že sa jednotlive stavové veličiny dostanu daleko od pracovného bodu už pri malej zmene akčného zásahu. Na \cref{fig:svlvs2_simulaciaNelinU} môžete vidieť priebeh akčného zásahu s nelineárnym riadením.
+Na \cref{fig:svlvs2_SimulaciaPID} môžeme vidieť, že takto navrhnutý PID regulátor dokáže pri malom skoku uriadiť náš systém. Pri väčšom skoku (\cref{fig:svlvs2_SimulaciaPIDVelkySkok}) sa náš uzavretý systém stal nestabilným. Je to spôsobené tým, že pri väčšej vzdialenosti od pracovného bodu sa chyba spôsobená linearizáciou zväčšuje a systému má iné vlastnosti ako systém, pre ktorý sme daný regulátor navrhovali.
+Na \cref{fig:svlvs2_simulaciaNelin} a \cref{fig:svlvs2_simulaciaNelinU} je vidieť, že nelineárny regulátor dokázal uriadiť náš systém bez problémov aj na hodnotu 10.
 
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=0.8\linewidth]{SimulaciaNelin}
-		\caption{Priebeh výstupu a stavových veličín s nelineárnim riadením}
+		\caption{Priebeh výstupu a stavových veličín s nelineárnym riadením}
 		\label{fig:svlvs2_simulaciaNelin}
 	\end{figure}
 
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=0.8\linewidth]{SimulaciaPID}
-		\caption{Priebeh výstupu a stavových veličín s PID}
+		\caption{Priebeh výstupu a stavových veličín s PID (skok na 0.1)}
 		\label{fig:svlvs2_SimulaciaPID}
 	\end{figure}
 
 	\begin{figure}[h!]
 		\centering
+		\includegraphics[width=0.8\linewidth]{SimulaciaPIDVelkySkok}
+		\caption{Priebeh výstupu a stavových veličín s PID (skok na 1)}
+		\label{fig:svlvs2_SimulaciaPIDVelkySkok}
+	\end{figure}
+
+	\begin{figure}[h!]
+		\centering
 		\includegraphics[width=0.8\linewidth]{SimulaciaNelinU}
-		\caption{Priebeh akčného zásahu s nelineárnim riadením}
+		\caption{Priebeh akčného zásahu s nelineárnym riadením}
 		\label{fig:svlvs2_simulaciaNelinU}
 	\end{figure}
 
