@@ -1,9 +1,21 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350) (preloaded format=pdflatex 2020.4.2)  8 APR 2020 06:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350) (preloaded format=pdflatex 2020.4.2)  8 APR 2020 07:59
 entering extended mode
-**./main.tex
-(main.tex
+**./uvod.tex
+(uvod.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06>
+(/home/dot/.miktex/texmfs/install/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2020/02/14 v1.6 Multi-file projects (class)
+Preamble taken from file `../main.tex'
+(/home/dot/.miktex/texmfs/install/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks15
+\verbatim@line=\toks16
+\verbatim@in@stream=\read2
+)
+(/home/dot/.miktex/texmfs/install/tex/latex/import/import.sty
+Package: import 2020/04/01  v 6.2
+) (../main.tex
 (/home/dot/.miktex/texmfs/install/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
 (/home/dot/.miktex/texmfs/install/tex/latex/base/size12.clo
@@ -24,9 +36,10 @@ File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 (/home/dot/.miktex/texmfs/install/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(FormatsAndDefs.tex (/home/dot/.miktex/texmfs/install/tex/latex/epsf/epsf.sty
+(../FormatsAndDefs.tex
+(/home/dot/.miktex/texmfs/install/tex/latex/epsf/epsf.sty
 This is `epsf.tex' v2.7.4 <14 February 2011>
-\epsffilein=\read2
+\epsffilein=\read3
 \epsfframemargin=\dimen135
 \epsfframethickness=\dimen136
 \epsfrsize=\dimen137
@@ -43,7 +56,7 @@ Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/home/dot/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
+\KV@toks@=\toks17
 )
 (/home/dot/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
@@ -81,14 +94,14 @@ Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
 \uc@secondtry=\count175
-\uc@combtoks=\toks16
-\uc@combtoksb=\toks17
-\uc@temptokena=\toks18
+\uc@combtoks=\toks18
+\uc@combtoksb=\toks19
+\uc@temptokena=\toks20
 )
 (/home/dot/.miktex/texmfs/install/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
+\inpenc@prehook=\toks21
+\inpenc@posthook=\toks22
 
 (/home/dot/.miktex/texmfs/install/tex/latex/ucs/utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
@@ -96,9 +109,9 @@ File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 (/home/dot/.miktex/texmfs/install/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count176
-\float@exts=\toks21
+\float@exts=\toks23
 \float@box=\box45
-\@float@everytoks=\toks22
+\@float@everytoks=\toks24
 \@floatcapt=\box46
 )
 (/home/dot/.miktex/texmfs/install/tex/latex/graphics/color.sty
@@ -164,16 +177,16 @@ LaTeX Info: Redefining \addtolength on input line 81.
 File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box47
-\AM@global@opts=\toks23
+\AM@global@opts=\toks25
 \AM@pagecnt=\count181
-\AM@toc@title=\toks24
+\AM@toc@title=\toks26
 \c@AM@survey=\count182
 \AM@templatesizebox=\box48
 )
 (/home/dot/.miktex/texmfs/install/tex/latex/listings/listings.sty
 \lst@mode=\count183
 \lst@gtempboxa=\box49
-\lst@token=\toks25
+\lst@token=\toks27
 \lst@length=\count184
 \lst@currlwidth=\dimen151
 \lst@column=\count185
@@ -195,12 +208,6 @@ File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
-(/home/dot/.miktex/texmfs/install/tex/latex/tools/verbatim.sty
-Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks26
-\verbatim@line=\toks27
-\verbatim@in@stream=\read3
-)
 (/home/dot/.miktex/texmfs/install/tex/latex/moreverb/moreverb.sty
 Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 \tab@position=\count191
@@ -430,10 +437,7 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 )
 (/home/dot/.miktex/texmfs/install/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2020/02/14 v1.6 Multi-file projects (package)
-
-(/home/dot/.miktex/texmfs/install/tex/latex/import/import.sty
-Package: import 2020/04/01  v 6.2
-))
+)
 (/home/dot/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
@@ -556,8 +560,12 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
 (/home/dot/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)
-(/home/dot/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
+) (/home/dot/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen181
@@ -616,7 +624,6 @@ File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 
 (/home/dot/.miktex/texmfs/install/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
 )
 \Fld@listcount=\count294
 \c@bookmark@seq@number=\count295
@@ -683,7 +690,7 @@ File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
 (/home/dot/.miktex/texmfs/install/tex/latex/ucs/uni-1.def
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
-)
+)))
 (/home/dot/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count296
@@ -693,29 +700,29 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 LaTeX Warning: Unused global option(s):
     [appendix,openright].
 
-(main.aux)
-\openout1 = `main.aux'.
+(uvod.aux)
+\openout1 = `uvod.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for IL2/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Trying to load font information for IL2+ptm on input line 6
-9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for IL2/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Trying to load font information for IL2+ptm on input line 2
+.
  (/home/dot/.miktex/texmfs/install/tex/cslatex/cspsfonts/il2ptm.fd
 File: il2ptm.fd 1998/01/31 CS Times
 LaTeX Font Info:     CS Times on input line 2.
@@ -759,14 +766,14 @@ Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 \c@lstlisting=\count303
-LaTeX Info: Redefining \microtypecontext on input line 69.
+LaTeX Info: Redefining \microtypecontext on input line 2.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 69.
+LaTeX Info: Redefining \showhyphens on input line 2.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -811,7 +818,7 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 * \@reversemargintrue
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 69.
+Package hyperref Info: Link coloring ON on input line 2.
 (/home/dot/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -823,161 +830,69 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count306
 )
-LaTeX Info: Redefining \ref on input line 69.
-LaTeX Info: Redefining \pageref on input line 69.
-LaTeX Info: Redefining \nameref on input line 69.
- (main.out) (main.out)
+LaTeX Info: Redefining \ref on input line 2.
+LaTeX Info: Redefining \pageref on input line 2.
+LaTeX Info: Redefining \nameref on input line 2.
+ (uvod.out) (uvod.out)
 \@outlinefile=\write3
-\openout3 = `main.out'.
+\openout3 = `uvod.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (titlepage.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 49--75
 
+Overfull \hbox (13.46736pt too wide) in paragraph at lines 3--4
+\IL2/ptm/m/n/12 stavovej a vstupno-výstupnej linearizácie. Navrhnuté nelineárne
+ riadenie porovnávame s lineárnym
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--75
-
- []
+LaTeX Warning: Reference `sec:matzaklady' on page 1 undefined on input line 5.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--75
-
- []
+LaTeX Warning: Reference `sec:vsl' on page 1 undefined on input line 7.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--75
+LaTeX Warning: Reference `sec:vvl' on page 1 undefined on input line 9.
 
- []
 
-<figures/zadanie.jpg, id=3, 3131.7pt x 4175.6pt>
-File: figures/zadanie.jpg Graphic file (type jpg)
-<use figures/zadanie.jpg>
-Package pdftex.def Info: figures/zadanie.jpg  used on input line 76.
-(pdftex.def)             Requested size: 3131.6924pt x 4175.58987pt.
-File: figures/zadanie.jpg Graphic file (type jpg)
-<use figures/zadanie.jpg>
-Package pdftex.def Info: figures/zadanie.jpg  used on input line 76.
-(pdftex.def)             Requested size: 3131.6924pt x 4175.58987pt.
-File: figures/zadanie.jpg Graphic file (type jpg)
-<use figures/zadanie.jpg>
-Package pdftex.def Info: figures/zadanie.jpg  used on input line 76.
-(pdftex.def)             Requested size: 3131.6924pt x 4175.58987pt.
-File: figures/zadanie.jpg Graphic file (type jpg)
-<use figures/zadanie.jpg>
-Package pdftex.def Info: figures/zadanie.jpg  used on input line 76.
-(pdftex.def)             Requested size: 597.60963pt x 796.81284pt.
+LaTeX Warning: Reference `sec:anim' on page 1 undefined on input line 11.
+
+
+LaTeX Warning: Reference `sec:integracia' on page 1 undefined on input line 13.
+
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 14.
 [1
 
 {/home/dot/.miktex/texmfs/data/pdftex/config/pdftex.map}]
-File: figures/zadanie.jpg Graphic file (type jpg)
-<use figures/zadanie.jpg>
-Package pdftex.def Info: figures/zadanie.jpg  used on input line 76.
-(pdftex.def)             Requested size: 597.60963pt x 796.81284pt.
-File: figures/zadanie.jpg Graphic file (type jpg)
-<use figures/zadanie.jpg>
-Package pdftex.def Info: figures/zadanie.jpg  used on input line 76.
-(pdftex.def)             Requested size: 597.60963pt x 796.81284pt.
-File: figures/zadanie.jpg Graphic file (type jpg)
-<use figures/zadanie.jpg>
-Package pdftex.def Info: figures/zadanie.jpg  used on input line 76.
-(pdftex.def)             Requested size: 597.60963pt x 796.81284pt.
- [2 <./figures/zadanie.jpg>] (main.toc)
-\tf@toc=\write4
-\openout4 = `main.toc'.
-
- [3] (introduction.tex [4]) (analysis.tex [5]
-(matzaklady/matzaklady.tex
-Overfull \hbox (4.98904pt too wide) in paragraph at lines 8--9
-\IL2/ptm/m/n/14.4 Stavový opis je jedna z foriem opisu dynamického lineárneho s
-ystému. Základom
- []
-
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-0.
-(/home/dot/.miktex/texmfs/install/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-(/home/dot/.miktex/texmfs/install/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-0.
-
-(/home/dot/.miktex/texmfs/install/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-10.
-
-(/home/dot/.miktex/texmfs/install/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-10.
-
-(/home/dot/.miktex/texmfs/install/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 10.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 10.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 10.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 10
-.
-
-(/home/dot/.miktex/texmfs/install/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-
-LaTeX Warning: Reference `eqn:matz_system' on page 6 undefined on input line 18
-.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 14.
+ (uvod.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 14.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 14.
+Package rerunfilecheck Info: File `uvod.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
-LaTeX Warning: Reference `eqn:matz_systemLap' on page 6 undefined on input line
- 71.
-
-[6]
-
-LaTeX Warning: Reference `eqn:matz_systemPrenos' on page 7 undefined on input l
-ine 93.
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: Reference `fig:matz_systemStavovyOpisSimulink' on page 7 undefin
-ed on input line 95.
+LaTeX Warning: There were undefined references.
 
-
-! LaTeX Error: File `SchemaStavovyOpis' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.99 ...cs[width=0.8\linewidth]{SchemaStavovyOpis}
-                                                  
-? 
-! Emergency stop.
- ...                                              
-                                                  
-l.99 ...cs[width=0.8\linewidth]{SchemaStavovyOpis}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
- 
+ ) 
 Here is how much of TeX's memory you used:
- 17470 strings out of 482860
- 282283 string characters out of 2953169
- 596321 words of memory out of 3000000
- 32684 multiletter control sequences out of 15000+200000
- 552993 words of font info for 52 fonts, out of 3000000 for 9000
+ 17193 strings out of 482860
+ 276645 string characters out of 2953169
+ 591855 words of memory out of 3000000
+ 32484 multiletter control sequences out of 15000+200000
+ 538623 words of font info for 32 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 58i,18n,98p,361b,596s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 70i,6n,111p,436b,519s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/home/dot/.miktex/texmfs/install/fonts/enc/dvips/base/8a.enc}</home/dot/.mik
+tex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></home/dot/.miktex/texmfs/i
+nstall/fonts/type1/urw/times/utmr8a.pfb>
+Output written on uvod.pdf (1 page, 25638 bytes).
+PDF statistics:
+ 20 PDF objects out of 1000 (max. 8388607)
+ 2 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
