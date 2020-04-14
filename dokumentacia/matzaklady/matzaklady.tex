@@ -102,6 +102,42 @@ Simulačná schéma je na obr. \ref{fig:matz_systemStavovyOpisSimulink}. V bloku
 \end{figure}
 
 \subsection{Rovnvoažné stavy}
+
+Rovnovážny stav $\dot{x_r}$ systému je stav, kedy sa stavové premenné nelineárneho systému nemenia v čase. V rovnovažnom stave platí pre vstup $u$, že je v každom čase nulový, $u(t)=0$. Pre stavove premenné platí $\dot{x}|_{x = x_r} = 0$.\\\\
+Uvažujme príklad \ref{eqn:matz_system} a nájdime jeho rovnovážne stavy.\\Najskôr jeho položíme všetky derivácie rovné 0 ($\dot{x_1} = 0,\dot{x_2} = 0,\dot{x_3} = 0$).
+
+\begin{equation}
+	\begin{split}
+		0 =& x_2 \\
+		0 =& x_3 \\
+		0 =& -x_1 + 8x_2 + 3x_3 - 0 ==> x_1 = 0 \\
+		y =& 0
+	\end{split}
+	\label{eqn:rovnovazny_stav1}
+\end{equation}
+
+Rovnovážny stav systému \ref{eqn:matz_system} je bod $[x_{r1},x_{r2},x_{r3}] = [0,0,0]$.\\\\
+Uvažujme teraz systém opisaný rovnicami a nájdime jeho rovnovážne stavy
+
+\begin{equation}
+	\begin{split}
+		\dot{x_1} =& x_2 \\
+		\dot{x_2} =& -\frac{b}{m}x_2-\frac{g}{L}sin(x_1) \\
+	\end{split}
+	\label{eqn:rovnovazny_stav2}
+\end{equation}
+
+Položíme derivácie rovné nule 
+
+\begin{equation}
+	\begin{split}
+		0 =& x_2 \\
+		0 =& -\frac{g}{L}sin(x_1) ==> sin(x_1) = 0\\
+	\end{split}
+	\label{eqn:rovnovazny_stav22}
+\end{equation}
+
+V tomto prípade je teraz rovnovážnych stavov niekoľko. Rovnovážnym bodom je nielen bod $[x_{r1},x_{r2}] = [0,0]$, ale aj $[x_{r1},x_{r2}] = [k*\pi,0],k \in Z$.
 	
 \subsection{Linearizácia}
 
@@ -214,6 +250,49 @@ Na výpočet neznámych premenných x,y použijeme metódu najmenších štvorco
 	\begin{bmatrix}x \\y \end{bmatrix} &=  \begin{bmatrix} 1.4265 \\0.9559\end{bmatrix}
 	\end{split}
 	\label{eqn:MNS}
+\end{equation}
+
+\subsection{Parciálne derivácie}
+Majme funkciu $f$ o viacerých premenných $f(x,y,z, ...)$. Parciálna derivácia funkcie $f$, je derivácia funkcie $f$ vzhľadom na 1 premennú, pričom o ostatných premenných ako o konštantách. Parciálnu deriváciu budeme označovať $\frac{\partial f(x,y,z,..)}{\partial x}$,$\frac{\partial f(x,y,z,..)}{\partial y}$,$\frac{\partial f(x,y,z,..)}{\partial z}$...\\\\
+Vypočítajme parciálne derivácie funkcie $f(x,y)= \frac{x}{x^2+y^2}$.\\
+Najskôr vypočítame parciálnu deriváciu podľa premennej $x$. Aplikujeme pravidlo o derivácií podielu dvoch funkcií $h,g$: $(\frac{h}{g})'= \frac{h'g-g'h}{g^2}$.
+\begin{equation}
+	\begin{split}
+	\frac{\partial}{\partial x}\frac{x}{x^2+y^2} &= \frac{\frac{\partial x}{\partial x}(x^2+y^2)-\frac{\partial (x^2+y^2)}{\partial x}x}{(x^2+y^2)^2} \\
+	&= \frac{1(x^2+y^2)-2xx}{(x^2+y^2)^2}\\
+	&= \frac{-x^2+y^2}{(x^2+y^2)^2}\\
+	\end{split}
+	\label{eqn:PDx}
+\end{equation}
+Parciálna derivácia podľa premennej $y$ má nasledujúci tvar 
+\begin{equation}
+	\begin{split}
+	\frac{\partial}{\partial y}\frac{x}{x^2+y^2} &= x\frac{\partial}{\partial y}\frac{1}{x^2+y^2} \\
+	&= x\frac{\partial}{\partial y}(x^2+y^2)^{-1} \\
+	&= x(x^2+y^2)^{-2}\frac{\partial}{\partial y}(x^2+y^2) \\
+	&= \frac{2xy}{(x^2+y^2)^{2}} \\
+	\end{split}
+	\label{eqn:PDy}
+\end{equation}
+
+Vypočítajme parciálne derivácie funkcie $f(x,y)= sin(xy)+\frac{1}{2}cos(y)$.\\
+Najskôr vypočítame parciálnu deriváciu podľa premennej $x$.
+\begin{equation}
+	\begin{split}
+	\frac{\partial}{\partial x}(sin(xy)+\frac{1}{2}cos(y)) &= \frac{\partial}{\partial x}sin(xy)+\frac{\partial}{\partial x}\frac{1}{2}cos(y)) \\
+	&= \frac{\partial}{\partial x}sin(xy)\frac{\partial}{\partial x}(xy)\\
+	&= cos(xy)y \\
+	\end{split}
+	\label{eqn:PDx2}
+\end{equation}
+Parciálna derivácia podľa premennej $y$ má nasledujúci tvar 
+\begin{equation}
+	\begin{split}
+	\frac{\partial}{\partial y}(sin(xy)+\frac{1}{2}cos(y)) &= \frac{\partial}{\partial y}sin(xy)+\frac{\partial}{\partial y}\frac{1}{2}cos(y)) \\
+	&= \frac{\partial}{\partial y}sin(xy)\frac{\partial}{\partial y}(xy)-\frac{1}{2}sin(y)) \\
+	&= cos(xy)x - \frac{1}{2}sin(y) \\
+	\end{split}
+	\label{eqn:PDy2}
 \end{equation}
 
 		
