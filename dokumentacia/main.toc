@@ -1,0 +1,12 @@
+\babel@toc {slovak}{}
+\contentsline {section}{Zoznam pou\IeC {\v z}it\IeC {\'y}ch skratiek}{4}{section*.2}%
+\contentsline {section}{\numberline {1}\IeC {\'U}vod}{5}{section.1}%
+\contentsline {section}{\numberline {2}Matematick\IeC {\'e} z\IeC {\'a}klady}{6}{section.2}%
+\contentsline {subsection}{Stavov\IeC {\'y} opis}{6}{section*.3}%
+\contentsline {subsection}{Rovnvoa\IeC {\v z}n\IeC {\'e} stavy}{7}{section*.4}%
+\contentsline {subsection}{Lineariz\IeC {\'a}cia}{7}{section*.5}%
+\contentsline {subsection}{Rie\IeC {\v s}enie preur\IeC {\v c}enej s\IeC {\'u}stavy rovn\IeC {\'\i }c}{9}{section*.6}%
+\contentsline {section}{\numberline {3}Sp\IeC {\"a}tnov\IeC {\"a}zbov\IeC {\'a} lineariz\IeC {\'a}cia - vstupno-v\IeC {\'y}stupn\IeC {\'a}}{11}{section.3}%
+\contentsline {subsection}{Pr\IeC {\'\i }klad prv\IeC {\'y}}{11}{section*.7}%
+\contentsline {section}{\numberline {4}Z\IeC {\'a}ver}{17}{section.4}%
+\contentsline {section}{Literat\'ura}{18}{section.4}%
