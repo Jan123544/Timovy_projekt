@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350) (preloaded format=pdflatex 2020.4.2)  8 APR 2020 06:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350) (preloaded format=pdflatex 2020.4.2)  14 APR 2020 18:25
 entering extended mode
 **./main.tex
 (main.tex
@@ -693,29 +693,48 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 LaTeX Warning: Unused global option(s):
     [appendix,openright].
 
-(main.aux)
+(main.aux
+
+LaTeX Warning: Label `eqn:matz_system2' multiply defined.
+
+
+LaTeX Warning: Label `eqn:matz_system2@cref' multiply defined.
+
+
+LaTeX Warning: Label `eqn:matz_rovniceSystemuGradient' multiply defined.
+
+
+LaTeX Warning: Label `eqn:matz_rovniceSystemuGradient@cref' multiply defined.
+
+
+LaTeX Warning: Label `eqn:' multiply defined.
+
+
+LaTeX Warning: Label `eqn:@cref' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for IL2/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Trying to load font information for IL2+ptm on input line 6
-9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for IL2/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Trying to load font information for IL2+ptm on input line 7
+0.
  (/home/dot/.miktex/texmfs/install/tex/cslatex/cspsfonts/il2ptm.fd
 File: il2ptm.fd 1998/01/31 CS Times
 LaTeX Font Info:     CS Times on input line 2.
@@ -759,14 +778,14 @@ Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 \c@lstlisting=\count303
-LaTeX Info: Redefining \microtypecontext on input line 69.
+LaTeX Info: Redefining \microtypecontext on input line 70.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 69.
+LaTeX Info: Redefining \showhyphens on input line 70.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -811,7 +830,7 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 * \@reversemargintrue
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 69.
+Package hyperref Info: Link coloring ON on input line 70.
 (/home/dot/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -823,9 +842,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count306
 )
-LaTeX Info: Redefining \ref on input line 69.
-LaTeX Info: Redefining \pageref on input line 69.
-LaTeX Info: Redefining \nameref on input line 69.
+LaTeX Info: Redefining \ref on input line 70.
+LaTeX Info: Redefining \pageref on input line 70.
+LaTeX Info: Redefining \nameref on input line 70.
  (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -833,123 +852,154 @@ LaTeX Info: Redefining \nameref on input line 69.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (titlepage.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 49--75
+Underfull \hbox (badness 10000) in paragraph at lines 49--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--75
+Underfull \hbox (badness 10000) in paragraph at lines 49--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--75
+Underfull \hbox (badness 10000) in paragraph at lines 49--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--75
+Underfull \hbox (badness 10000) in paragraph at lines 49--76
 
  []
 
-<figures/zadanie.jpg, id=3, 3131.7pt x 4175.6pt>
+<figures/zadanie.jpg, id=46, 3131.7pt x 4175.6pt>
 File: figures/zadanie.jpg Graphic file (type jpg)
 <use figures/zadanie.jpg>
-Package pdftex.def Info: figures/zadanie.jpg  used on input line 76.
+Package pdftex.def Info: figures/zadanie.jpg  used on input line 77.
 (pdftex.def)             Requested size: 3131.6924pt x 4175.58987pt.
 File: figures/zadanie.jpg Graphic file (type jpg)
 <use figures/zadanie.jpg>
-Package pdftex.def Info: figures/zadanie.jpg  used on input line 76.
+Package pdftex.def Info: figures/zadanie.jpg  used on input line 77.
 (pdftex.def)             Requested size: 3131.6924pt x 4175.58987pt.
 File: figures/zadanie.jpg Graphic file (type jpg)
 <use figures/zadanie.jpg>
-Package pdftex.def Info: figures/zadanie.jpg  used on input line 76.
+Package pdftex.def Info: figures/zadanie.jpg  used on input line 77.
 (pdftex.def)             Requested size: 3131.6924pt x 4175.58987pt.
 File: figures/zadanie.jpg Graphic file (type jpg)
 <use figures/zadanie.jpg>
-Package pdftex.def Info: figures/zadanie.jpg  used on input line 76.
+Package pdftex.def Info: figures/zadanie.jpg  used on input line 77.
 (pdftex.def)             Requested size: 597.60963pt x 796.81284pt.
 [1
 
 {/home/dot/.miktex/texmfs/data/pdftex/config/pdftex.map}]
 File: figures/zadanie.jpg Graphic file (type jpg)
 <use figures/zadanie.jpg>
-Package pdftex.def Info: figures/zadanie.jpg  used on input line 76.
+Package pdftex.def Info: figures/zadanie.jpg  used on input line 77.
 (pdftex.def)             Requested size: 597.60963pt x 796.81284pt.
 File: figures/zadanie.jpg Graphic file (type jpg)
 <use figures/zadanie.jpg>
-Package pdftex.def Info: figures/zadanie.jpg  used on input line 76.
+Package pdftex.def Info: figures/zadanie.jpg  used on input line 77.
 (pdftex.def)             Requested size: 597.60963pt x 796.81284pt.
 File: figures/zadanie.jpg Graphic file (type jpg)
 <use figures/zadanie.jpg>
-Package pdftex.def Info: figures/zadanie.jpg  used on input line 76.
+Package pdftex.def Info: figures/zadanie.jpg  used on input line 77.
 (pdftex.def)             Requested size: 597.60963pt x 796.81284pt.
- [2 <./figures/zadanie.jpg>] (main.toc)
-\tf@toc=\write4
-\openout4 = `main.toc'.
-
- [3] (introduction.tex [4]) (analysis.tex [5]
-(matzaklady/matzaklady.tex
-Overfull \hbox (4.98904pt too wide) in paragraph at lines 8--9
-\IL2/ptm/m/n/14.4 Stavový opis je jedna z foriem opisu dynamického lineárneho s
-ystému. Základom
- []
-
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-0.
-(/home/dot/.miktex/texmfs/install/tex/latex/lm/ot1lmr.fd
+ [2 <./figures/zadanie.jpg>] (main.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
+.
+ (/home/dot/.miktex/texmfs/install/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/home/dot/.miktex/texmfs/install/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-0.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
+.
 
 (/home/dot/.miktex/texmfs/install/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-10.
+5.
 
 (/home/dot/.miktex/texmfs/install/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-10.
+5.
 
 (/home/dot/.miktex/texmfs/install/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 10.
+(Font)              <14.4> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 10.
+(Font)              <10> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 10.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 10
-.
+(Font)              <7> on input line 5.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 5.
+
 
 (/home/dot/.miktex/texmfs/install/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+))
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [3]
+(introduction.tex [4]
+
+LaTeX Warning: Reference `sec:matzaklady' on page 5 undefined on input line 14.
+
+
+
+LaTeX Warning: Reference `sec:vsl' on page 5 undefined on input line 16.
+
+
+Overfull \hbox (0.81816pt too wide) in paragraph at lines 16--17
+[]\IL2/ptm/m/n/14.4 Èas» [] sa zaoberá návrhom nelineárneho riadenia pomocou me
+tódy vstupno-
+ []
+
+
+Overfull \hbox (12.39215pt too wide) in paragraph at lines 16--17
+\IL2/ptm/m/n/14.4 stavovej linearizácie. Sú tu prezentované dva príklady, ku ka
+¾dému je vypracovaný
+ []
+
+
+LaTeX Warning: Reference `sec:vvl' on page 5 undefined on input line 18.
+
+
+LaTeX Warning: Reference `sec:anim' on page 5 undefined on input line 20.
+
+
+Overfull \hbox (3.75504pt too wide) in paragraph at lines 20--21
+\IL2/ptm/m/n/14.4 aj PID navrhnuté pre linearizáciu kyvadla v stabilon aj nesta
+bilnom rovnova¾nom
+ []
+
+
+LaTeX Warning: Reference `sec:integracia' on page 5 undefined on input line 22.
+
+
 )
+Overfull \hbox (3.42883pt too wide) in paragraph at lines 22--139
+[]\IL2/ptm/m/n/14.4 Opisu spôsobu, akým by sa mohol, v tomto dokumente, prezent
+ovaný materiál
+ []
 
-LaTeX Warning: Reference `eqn:matz_system' on page 6 undefined on input line 18
-.
-
-
-LaTeX Warning: Reference `eqn:matz_systemLap' on page 6 undefined on input line
- 71.
+(analysis.tex [5] (matzaklady/matzaklady.tex
+Overfull \hbox (4.98904pt too wide) in paragraph at lines 8--9
+\IL2/ptm/m/n/14.4 Stavový opis je jedna z foriem opisu dynamického lineárneho s
+ystému. Základom
+ []
 
 [6]
-
-LaTeX Warning: Reference `eqn:matz_systemPrenos' on page 7 undefined on input l
-ine 93.
-
-
-LaTeX Warning: Reference `fig:matz_systemStavovyOpisSimulink' on page 7 undefin
-ed on input line 95.
+Overfull \hbox (7.3282pt too wide) in paragraph at lines 95--96
+[]\IL2/ptm/m/n/14.4 Simulaèná schéma je na obr. [][]1[][]. V bloku integrátor j
+e mo¾né nastavi» poèiatoène
+ []
 
 
 ! LaTeX Error: File `SchemaStavovyOpis' not found.
@@ -961,23 +1011,123 @@ Type  H <return>  for immediate help.
 l.99 ...cs[width=0.8\linewidth]{SchemaStavovyOpis}
                                                   
 ? 
-! Emergency stop.
- ...                                              
-                                                  
-l.99 ...cs[width=0.8\linewidth]{SchemaStavovyOpis}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[7]
+Overfull \hbox (32.43361pt too wide) in paragraph at lines 168--169
+[]\IL2/ptm/m/n/14.4 Ak vynásobíme gradienty v pracovnom bode vektorom $\OML/lmm
+/m/it/14.4 x$\IL2/ptm/m/n/14.4 , dostaneme linearizovanú
+ []
 
- 
+[8]
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 183.
+
+[9]) [10] (svlvvPr1/svlvvPr1.tex
+<figures/svlvvPr1/svlvvPr1Sys-crop.pdf, id=139, 428.60126pt x 179.67125pt>
+File: figures/svlvvPr1/svlvvPr1Sys-crop.pdf Graphic file (type pdf)
+<use figures/svlvvPr1/svlvvPr1Sys-crop.pdf>
+Package pdftex.def Info: figures/svlvvPr1/svlvvPr1Sys-crop.pdf  used on input l
+ine 18.
+(pdftex.def)             Requested size: 362.37569pt x 151.90976pt.
+ [11
+
+ <./figures/svlvvPr1/svlvvPr1Sys-crop.pdf>] [12] [13]
+<figures/svlvvPr1/svlvvPr1Vysledok-crop.pdf, id=198, 648.4225pt x 241.90375pt>
+File: figures/svlvvPr1/svlvvPr1Vysledok-crop.pdf Graphic file (type pdf)
+<use figures/svlvvPr1/svlvvPr1Vysledok-crop.pdf>
+Package pdftex.def Info: figures/svlvvPr1/svlvvPr1Vysledok-crop.pdf  used on in
+put line 153.
+(pdftex.def)             Requested size: 452.9679pt x 168.98819pt.
+
+Overfull \hbox (9.77638pt too wide) in paragraph at lines 150--157
+[]\IL2/ptm/m/n/14.4 Máme tak navrhnutý regulátor a výsledok zo simulácie, pre n
+iekoµko ¾iadaných
+ []
+
+[14 <./figures/svlvvPr1/svlvvPr1Vysledok-crop.pdf>]
+<figures/svlvvPr1/svlvvPr1ZapojeniePID-crop.pdf, id=351, 466.74374pt x 142.5325
+pt>
+File: figures/svlvvPr1/svlvvPr1ZapojeniePID-crop.pdf Graphic file (type pdf)
+<use figures/svlvvPr1/svlvvPr1ZapojeniePID-crop.pdf>
+Package pdftex.def Info: figures/svlvvPr1/svlvvPr1ZapojeniePID-crop.pdf  used o
+n input line 188.
+(pdftex.def)             Requested size: 362.37569pt x 110.66597pt.
+
+Overfull \hbox (11.32501pt too wide) in paragraph at lines 203--205
+\IL2/ptm/m/n/14.4 Následne vyjadrime prenos uzavretého regulaèného obvodu $\OML
+/lmm/m/it/14.4 G[]$ \IL2/ptm/m/n/14.4 podµa známeho
+ []
+
+[15 <./figures/svlvvPr1/svlvvPr1ZapojeniePID-crop.pdf>]
+Overfull \hbox (18.2155pt too wide) in paragraph at lines 217--219
+\IL2/ptm/m/n/14.4 Vyu¾ime teraz metódu Pole-Placement na návrh parametrov regul
+átora, umiestnime
+ []
+
+<figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf, id=383, 848.16875pt x 316.18124
+pt>
+File: figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf Graphic file (type pdf)
+<use figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf>
+Package pdftex.def Info: figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf  used on
+ input line 255.
+(pdftex.def)             Requested size: 452.9679pt x 168.85858pt.
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (conclusions.tex [16])
+Overfull \hbox (7.58618pt too wide) in paragraph at lines 14--159
+[]\IL2/ptm/m/n/14.4 V prípade pou¾itia uvedených metód návrhu nelineárneho riad
+enia, je potrebné
+ []
+
+[17 <./figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf>] (appendix.tex [18])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
+
+(main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: EAC20DAF9B49670C97D804E5D22C1B1D;698.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 192.
+ ) 
 Here is how much of TeX's memory you used:
- 17470 strings out of 482860
- 282283 string characters out of 2953169
- 596321 words of memory out of 3000000
- 32684 multiletter control sequences out of 15000+200000
- 552993 words of font info for 52 fonts, out of 3000000 for 9000
- 0 hyphenation exceptions out of 8191
- 58i,18n,98p,361b,596s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 17715 strings out of 482860
+ 287516 string characters out of 2953169
+ 601588 words of memory out of 3000000
+ 32839 multiletter control sequences out of 15000+200000
+ 559487 words of font info for 62 fonts, out of 3000000 for 9000
+ 1 hyphenation exception out of 8191
+ 58i,21n,98p,688b,596s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/home/dot/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-mathit.enc}{/home/dot
+/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-rm.enc}{/home/dot/.miktex/texmfs/
+install/fonts/enc/dvips/base/8a.enc}{/home/dot/.miktex/texmfs/install/fonts/enc
+/dvips/lm/lm-mathex.enc}{/home/dot/.miktex/texmfs/install/fonts/enc/dvips/lm/lm
+-mathsy.enc}</home/dot/.miktex/texmfs/install/fonts/type1/public/lm/lmex10.pfb>
+</home/dot/.miktex/texmfs/install/fonts/type1/public/lm/lmmi10.pfb></home/dot/.
+miktex/texmfs/install/fonts/type1/public/lm/lmmi12.pfb></home/dot/.miktex/texmf
+s/install/fonts/type1/public/lm/lmmi7.pfb></home/dot/.miktex/texmfs/install/fon
+ts/type1/public/lm/lmr10.pfb></home/dot/.miktex/texmfs/install/fonts/type1/publ
+ic/lm/lmr12.pfb></home/dot/.miktex/texmfs/install/fonts/type1/public/lm/lmr7.pf
+b></home/dot/.miktex/texmfs/install/fonts/type1/public/lm/lmsy10.pfb></home/dot
+/.miktex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></home/dot/.miktex/tex
+mfs/install/fonts/type1/urw/times/utmr8a.pfb></home/dot/.miktex/texmfs/install/
+fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (18 pages, 1577499 bytes).
+PDF statistics:
+ 486 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
+ 2172 words of extra memory for PDF output out of 10000 (max. 10000000)
+

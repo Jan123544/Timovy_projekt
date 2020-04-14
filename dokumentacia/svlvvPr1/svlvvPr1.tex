@@ -2,8 +2,9 @@
 \documentclass[../main.tex]{subfiles}
 
 \begin{document}
-	\subsection{Úvodný príklad}
-	Majme systém, ktorý je určený stavovým opisom \cref{eqn:svlvvPr1SyavovyOpis}. Bloková schéma systému je na \cref{fig:svlvvPr1BlockSchemaSystemu}.
+	\section{Spätnoväzbová linearizácia - vstupno-výstupná}
+    \subsection{Príklad prvý}
+	    Majme systém, ktorý je určený stavovým opisom \cref{eqn:svlvvPr1SyavovyOpis}. Bloková schéma systému je na \cref{fig:svlvvPr1BlockSchemaSystemu}.
 	\begin{equation}
 		\begin{gathered}
 		\dot{x_1}  =u + \sin(x_1) x_2 \\
@@ -18,23 +19,22 @@
 		\caption{Bloková schéma systému z \cref{eqn:svlvvPr1SyavovyOpis}}
 		\label{fig:svlvvPr1BlockSchemaSystemu}
 	\end{figure}
-
-	Overme teraz, že bod  $x_1 = x_2 = 0$, je rovnovažný bodom systému.
+    \subsubsection*{Rovnovažný stav systému}
+    Bod $x_1 = x_2 = 0$ je rovnovažným bodom tohto systému, čo si môžeme overiť dosadením:
 	\begin{equation*}
-	\begin{gathered}
-	\dot{x_1}|_{x_1 = x_2 = 0}  = \sin(0) 0 = 0 \\
-	\dot{x_2}|_{x_1 = x_2 = 0} = 0 + sin(0) = 0 \\
-	\end{gathered}
-	\label{eqn:svlvvPr1OverenieRB}
+	    \begin{aligned}
+            \dot{x_1}|_{(x_1 = x_2 = 0)} &= \sin(0) 0 = 0 \\
+            \dot{x_2}|_{(x_1 = x_2 = 0)}  &= 0 + sin(0) = 0 \\
+	    \end{aligned}
+	    \label{eqn:svlvvPr1OverenieRB}
 	\end{equation*}
-	Všimnime si, že v tomto bode sú derivácie stavových premenných v čase nulové, čo je charakteristické pre rovnovažné body.
+	všimnime si, že v tomto bode sú derivácie stavových premenných v čase nulové, čo je charakteristické pre rovnovažné body.
 	
-	Predpokladajme, že chceme tento systém riadiť tak, aby výstup dosiahol žiadanú hodnotu $r$.
+	Predpokladajme, že chceme tento systém riadiť tak, aby výstup dosiahol žiadanú hodnotu $r$ a aplikujme nelineárne riadenie navrhnuté metódou vstupno výstupnej spätnoväzobnej linearizácie. Metódu vysvetlíme rovno počas návrhu. 
 	
-	Aplikujme nelineárne riadenie, konkrétne metódu vstupno výstupnej spätnoväzobnej linearizácie. Túto metódu vysvetlíme rovno počas návrhu. 
-	
-	Najprv derivujeme vzťah pre výstup systému $y$, tak ako v \cref{eqn:svlvvPr1DerivaciaVystupu}. Toto je prvým krokom metódy.
-	\begin{equation}
+    \subsubsection*{Prvý krok metódy - derivácia rovnice výstupu}
+    Prvým krokom metódy je derivácia vzťahu pre výstup systému $y$. Derivujeme toľkokrát koľkokrát je potrebné, nato aby sa vstup systému $u$ objavil v rovnici.
+	\begin{equation*}
 	\begin{aligned}
 		y &= x_2 \\ 
 		\implies \dot{y}  &= \dot{x_2} =  2x_1 + sin(x_1) \\
@@ -42,14 +42,24 @@
 						  &= 2 + cos(x_1)\dot{x_1} \\
 						  &= 2 + \cos(x_1)(u + \sin(x_1) x_2)
 		\end{aligned}
-		\label{eqn:svlvvPr1DerivaciaVystupu}
-	\end{equation}
-	Teraz si všimnime, že ak zvolíme vstup do systému, tak ako je \cref{eqn:svlvvPr1ZakonLinearizacie}, po dosadení dostaneme \cref{eqn:svlvvPr1Dosadenie}. Voľba takéhoto zákona, nazvyme ho zákonom linearizácie, pre vstup $u$ do systému, je druhým krokom metódy.
+		\label{eqn:}
+	\end{equation*}
+    vo výsledku dostaneme vzťah \cref{eqn:svlvvpr1-derivv}.
+    \begin{equation}
+        \begin{aligned}
+            \ddot{y} = 2 + \cos(x_1)(u + \sin(x_1) x_2) \\
+        \end{aligned}
+        \label{eqn:svlvvpr1-derivv}
+    \end{equation} 
+
+    \subsubsection*{Druhý krok - voľba zákona linearizácie}
+	Teraz si všimnime, že ak zvolíme vstup $u$ do systému, tak ako je \cref{eqn:svlvvPr1ZakonLinearizacie} 
 	\begin{equation}
-	 u = -\sin(x_1) x_2  +  \frac{v}{2 + \cos x_1}
-	 \label{eqn:svlvvPr1ZakonLinearizacie}
+	    u = -\sin(x_1) x_2  +  \frac{v}{2 + \cos x_1}
+	    \label{eqn:svlvvPr1ZakonLinearizacie}
 	\end{equation}
-	\begin{equation}
+po dosadení do \cref{eqn:svlvvpr1-derivv} dostaneme \cref{eqn:svlvvPr1Dosadenie}.
+	\begin{equation*}
 	\begin{aligned}
 	 	\ddot{y} &= 2 + \cos(x_1)(u + \sin(x_1) x_2) \\
 	 		     &= 2 + \cos(x_1)(-\sin(x_1) x_2  +  \frac{v}{2 + \cos x_1} + \sin(x_1) x_2)  \\ 
@@ -57,23 +67,86 @@
 	 		     &= v  \\ 
  	\end{aligned}
 	\label{eqn:svlvvPr1Dosadenie}
-	\end{equation}
-	Nakoniec ak zvolíme $v$ podľa \cref{eqn:svlvvPr1ZakonRiadenia}, tak dostávame rovnicu pre dynamiku odchýlky \cref{eqn:svlvvPr1DynamikaOdchylky}. Ak zvolíme koeficienty $k$ všetky kladné, dynamika odchýlky bude vždy stabilná a bude konvergovať k 0. Voľba tohto zákona, pre $v$, povedzme zákona riadenia linearizovaného systému, je posledným krokom tejto metódy.
+	\end{equation*}
+    Dostáme tak vzťah medzi výstupom systému $y$ a vstupom do zákona linearizácie $v$ v \cref{eqn:svlvvpr1-yvvztah}.
+    \begin{equation}
+        \begin{aligned}
+            \ddot{y} = v
+        \end{aligned}
+        \label{eqn:svlvvpr1-yvvztah}
+    \end{equation} 
+     Voľba takéhoto zákona, nazvyme ho zákonom linearizácie, pre vstup $u$ do systému, je druhým krokom metódy.
+
+    \subsubsection*{Tretí krok - návrh zákona riadenia linearizovaného systému}
+    Ako posledný krok, musíme zvoliť tvar $v$, tak aby sme dosiahli požadovanú dynamiku systému.
+    
+    Zvolme si $v$ podľa \cref{eqn:svlvvPr1ZakonRiadenia}.
 	\begin{equation}
 	\begin{aligned}
-	 v &= \ddot{r}  +k_1 \dot{e} + k_2 e \\
-	   &= -k_1 \dot{y} + k_2 e \text{ keďže $r$ je konšt., tak jeho derivácie sú 0}\\
+	 v &= \ddot{r}  +k_1 \dot{e} + k_0 e \\
+	   &= -k_1 \dot{y} + k_0 e \text{ keďže $r$ je konšt., tak jeho derivácie sú 0}\\
 	   \end{aligned}
 	\label{eqn:svlvvPr1ZakonRiadenia}
 	\end{equation}
-	\begin{equation}
+    potom dosadením \cref{eqn:svlvvPr1ZakonRiadenia} do \cref{eqn:svlvvpr1-yvvztah} dostaneme 
+	\begin{equation*}
 	\begin{aligned}
-	v &= \ddot{r}  +k_1 \dot{e} + k_2 e \\
-	\implies \ddot{y} &= \ddot{r}  +k_1 \dot{e} + k_2 e \\
-	\implies 0 &= \ddot{e}  + k_1 \dot{e} + k_2 e \\
+	 \ddot{y} &= \ddot{r}  +k_1 \dot{e} + k_0 e \\
+	 0 &= \ddot{e}  + k_1 \dot{e} + k_0 e \\
 	\end{aligned}
-	\label{eqn:svlvvPr1DynamikaOdchylky}
-	\end{equation}
+	\end{equation*}
+    pre takúto voľbu $v$ bude teda pre systém platiť rovnica \cref{eqn:svlvvpr1-dynodch}.
+    \begin{equation}
+        \begin{aligned}
+	        0 &= \ddot{e}  + k_1 \dot{e} + k_0 e \\
+        \end{aligned}
+        \label{eqn:svlvvpr1-dynodch}
+    \end{equation} 
+    kde $k_1$ a $k_0$ sú volitelné parametre. 
+
+    Parametre $k_1$ a $k_0$ vieme tiež navrhnuť podľa potreby. Ak si prepíšeme rovnicu \cref{eqn:svlvvpr1-dynodch} na \cref{eqn:svlvvpr1-dynodch2}.
+    \begin{equation}
+        \begin{aligned}
+	        r_e &= \ddot{e}  + k_1 \dot{e} + k_0 e \\
+        \end{aligned}
+        \label{eqn:svlvvpr1-dynodch2}
+    \end{equation} 
+    kde $r_e$ bude žiadaná hodnota odchýlky (ktorá je 0), tak vieme vyjadriť prenos $\frac{e}{r_e}$:
+    \begin{equation*}
+        \begin{aligned}
+	        r_e &= \ddot{e}  + k_1 \dot{e} + k_0 e \\
+            R_e &= Es^2  + k_1Es  + k_0E  \\
+            R_e &= E(s^2  + k_1s  + k_0)  \\
+            \frac{E}{R_e} &= \frac{1}{s^2  + k_1s  + k_0} \\
+        \end{aligned}
+        \label{eqn:}
+    \end{equation*} 
+    charakteristický polýnóm teda bude \cref{eqn:svlvvPr1-odchchp}.
+    \begin{equation}
+        \begin{aligned}
+            s^2  + k_1s  + k_0 = 0
+        \end{aligned}
+        \label{eqn:svlvvPr1-odchchp}
+    \end{equation} 
+    zvolíme žiadanú polohu pólov $p_1, p_2$ potom žadaný charakteristický polýnóm bude \cref{eqn:svlvvPr1-ziadchp}.
+    \begin{equation}
+        \begin{aligned}
+            (s - p_1)(s-p_2) = s^2 - (p_1 + p_2)s + p_1p_2
+        \end{aligned}
+        \label{eqn:svlvvPr1-ziadchp}
+    \end{equation} 
+    porovnaním \cref{eqn:svlvvPr1-odchchp} a \cref{eqn:svlvvPr1-ziadchp} dostaneme sústavu rovníc \cref{eqn:svlvvPr1-odhcpp}.
+    \begin{equation}
+        \begin{aligned}
+            p_1p_2 &= k_0 \\
+            -(p_1 + p_2) &= k_1 \\
+        \end{aligned}
+        \label{eqn:svlvvPr1-odhcpp}
+    \end{equation} 
+    cez ktoré vieme vypočítať $k_1$ a $k_0$ pre ľubovoľné žiadané póly.
+
+    Zvolme si $p_1 = -1$ a $p_2 = -1$ potom z \cref{eqn:svlvvPr1-odhcpp} dostaneme $k_1=2$ a $k_2 = 1$
+
 	Máme tak navrhnutý regulátor a výsledok zo simulácie, pre niekoľko žiadaných úrovní výstupu je na \cref{fig:svlvvPr1Vysledok}.
 	\begin{figure}[h!]
 		\centering
@@ -81,6 +154,16 @@
 		\caption{Regulácia výstupu na konštantnú hodnotu nelin. regulátorom navrhnutým pomocou metódy spätnoväzbovej linearizácie vstupno-výstupnej \cref{eqn:svlvvPr1SyavovyOpis}}
 		\label{fig:svlvvPr1Vysledok}
 	\end{figure}
+
+    \subsubsection*{Zhrnutie krokov metódy}
+    Kroky návrhu sumarizujeme v 3 bodoch:
+    \begin{enumerate}
+        \item Derivácia rovnice výstupu, až kým sa v rovnici neobjavý vstupná premenná
+        \item Voľba zákona linearizácie (napríklad odčítanie nelineaárnych zložiek)
+        \item Návrh zákona riadenia (regulátora) pre linearizovaný systém
+    \end{enumerate}
+
+    \subsubsection*{Porovnanie s PID}
 	Pre porovnanie skúsme navrhnúť ešte PID regulátor pre systém linearizovaný v rovnovažnom bode $x_1 = x_2 = 0$. Po linearizovaní bude mať systém tvar \cref{eqn:svlvvPr1LinearizovanySystem}. 
 	\begin{equation}
 	\begin{gathered}
@@ -90,6 +173,7 @@
 	\end{gathered}
 	\label{eqn:svlvvPr1LinearizovanySystem}
 	\end{equation}
+
 	Vyjadrime si prenosovú funkciu systému, pre jednoduchší návrh parametrov regulátora. Vyjadrenie prebieha v \cref{eqn:svlvvPr1VyjadreniePrenosuLinSys}. V tomto momente ešte potrebujeme zapojiť pred systém regulátor a vyjadriť prenos uzavretého regulačného obvodu.
 	\begin{equation}
 	\begin{aligned}
@@ -173,5 +257,4 @@
 		\label{fig:svlvPr1VysledokPID}
 	\end{figure}
 	Z výsledku môžeme usúdiť, že nelineárne riadenie je v tomto prípade, nevyhnutné.
-	
 \end{document}

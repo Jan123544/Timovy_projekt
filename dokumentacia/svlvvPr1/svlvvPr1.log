@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350) (preloaded format=pdflatex 2020.4.2)  8 APR 2020 07:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350) (preloaded format=pdflatex 2020.4.2)  14 APR 2020 17:06
 entering extended mode
-**./uvod.tex
-(uvod.tex
+**./svlvvPr1.tex
+(svlvvPr1.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06>
 (/home/dot/.miktex/texmfs/install/tex/latex/subfiles/subfiles.cls
@@ -700,30 +700,31 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 LaTeX Warning: Unused global option(s):
     [appendix,openright].
 
-(uvod.aux)
-\openout1 = `uvod.aux'.
+(svlvvPr1.aux)
+\openout1 = `svlvvPr1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for IL2/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Trying to load font information for IL2+ptm on input line 2
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for IL2/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Trying to load font information for IL2+ptm on input line 4
 .
- (/home/dot/.miktex/texmfs/install/tex/cslatex/cspsfonts/il2ptm.fd
+
+(/home/dot/.miktex/texmfs/install/tex/cslatex/cspsfonts/il2ptm.fd
 File: il2ptm.fd 1998/01/31 CS Times
 LaTeX Font Info:     CS Times on input line 2.
 LaTeX Font Info:    (C) Z. Wagner,1998/01/31 on input line 3.
@@ -766,14 +767,14 @@ Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 \c@lstlisting=\count303
-LaTeX Info: Redefining \microtypecontext on input line 2.
+LaTeX Info: Redefining \microtypecontext on input line 4.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 2.
+LaTeX Info: Redefining \showhyphens on input line 4.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -818,7 +819,7 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 * \@reversemargintrue
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 2.
+Package hyperref Info: Link coloring ON on input line 4.
 (/home/dot/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -830,69 +831,90 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count306
 )
-LaTeX Info: Redefining \ref on input line 2.
-LaTeX Info: Redefining \pageref on input line 2.
-LaTeX Info: Redefining \nameref on input line 2.
- (uvod.out) (uvod.out)
+LaTeX Info: Redefining \ref on input line 4.
+LaTeX Info: Redefining \pageref on input line 4.
+LaTeX Info: Redefining \nameref on input line 4.
+ (svlvvPr1.out) (svlvvPr1.out)
 \@outlinefile=\write3
-\openout3 = `uvod.out'.
+\openout3 = `svlvvPr1.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-Overfull \hbox (13.46736pt too wide) in paragraph at lines 3--4
-\IL2/ptm/m/n/12 stavovej a vstupno-výstupnej linearizácie. Navrhnuté nelineárne
- riadenie porovnávame s lineárnym
- []
+
+LaTeX Warning: Reference `eqn:svlvvPr1SyavovyOpis' on page 1 undefined on input
+ line 7.
 
 
-LaTeX Warning: Reference `sec:matzaklady' on page 1 undefined on input line 5.
+LaTeX Warning: Reference `fig:svlvvPr1BlockSchemaSystemu' on page 1 undefined o
+n input line 7.
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
+.
+(/home/dot/.miktex/texmfs/install/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(/home/dot/.miktex/texmfs/install/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
+.
+
+(/home/dot/.miktex/texmfs/install/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+8.
+
+(/home/dot/.miktex/texmfs/install/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+8.
+
+(/home/dot/.miktex/texmfs/install/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 8.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 8.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 8.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 8.
 
 
-LaTeX Warning: Reference `sec:vsl' on page 1 undefined on input line 7.
+(/home/dot/.miktex/texmfs/install/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
 
+! LaTeX Error: File `svlvvPr1/svlvvPr1Sys-crop' not found.
 
-LaTeX Warning: Reference `sec:vvl' on page 1 undefined on input line 9.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...=0.8\linewidth]{svlvvPr1/svlvvPr1Sys-crop}
+                                                  
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.18 ...=0.8\linewidth]{svlvvPr1/svlvvPr1Sys-crop}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-
-LaTeX Warning: Reference `sec:anim' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: Reference `sec:integracia' on page 1 undefined on input line 13.
-
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 14.
-[1
-
-{/home/dot/.miktex/texmfs/data/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 14.
- (uvod.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 14.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 14.
-Package rerunfilecheck Info: File `uvod.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 17193 strings out of 482860
- 276645 string characters out of 2953169
- 591855 words of memory out of 3000000
- 32484 multiletter control sequences out of 15000+200000
- 538623 words of font info for 32 fonts, out of 3000000 for 9000
- 0 hyphenation exceptions out of 8191
- 70i,6n,111p,436b,519s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/home/dot/.miktex/texmfs/install/fonts/enc/dvips/base/8a.enc}</home/dot/.mik
-tex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></home/dot/.miktex/texmfs/i
-nstall/fonts/type1/urw/times/utmr8a.pfb>
-Output written on uvod.pdf (1 page, 25638 bytes).
-PDF statistics:
- 20 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 17431 strings out of 482860
+ 281897 string characters out of 2953169
+ 590863 words of memory out of 3000000
+ 32673 multiletter control sequences out of 15000+200000
+ 551493 words of font info for 47 fonts, out of 3000000 for 9000
+ 1 hyphenation exception out of 8191
+ 70i,7n,111p,409b,519s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
