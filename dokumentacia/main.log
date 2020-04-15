@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350) (preloaded format=pdflatex 2020.4.2)  15 APR 2020 10:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350) (preloaded format=pdflatex 2020.4.2)  15 APR 2020 15:23
 entering extended mode
 **./main.tex
 (main.tex
@@ -738,18 +738,6 @@ LaTeX Warning: Label `eqn:' multiply defined.
 
 LaTeX Warning: Label `eqn:@cref' multiply defined.
 
-
-LaTeX Warning: Label `eqn:svlvvPr1Porovnanie' multiply defined.
-
-
-LaTeX Warning: Label `eqn:svlvvPr1Porovnanie@cref' multiply defined.
-
-
-LaTeX Warning: Label `eqn:svlvvPr1RovniceParametrovPID' multiply defined.
-
-
-LaTeX Warning: Label `eqn:svlvvPr1RovniceParametrovPID@cref' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
@@ -1025,6 +1013,12 @@ Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                removing `\textasciicaron' on input line 202.
 
 
+Overfull \hbox (2.6333pt too wide) in paragraph at lines 203--204
+\IL2/ptm/m/n/14.4 Pomocou metódy najmen¹ích ¹tvorcov urèíme rie¹enie preurèenej
+ sústavy rovníc
+ []
+
+
 Overfull \hbox (3.82854pt too wide) in paragraph at lines 222--224
 \IL2/ptm/m/n/14.4 Na výpoèet neznámych premenných x,y pou¾ijeme metódu najmen¹í
 ch ¹tvorcov: 
@@ -1034,116 +1028,104 @@ ch ¹tvorcov:
 <vsPr1/Rovnica1.pdf, id=197, 487.7134pt x 237.85736pt>
 File: vsPr1/Rovnica1.pdf Graphic file (type pdf)
 <use vsPr1/Rovnica1.pdf>
-Package pdftex.def Info: vsPr1/Rovnica1.pdf  used on input line 27.
+Package pdftex.def Info: vsPr1/Rovnica1.pdf  used on input line 26.
 (pdftex.def)             Requested size: 390.17125pt x 190.28613pt.
+<vsPr1/MVSlin.pdf, id=201, 498.52725pt x 145.22371pt>
+File: vsPr1/MVSlin.pdf Graphic file (type pdf)
+<use vsPr1/MVSlin.pdf>
+Package pdftex.def Info: vsPr1/MVSlin.pdf  used on input line 33.
+(pdftex.def)             Requested size: 398.82234pt x 116.17911pt.
 
-Overfull \hbox (13.96758pt too wide) in paragraph at lines 32--33
+Overfull \hbox (13.96758pt too wide) in paragraph at lines 31--36
 \IL2/ptm/m/n/14.4 stavovej spätnoväzobnej linearizácie (obrázok [][]3[][]), tak
  aby sme dosiahli po¾adovanú
  []
 
-<vsPr1/MVSlin.pdf, id=201, 498.52725pt x 145.22371pt>
-File: vsPr1/MVSlin.pdf Graphic file (type pdf)
-<use vsPr1/MVSlin.pdf>
-Package pdftex.def Info: vsPr1/MVSlin.pdf  used on input line 35.
-(pdftex.def)             Requested size: 398.82234pt x 116.17911pt.
 [13
 
  <./vsPr1/Rovnica1.pdf>]
-Overfull \hbox (10.37971pt too wide) in paragraph at lines 40--42
+Overfull \hbox (10.37971pt too wide) in paragraph at lines 38--39
 []\IL2/ptm/m/n/14.4 Postup pri metóde vstupno-stavovej spätnoväzobnej linearizá
 cie je nasledovný. 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--42
-
- []
-
-
-Overfull \hbox (1.06294pt too wide) in paragraph at lines 61--62
-[]\IL2/ptm/m/n/14.4 Aby sme dosiali lineárny transformovaný systéme zavedieme n
-ovú premennú
- []
-
 [14 <./vsPr1/MVSlin.pdf>]
-Overfull \hbox (33.83733pt too wide) in paragraph at lines 106--108
-[]\IL2/ptm/m/n/14.4 Na vypoèítanie parametrov regulátora a nastavenie dynamiky 
-systému potrebujeme
+Overfull \hbox (16.21251pt too wide) in paragraph at lines 95--98
+\IL2/ptm/m/n/14.4 Na vypoèítanie parametrov regulátora a nastavenie dynamiky sy
+stému potrebujeme
  []
 
-[15]
-Overfull \hbox (1.32759pt too wide) in paragraph at lines 126--127
+
+Overfull \hbox (1.32759pt too wide) in paragraph at lines 116--117
 \IL2/ptm/m/n/14.4 Preto si zvolíme korene $\OML/lmm/m/it/14.4 [] \OT1/lmr/m/n/
 14.4 = \OMS/lmsy/m/n/14.4  \OT1/lmr/m/n/14.4 1$\IL2/ptm/m/n/14.4 ,$\OML/lmm/m/i
 t/14.4 [] \OT1/lmr/m/n/14.4 = \OMS/lmsy/m/n/14.4  \OT1/lmr/m/n/14.4 2$\IL2/ptm
 /m/n/14.4 , pomocou ktorých získame parametre
  []
 
-[16]
+[15] [16]
 <vsPr1/Rovnica1MVS.pdf, id=440, 772.8736pt x 324.75337pt>
 File: vsPr1/Rovnica1MVS.pdf Graphic file (type pdf)
 <use vsPr1/Rovnica1MVS.pdf>
-Package pdftex.def Info: vsPr1/Rovnica1MVS.pdf  used on input line 143.
+Package pdftex.def Info: vsPr1/Rovnica1MVS.pdf  used on input line 129.
 (pdftex.def)             Requested size: 618.29971pt x 259.80304pt.
- [17 <./vsPr1/Rovnica1MVS.pdf>]
-<vsPr1/x.pdf, id=862, 421.575pt x 316.18124pt>
+<vsPr1/x.pdf, id=443, 421.575pt x 316.18124pt>
 File: vsPr1/x.pdf Graphic file (type pdf)
 <use vsPr1/x.pdf>
-Package pdftex.def Info: vsPr1/x.pdf  used on input line 155.
+Package pdftex.def Info: vsPr1/x.pdf  used on input line 138.
 (pdftex.def)             Requested size: 208.36827pt x 156.2762pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 156.
+(Font)              <10.95> on input line 139.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 156.
+(Font)              <8> on input line 139.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 156.
+(Font)              <6> on input line 139.
 
-Underfull \hbox (badness 1527) in paragraph at lines 156--156
+Underfull \hbox (badness 1527) in paragraph at lines 139--139
 []|\IL2/ptm/m/n/10.95 Obr. 5: []\IL2/ptm/m/it/10.95 Priebeh stavovej premennej 
 $\OML/lmm/m/it/10.95 x[]$ \IL2/ptm/m/it/10.95 s
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 158.
-<vsPr1/u.pdf, id=863, 421.575pt x 316.18124pt>
+(Font)              <12> on input line 141.
+<vsPr1/u.pdf, id=444, 421.575pt x 316.18124pt>
 File: vsPr1/u.pdf Graphic file (type pdf)
 <use vsPr1/u.pdf>
-Package pdftex.def Info: vsPr1/u.pdf  used on input line 161.
+Package pdftex.def Info: vsPr1/u.pdf  used on input line 144.
 (pdftex.def)             Requested size: 208.36827pt x 156.2762pt.
-[18 <./vsPr1/x.pdf> <./vsPr1/u.pdf
+[17 <./vsPr1/Rovnica1MVS.pdf>] [18 <./vsPr1/x.pdf> <./vsPr1/u.pdf
 
 pdfTeX warning: pdflatex (file ./vsPr1/u.pdf): PDF inclusion: multiple pdfs wit
 h page group included in a single page
 >]
-Overfull \hbox (26.84819pt too wide) in paragraph at lines 221--222
+Overfull \hbox (26.84819pt too wide) in paragraph at lines 199--200
 \IL2/ptm/m/n/14.4 zabezpeèíme stabilitu lineárneho systému. Polynóm P(s) potom 
 bude ma» nasledujúci
  []
 
 [19]
-<vsPr1/pid.pdf, id=903, 771.82205pt x 349.1046pt>
+<vsPr1/pid.pdf, id=904, 771.82205pt x 349.1046pt>
 File: vsPr1/pid.pdf Graphic file (type pdf)
 <use vsPr1/pid.pdf>
-Package pdftex.def Info: vsPr1/pid.pdf  used on input line 247.
+Package pdftex.def Info: vsPr1/pid.pdf  used on input line 223.
 (pdftex.def)             Requested size: 463.0968pt x 209.46437pt.
 
-Overfull \hbox (10.1289pt too wide) in paragraph at lines 247--247
+Overfull \hbox (10.1289pt too wide) in paragraph at lines 223--223
  [] 
  []
 
-<vsPr1/xpid.pdf, id=906, 421.575pt x 316.18124pt>
+<vsPr1/xpid.pdf, id=907, 421.575pt x 316.18124pt>
 File: vsPr1/xpid.pdf Graphic file (type pdf)
 <use vsPr1/xpid.pdf>
-Package pdftex.def Info: vsPr1/xpid.pdf  used on input line 258.
+Package pdftex.def Info: vsPr1/xpid.pdf  used on input line 232.
 (pdftex.def)             Requested size: 208.36827pt x 156.2762pt.
-<vsPr1/upid.pdf, id=907, 421.575pt x 316.18124pt>
+<vsPr1/upid.pdf, id=908, 421.575pt x 316.18124pt>
 File: vsPr1/upid.pdf Graphic file (type pdf)
 <use vsPr1/upid.pdf>
-Package pdftex.def Info: vsPr1/upid.pdf  used on input line 264.
+Package pdftex.def Info: vsPr1/upid.pdf  used on input line 238.
 (pdftex.def)             Requested size: 208.36827pt x 156.2762pt.
 ) (vsPr2/svlvvPr2.tex [20 <./vsPr1/pid.pdf>]
-<vsPr2/ModelSystemu.png, id=1112, 1591.9475pt x 815.045pt>
+<vsPr2/ModelSystemu.png, id=1113, 1591.9475pt x 815.045pt>
 File: vsPr2/ModelSystemu.png Graphic file (type png)
 <use vsPr2/ModelSystemu.png>
 Package pdftex.def Info: vsPr2/ModelSystemu.png  used on input line 19.
@@ -1153,182 +1135,148 @@ Package pdftex.def Info: vsPr2/ModelSystemu.png  used on input line 19.
 pdfTeX warning: pdflatex (file ./vsPr1/upid.pdf): PDF inclusion: multiple pdfs 
 with page group included in a single page
 > <./vsPr2/ModelSystemu.png (PNG copy)>] [22]
-Overfull \hbox (0.65465pt too wide) in paragraph at lines 39--40
-\IL2/ptm/m/n/14.4 bude správa» ako lineárny. Pre tento lineárny systém potom na
-vrhneme regulátor,
- []
-
-
-Overfull \hbox (64.4791pt too wide) detected at line 64
-[][] \OT1/lmr/m/n/14.4 = \OML/lmm/m/it/14.4 cos\OT1/lmr/m/n/14.4 (\OML/lmm/m/it
-/14.4 x[]\OT1/lmr/m/n/14.4 )[] \OMS/lmsy/m/n/14.4   [] \OT1/lmr/m/n/14.4 = \OML
-/lmm/m/it/14.4 cos\OT1/lmr/m/n/14.4 (\OML/lmm/m/it/14.4 x[]\OT1/lmr/m/n/14.4 )(
-\OMS/lmsy/m/n/14.4  \OML/lmm/m/it/14.4 x[] \OMS/lmsy/m/n/14.4   \OML/lmm/m/it/1
-4.4 x[]\OT1/lmr/m/n/14.4 ) \OMS/lmsy/m/n/14.4   \OML/lmm/m/it/14.4 cos\OT1/lmr/
-m/n/14.4 (\OML/lmm/m/it/14.4 x[]\OT1/lmr/m/n/14.4 )(\OML/lmm/m/it/14.4 sin\OT1/
-lmr/m/n/14.4 (\OML/lmm/m/it/14.4 x[]\OT1/lmr/m/n/14.4 ) \OMS/lmsy/m/n/14.4   \O
-ML/lmm/m/it/14.4 x[]\OT1/lmr/m/n/14.4 ) + \OML/lmm/m/it/14.4 u \OT1/lmr/m/n/14.
-4 = \OML/lmm/m/it/14.4 u \OMS/lmsy/m/n/14.4   \OML/lmm/m/it/14.4 cos\OT1/lmr/m/
-n/14.4 (\OML/lmm/m/it/14.4 z[]\OT1/lmr/m/n/14.4 )(\OML/lmm/m/it/14.4 z[] \OT1/l
-mr/m/n/14.4 + \OML/lmm/m/it/14.4 z[]\OT1/lmr/m/n/14.4 )[] 
- []
-
-
-Overfull \hbox (17.3508pt too wide) in paragraph at lines 76--77
+Overfull \hbox (17.3508pt too wide) in paragraph at lines 83--84
 []\IL2/ptm/m/n/14.4 Na základe rovn. ([][]51[][]) doká¾eme zvoli» taký zákon ri
 adenia, ktorý vykompenzuje
  []
 
 
-Overfull \hbox (6.53786pt too wide) in paragraph at lines 76--77
+Overfull \hbox (6.53786pt too wide) in paragraph at lines 83--84
 \IL2/ptm/m/n/14.4 dynamiky systému, rovn. ([][]54[][]). Posledný èlen $\OML/lmm
 /m/it/14.4 r$ \IL2/ptm/m/n/14.4 predstavuje na¹u ¾iadanú hodnotu.
  []
 
-[23]
-Overfull \hbox (1.29338pt too wide) in paragraph at lines 93--94
-[]\IL2/ptm/m/n/14.4 Dosadením zákona riadenia do ná¹ho transformovaného systému
- dosiahneme
- []
-
-[24] [25]
-Overfull \hbox (0.32768pt too wide) in paragraph at lines 199--199
-[][]\IL2/ptm/b/n/14.4 Návrh riadenia pomocou obyèajnej linearizácie s PID regul
-átorom - príklad
- []
-
-
-Overfull \hbox (8.50851pt too wide) in paragraph at lines 201--202
+[23] [24]
+Overfull \hbox (8.50851pt too wide) in paragraph at lines 195--196
 \IL2/ptm/m/n/14.4 Rozvojom do Taylorovho radu dostaneme z pôvodných rovn. ([][]
 45[][]) nové rovn. ([][]63[][]).
  []
 
-[26]
-<vsPr2/ModelRiadenia.png, id=1204, 1257.69875pt x 497.86pt>
+[25]
+<vsPr2/ModelRiadenia.png, id=1200, 1257.69875pt x 497.86pt>
 File: vsPr2/ModelRiadenia.png Graphic file (type png)
 <use vsPr2/ModelRiadenia.png>
-Package pdftex.def Info: vsPr2/ModelRiadenia.png  used on input line 265.
+Package pdftex.def Info: vsPr2/ModelRiadenia.png  used on input line 256.
 (pdftex.def)             Requested size: 362.37569pt x 143.4413pt.
-<vsPr2/ModelRiadeniaPID.png, id=1205, 1155.31625pt x 195.73125pt>
+<vsPr2/ModelRiadeniaPID.png, id=1201, 1155.31625pt x 195.73125pt>
 File: vsPr2/ModelRiadeniaPID.png Graphic file (type png)
 <use vsPr2/ModelRiadeniaPID.png>
-Package pdftex.def Info: vsPr2/ModelRiadeniaPID.png  used on input line 273.
+Package pdftex.def Info: vsPr2/ModelRiadeniaPID.png  used on input line 263.
 (pdftex.def)             Requested size: 362.37569pt x 61.39284pt.
-<vsPr2/SimulaciaNelin.png, id=1210, 526.96875pt x 395.22656pt>
+<vsPr2/SimulaciaNelin.png, id=1206, 526.96875pt x 395.22656pt>
 File: vsPr2/SimulaciaNelin.png Graphic file (type png)
 <use vsPr2/SimulaciaNelin.png>
-Package pdftex.def Info: vsPr2/SimulaciaNelin.png  used on input line 283.
+Package pdftex.def Info: vsPr2/SimulaciaNelin.png  used on input line 273.
 (pdftex.def)             Requested size: 362.37569pt x 271.79597pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<vsPr2/SimulaciaPID.png, id=1211, 526.96875pt x 395.22656pt>
+<vsPr2/SimulaciaPID.png, id=1207, 526.96875pt x 395.22656pt>
 File: vsPr2/SimulaciaPID.png Graphic file (type png)
 <use vsPr2/SimulaciaPID.png>
-Package pdftex.def Info: vsPr2/SimulaciaPID.png  used on input line 290.
+Package pdftex.def Info: vsPr2/SimulaciaPID.png  used on input line 280.
 (pdftex.def)             Requested size: 362.37569pt x 271.79597pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<vsPr2/SimulaciaPIDVelkySkok.png, id=1212, 526.96875pt x 395.22656pt>
+<vsPr2/SimulaciaPIDVelkySkok.png, id=1208, 526.96875pt x 395.22656pt>
 File: vsPr2/SimulaciaPIDVelkySkok.png Graphic file (type png)
 <use vsPr2/SimulaciaPIDVelkySkok.png>
-Package pdftex.def Info: vsPr2/SimulaciaPIDVelkySkok.png  used on input line 29
+Package pdftex.def Info: vsPr2/SimulaciaPIDVelkySkok.png  used on input line 28
 7.
 (pdftex.def)             Requested size: 362.37569pt x 271.79597pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<vsPr2/SimulaciaNelinU.png, id=1213, 526.96875pt x 395.22656pt>
+<vsPr2/SimulaciaNelinU.png, id=1209, 526.96875pt x 395.22656pt>
 File: vsPr2/SimulaciaNelinU.png Graphic file (type png)
 <use vsPr2/SimulaciaNelinU.png>
-Package pdftex.def Info: vsPr2/SimulaciaNelinU.png  used on input line 304.
+Package pdftex.def Info: vsPr2/SimulaciaNelinU.png  used on input line 294.
 (pdftex.def)             Requested size: 362.37569pt x 271.79597pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [27 <./vsPr2/ModelRiadenia.png (PNG copy)> <./vsPr2/ModelRiadeniaPID.png (PNG
- copy)>] [28 <./vsPr2/SimulaciaNelin.png (PNG copy)> <./vsPr2/SimulaciaPID.png 
-(PNG copy)>] [29 <./vsPr2/SimulaciaPIDVelkySkok.png (PNG copy)> <./vsPr2/Simula
+) [26 <./vsPr2/ModelRiadenia.png (PNG copy)> <./vsPr2/ModelRiadeniaPID.png (PNG
+ copy)>] [27 <./vsPr2/SimulaciaNelin.png (PNG copy)> <./vsPr2/SimulaciaPID.png 
+(PNG copy)>] [28 <./vsPr2/SimulaciaPIDVelkySkok.png (PNG copy)> <./vsPr2/Simula
 ciaNelinU.png (PNG copy)>] (svlvvPr1/svlvvPr1.tex
-<figures/svlvvPr1/svlvvPr1Sys-crop.pdf, id=1235, 428.60126pt x 179.67125pt>
+<figures/svlvvPr1/svlvvPr1Sys-crop.pdf, id=1231, 418.56375pt x 169.63374pt>
 File: figures/svlvvPr1/svlvvPr1Sys-crop.pdf Graphic file (type pdf)
 <use figures/svlvvPr1/svlvvPr1Sys-crop.pdf>
 Package pdftex.def Info: figures/svlvvPr1/svlvvPr1Sys-crop.pdf  used on input l
 ine 17.
-(pdftex.def)             Requested size: 362.37569pt x 151.90976pt.
- [30
+(pdftex.def)             Requested size: 362.37569pt x 146.86058pt.
+ [29
 
- <./figures/svlvvPr1/svlvvPr1Sys-crop.pdf>] [31] [32]
-<figures/svlvvPr1/svlvvPr1Vysledok-crop.pdf, id=1292, 648.4225pt x 241.90375pt>
-
+ <./figures/svlvvPr1/svlvvPr1Sys-crop.pdf>] [30] [31]
+<figures/svlvvPr1/svlvvPr1Vysledok-crop.pdf, id=1288, 648.4225pt x 264.99pt>
 File: figures/svlvvPr1/svlvvPr1Vysledok-crop.pdf Graphic file (type pdf)
 <use figures/svlvvPr1/svlvvPr1Vysledok-crop.pdf>
 Package pdftex.def Info: figures/svlvvPr1/svlvvPr1Vysledok-crop.pdf  used on in
 put line 152.
-(pdftex.def)             Requested size: 452.9679pt x 168.98819pt.
+(pdftex.def)             Requested size: 452.9679pt x 185.11569pt.
 
 Overfull \hbox (9.77638pt too wide) in paragraph at lines 149--156
 []\IL2/ptm/m/n/14.4 Máme tak navrhnutý regulátor a výsledok zo simulácie, pre n
 iekoµko ¾iadaných
  []
 
-[33 <./figures/svlvvPr1/svlvvPr1Vysledok-crop.pdf>]
-<figures/svlvvPr1/svlvvPr1ZapojeniePID-crop.pdf, id=1445, 466.74374pt x 142.532
-5pt>
+[32 <./figures/svlvvPr1/svlvvPr1Vysledok-crop.pdf>]
+<figures/svlvvPr1/svlvvPr1ZapojeniePID-crop.pdf, id=1441, 456.70625pt x 132.495
+pt>
 File: figures/svlvvPr1/svlvvPr1ZapojeniePID-crop.pdf Graphic file (type pdf)
 <use figures/svlvvPr1/svlvvPr1ZapojeniePID-crop.pdf>
 Package pdftex.def Info: figures/svlvvPr1/svlvvPr1ZapojeniePID-crop.pdf  used o
 n input line 187.
-(pdftex.def)             Requested size: 362.37569pt x 110.66597pt.
+(pdftex.def)             Requested size: 362.37569pt x 105.13083pt.
 
 Overfull \hbox (11.32501pt too wide) in paragraph at lines 202--204
 \IL2/ptm/m/n/14.4 Následne vyjadrime prenos uzavretého regulaèného obvodu $\OML
 /lmm/m/it/14.4 G[]$ \IL2/ptm/m/n/14.4 podµa známeho
  []
 
-[34 <./figures/svlvvPr1/svlvvPr1ZapojeniePID-crop.pdf>]
-Overfull \hbox (18.2155pt too wide) in paragraph at lines 216--218
-\IL2/ptm/m/n/14.4 Vyu¾ime teraz metódu Pole-Placement na návrh parametrov regul
+[33 <./figures/svlvvPr1/svlvvPr1ZapojeniePID-crop.pdf>]
+Overfull \hbox (16.60274pt too wide) in paragraph at lines 216--218
+\IL2/ptm/m/n/14.4 Vyu¾ime teraz metódu pole-placement na návrh parametrov regul
 átora, umiestnime
  []
 
-
-Overfull \hbox (0.91963pt too wide) in paragraph at lines 227--229
-\IL2/ptm/m/n/14.4 Tento ¾elaný polynóm porovnáme s CHPOLY URO, teda rovn. ([][]
-104[][]), dostaneme
- []
-
-<figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf, id=1477, 848.16875pt x 316.1812
-4pt>
-File: figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf Graphic file (type pdf)
-<use figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf>
-Package pdftex.def Info: figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf  used on
- input line 254.
-(pdftex.def)             Requested size: 452.9679pt x 168.85858pt.
-) (svlvvPr2_marek/svlvvPr2.tex
+<figures/svlvvPr1/svlvvPr1PIDVysledokLin-crop.pdf, id=1473, 640.3925pt x 264.99
+pt>
+File: figures/svlvvPr1/svlvvPr1PIDVysledokLin-crop.pdf Graphic file (type pdf)
+<use figures/svlvvPr1/svlvvPr1PIDVysledokLin-crop.pdf>
+Package pdftex.def Info: figures/svlvvPr1/svlvvPr1PIDVysledokLin-crop.pdf  used
+ on input line 255.
+(pdftex.def)             Requested size: 452.9679pt x 187.43661pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[35]
-<svlvvPr2_marek/sysPr2.PNG, id=1492, 493.24275pt x 425.79076pt>
+<figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf, id=1475, 640.3925pt x 264.99pt>
+
+File: figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf Graphic file (type pdf)
+<use figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf>
+Package pdftex.def Info: figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf  used on
+ input line 263.
+(pdftex.def)             Requested size: 452.9679pt x 187.43661pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[34]) (svlvvPr2_marek/svlvvPr2.tex [35 <./figures/svlvvPr1/svlvvPr1PIDVysledokL
+in-crop.pdf> <./figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf>]
+<svlvvPr2_marek/sysPr2.PNG, id=1731, 493.24275pt x 425.79076pt>
 File: svlvvPr2_marek/sysPr2.PNG Graphic file (type png)
 <use svlvvPr2_marek/sysPr2.PNG>
 Package pdftex.def Info: svlvvPr2_marek/sysPr2.PNG  used on input line 18.
 (pdftex.def)             Requested size: 362.37569pt x 312.83224pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[36 <./figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf>]
+ [36 <./svlvvPr2_marek/sysPr2.PNG>]
 Overfull \hbox (17.72517pt too wide) in paragraph at lines 37--38
 []\IL2/ptm/m/n/14.4 Aplikujeme nelineárne riadenie, opä» metódu vstupno výstupn
 ej spätnoväzobnej
  []
 
-[37 <./svlvvPr2_marek/sysPr2.PNG>]
-<svlvvPr2_marek/sysPr2complet.PNG, id=1540, 528.7755pt x 519.74174pt>
+[37]
+<svlvvPr2_marek/sysPr2complet.PNG, id=1760, 528.7755pt x 519.74174pt>
 File: svlvvPr2_marek/sysPr2complet.PNG Graphic file (type png)
 <use svlvvPr2_marek/sysPr2complet.PNG>
 Package pdftex.def Info: svlvvPr2_marek/sysPr2complet.PNG  used on input line 9
@@ -1338,51 +1286,50 @@ Package pdftex.def Info: svlvvPr2_marek/sysPr2complet.PNG  used on input line 9
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[38] [39 <./svlvvPr2_marek/sysPr2complet.PNG>]
-<svlvvPr2_marek/svlvvPr2ZapPID.PNG, id=1565, 682.9515pt x 317.38576pt>
+<svlvvPr2_marek/svlvvPr2ZapPID.PNG, id=1766, 682.9515pt x 317.38576pt>
 File: svlvvPr2_marek/svlvvPr2ZapPID.PNG Graphic file (type png)
 <use svlvvPr2_marek/svlvvPr2ZapPID.PNG>
 Package pdftex.def Info: svlvvPr2_marek/svlvvPr2ZapPID.PNG  used on input line 
 120.
 (pdftex.def)             Requested size: 362.37569pt x 168.40736pt.
+[38]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Overfull \hbox (4.125pt too wide) in paragraph at lines 135--137
 \IL2/ptm/m/n/14.4 Vyjadríme prenos uzavretého regulaèného obvodu $\OML/lmm/m/it
 /14.4 G[]$ \IL2/ptm/m/n/14.4 podµa pravidla zápornej
  []
 
-
+[39 <./svlvvPr2_marek/sysPr2complet.PNG>]
 Overfull \hbox (16.09793pt too wide) in paragraph at lines 151--152
 []\IL2/ptm/m/n/14.4 Vyu¾ijeme metódu Pole-Placement na návrh parametrov regulát
 ora, umiestnime
  []
 
 [40 <./svlvvPr2_marek/svlvvPr2ZapPID.PNG>]
-<svlvvPr2_marek/pr2vys.png, id=1583, 1445.4pt x 742.27313pt>
+<svlvvPr2_marek/pr2vys.png, id=1803, 1445.4pt x 742.27313pt>
 File: svlvvPr2_marek/pr2vys.png Graphic file (type png)
 <use svlvvPr2_marek/pr2vys.png>
 Package pdftex.def Info: svlvvPr2_marek/pr2vys.png  used on input line 184.
 (pdftex.def)             Requested size: 452.9679pt x 232.6167pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<svlvvPr2_marek/pr2vysPID.png, id=1584, 1445.4pt x 742.27313pt>
+<svlvvPr2_marek/pr2vysPID.png, id=1804, 1445.4pt x 742.27313pt>
 File: svlvvPr2_marek/pr2vysPID.png Graphic file (type png)
 <use svlvvPr2_marek/pr2vysPID.png>
 Package pdftex.def Info: svlvvPr2_marek/pr2vysPID.png  used on input line 190.
 (pdftex.def)             Requested size: 452.9679pt x 232.6167pt.
 
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[41])
+[41 <./svlvvPr2_marek/pr2vys.png (PNG copy)>])
 Overfull \hbox (7.91953pt too wide) in paragraph at lines 196--27
 \IL2/ptm/m/n/14.4 Z výsledku mô¾eme usúdi», ¾e nelineárne riadenie je v tomto p
 rípade, nevyhnutné.
  []
 
-[42 <./svlvvPr2_marek/pr2vys.png (PNG copy)> <./svlvvPr2_marek/pr2vysPID.png (P
-NG copy)>] (integracia/integracia.tex
+[42 <./svlvvPr2_marek/pr2vysPID.png (PNG copy)>] (integracia/integracia.tex
 Overfull \hbox (19.45393pt too wide) in paragraph at lines 3--4
 \IL2/ptm/m/n/14.4 Vy¹¹ie uvedené príklady, mô¾u by» integrované do predmetu Ria
 denie Nelineárnych
@@ -1429,13 +1376,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
  ) 
 Here is how much of TeX's memory you used:
- 18304 strings out of 482860
- 298917 string characters out of 2953169
- 611685 words of memory out of 3000000
- 33254 multiletter control sequences out of 15000+200000
+ 18318 strings out of 482860
+ 299457 string characters out of 2953169
+ 611271 words of memory out of 3000000
+ 33266 multiletter control sequences out of 15000+200000
  574317 words of font info for 78 fonts, out of 3000000 for 9000
  5 hyphenation exceptions out of 8191
- 58i,24n,98p,770b,595s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 58i,23n,98p,770b,595s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/home/dot/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-rm.enc}{/home/dot/.mi
 ktex/texmfs/install/fonts/enc/dvips/lm/lm-mathsy.enc}{/home/dot/.miktex/texmfs/
 install/fonts/enc/dvips/lm/lm-mathit.enc}{/home/dot/.miktex/texmfs/install/font
@@ -1452,9 +1399,9 @@ s/install/fonts/type1/public/lm/lmsy7.pfb></home/dot/.miktex/texmfs/install/fon
 ts/type1/urw/times/utmb8a.pfb></home/dot/.miktex/texmfs/install/fonts/type1/urw
 /times/utmr8a.pfb></home/dot/.miktex/texmfs/install/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on main.pdf (45 pages, 2381802 bytes).
+Output written on main.pdf (45 pages, 2194673 bytes).
 PDF statistics:
- 1705 PDF objects out of 1728 (max. 8388607)
- 211 named destinations out of 1000 (max. 500000)
- 4357 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1924 PDF objects out of 2073 (max. 8388607)
+ 212 named destinations out of 1000 (max. 500000)
+ 4362 words of extra memory for PDF output out of 10000 (max. 10000000)
 

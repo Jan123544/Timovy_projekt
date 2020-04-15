@@ -9,8 +9,8 @@
 \contentsline {subsection}{Parci\IeC {\'a}lne deriv\IeC {\'a}cie}{11}{section*.7}%
 \contentsline {section}{\numberline {3}Sp\IeC {\"a}tnov\IeC {\"a}zbov\IeC {\'a} lineariz\IeC {\'a}cia - vstupno-stavov\IeC {\'a}}{13}{section.3}%
 \contentsline {subsection}{\IeC {\'U}vodn\IeC {\'y} pr\IeC {\'\i }klad}{13}{section*.8}%
-\contentsline {section}{\numberline {4}Sp\IeC {\"a}tnov\IeC {\"a}zbov\IeC {\'a} lineariz\IeC {\'a}cia - vstupno-v\IeC {\'y}stupn\IeC {\'a}}{30}{section.4}%
-\contentsline {subsection}{Pr\IeC {\'\i }klad prv\IeC {\'y}}{30}{section*.13}%
+\contentsline {section}{\numberline {4}Sp\IeC {\"a}tnov\IeC {\"a}zbov\IeC {\'a} lineariz\IeC {\'a}cia - vstupno-v\IeC {\'y}stupn\IeC {\'a}}{29}{section.4}%
+\contentsline {subsection}{Pr\IeC {\'\i }klad prv\IeC {\'y}}{29}{section*.13}%
 \contentsline {section}{\numberline {5}Integr\IeC {\'a}cia do predmetu RNS}{43}{section.5}%
 \contentsline {section}{\numberline {6}Z\IeC {\'a}ver}{44}{section.6}%
 \contentsline {section}{Literat\'ura}{45}{section.6}%
