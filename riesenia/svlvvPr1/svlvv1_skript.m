@@ -14,7 +14,6 @@ for i = 1:size(ws, 2)
     title("Akčný zásah"); xlabel("");  ylabel("");  legend;
 end
 sgtitle("SVLVV");
-print("../../dokumentacia/figures/svlvvPr1/svlvvPr1Vysledok", '-dpdf', '-bestfit')
 
 % PID
 figure(2);

@@ -4,9 +4,13 @@
 \contentsline {section}{\numberline {2}Matematick\IeC {\'e} z\IeC {\'a}klady}{6}{section.2}%
 \contentsline {subsection}{Stavov\IeC {\'y} opis}{6}{section*.3}%
 \contentsline {subsection}{Rovnvoa\IeC {\v z}n\IeC {\'e} stavy}{7}{section*.4}%
-\contentsline {subsection}{Lineariz\IeC {\'a}cia}{7}{section*.5}%
-\contentsline {subsection}{Rie\IeC {\v s}enie preur\IeC {\v c}enej s\IeC {\'u}stavy rovn\IeC {\'\i }c}{9}{section*.6}%
-\contentsline {section}{\numberline {3}Sp\IeC {\"a}tnov\IeC {\"a}zbov\IeC {\'a} lineariz\IeC {\'a}cia - vstupno-v\IeC {\'y}stupn\IeC {\'a}}{11}{section.3}%
-\contentsline {subsection}{Pr\IeC {\'\i }klad prv\IeC {\'y}}{11}{section*.7}%
-\contentsline {section}{\numberline {4}Z\IeC {\'a}ver}{17}{section.4}%
-\contentsline {section}{Literat\'ura}{18}{section.4}%
+\contentsline {subsection}{Lineariz\IeC {\'a}cia}{8}{section*.5}%
+\contentsline {subsection}{Rie\IeC {\v s}enie preur\IeC {\v c}enej s\IeC {\'u}stavy rovn\IeC {\'\i }c}{10}{section*.6}%
+\contentsline {subsection}{Parci\IeC {\'a}lne deriv\IeC {\'a}cie}{11}{section*.7}%
+\contentsline {section}{\numberline {3}Sp\IeC {\"a}tnov\IeC {\"a}zbov\IeC {\'a} lineariz\IeC {\'a}cia - vstupno-stavov\IeC {\'a}}{13}{section.3}%
+\contentsline {subsection}{\IeC {\'U}vodn\IeC {\'y} pr\IeC {\'\i }klad}{13}{section*.8}%
+\contentsline {section}{\numberline {4}Sp\IeC {\"a}tnov\IeC {\"a}zbov\IeC {\'a} lineariz\IeC {\'a}cia - vstupno-v\IeC {\'y}stupn\IeC {\'a}}{30}{section.4}%
+\contentsline {subsection}{Pr\IeC {\'\i }klad prv\IeC {\'y}}{30}{section*.13}%
+\contentsline {section}{\numberline {5}Integr\IeC {\'a}cia do predmetu RNS}{43}{section.5}%
+\contentsline {section}{\numberline {6}Z\IeC {\'a}ver}{44}{section.6}%
+\contentsline {section}{Literat\'ura}{45}{section.6}%
