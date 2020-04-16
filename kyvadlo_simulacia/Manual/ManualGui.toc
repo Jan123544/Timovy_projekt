@@ -1,0 +1,10 @@
+\babel@toc {slovak}{}
+\contentsline {section}{\numberline {1}Úvod}{2}{section.1}%
+\contentsline {section}{\numberline {2}Opis simulovaného príkladu}{3}{section.2}%
+\contentsline {section}{\numberline {3}Spustenie}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Postup č. 1}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Postup č. 2 - editovanie}{4}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Štruktúra GUI}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Zoznam panelov}{6}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Ovládacie prvky}{8}{section.5}%
+\contentsline {section}{\numberline {6}Riadenie}{9}{section.6}%
