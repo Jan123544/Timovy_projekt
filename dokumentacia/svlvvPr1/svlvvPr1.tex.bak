@@ -18,8 +18,8 @@
 		\caption{Bloková schéma systému z \cref{eqn:svlvvPr1SyavovyOpis}}
 		\label{fig:svlvvPr1BlockSchemaSystemu}
 	\end{figure}
-    \subsubsection*{Rovnovážny stav systému}
-    Bod $x_1 = x_2 = 0$ je rovnovážnym bodom tohto systému, čo si môžeme overiť dosadením:
+    \subsubsection*{Rovnovažný stav systému}
+    Bod $x_1 = x_2 = 0$ je rovnovažným bodom tohto systému, čo si môžeme overiť dosadením:
 	\begin{equation*}
 	    \begin{aligned}
             \dot{x_1}|_{(x_1 = x_2 = 0)} &= \sin(0) 0 = 0 \\
@@ -27,7 +27,7 @@
 	    \end{aligned}
 	    \label{eqn:svlvvPr1OverenieRB}
 	\end{equation*}
-	všimnime si, že v tomto bode sú derivácie stavových premenných v čase nulové, čo je charakteristické pre rovnovážne body.
+	všimnime si, že v tomto bode sú derivácie stavových premenných v čase nulové, čo je charakteristické pre rovnovažné body.
 	
 	Predpokladajme, že chceme tento systém riadiť tak, aby výstup dosiahol žiadanú hodnotu $r$ a aplikujme nelineárne riadenie navrhnuté metódou vstupno výstupnej spätnoväzobnej linearizácie. Metódu vysvetlíme rovno počas návrhu. 
 	
@@ -57,7 +57,7 @@
 	    u = -\sin(x_1) x_2  +  \frac{v}{2 + \cos x_1}
 	    \label{eqn:svlvvPr1ZakonLinearizacie}
 	\end{equation}
-po dosadení do \cref{eqn:svlvvpr1-derivv} dostaneme:% \cref{eqn:svlvvPr1-dosadenie}.
+po dosadení do \cref{eqn:svlvvpr1-derivv} dostaneme \cref{eqn:svlvvPr1-dosadenie}.
 	\begin{equation*}
 	\begin{aligned}
 	 	\ddot{y} &= 2 + \cos(x_1)(u + \sin(x_1) x_2) \\
@@ -65,16 +65,16 @@ po dosadení do \cref{eqn:svlvvpr1-derivv} dostaneme:% \cref{eqn:svlvvPr1-dosade
 	 		     &= 2 + \cos(x_1)(\frac{v}{2 + \cos x_1})  \\ 
 	 		     &= v  \\ 
  	\end{aligned}
-	%\label{eqn:svlvvPr1-dosadenie}
+	\label{eqn:svlvvPr1-dosadenie}
 	\end{equation*}
-    Dostávame tak vzťah medzi výstupom systému $y$ a vstupom do zákona linearizácie $v$ v \cref{eqn:svlvvpr1-yvvztah}.
+    Dostáme tak vzťah medzi výstupom systému $y$ a vstupom do zákona linearizácie $v$ v \cref{eqn:svlvvpr1-yvvztah}.
     \begin{equation}
         \begin{aligned}
             \ddot{y} = v
         \end{aligned}
         \label{eqn:svlvvpr1-yvvztah}
     \end{equation} 
-     Voľba takéhoto zákona, nazvime ho zákonom linearizácie, pre vstup $u$ do systému, je druhým krokom metódy.
+     Voľba takéhoto zákona, nazvyme ho zákonom linearizácie, pre vstup $u$ do systému, je druhým krokom metódy.
 
     \subsubsection*{Tretí krok - návrh zákona riadenia linearizovaného systému}
     Ako posledný krok, musíme zvoliť tvar $v$, tak aby sme dosiahli požadovanú dynamiku systému.
@@ -101,9 +101,9 @@ po dosadení do \cref{eqn:svlvvpr1-derivv} dostaneme:% \cref{eqn:svlvvPr1-dosade
         \end{aligned}
         \label{eqn:svlvvpr1-dynodch}
     \end{equation} 
-    kde $k_1$ a $k_0$ sú voliteľné parametre. 
+    kde $k_1$ a $k_0$ sú volitelné parametre. 
 
-    Parametre $k_1$ a $k_0$ vieme tiež navrhnúť podľa potreby. Ak si prepíšeme \cref{eqn:svlvvpr1-dynodch} na \cref{eqn:svlvvpr1-dynodch2}.
+    Parametre $k_1$ a $k_0$ vieme tiež navrhnuť podľa potreby. Ak si prepíšeme rovnicu \cref{eqn:svlvvpr1-dynodch} na \cref{eqn:svlvvpr1-dynodch2}.
     \begin{equation}
         \begin{aligned}
 	        r_e &= \ddot{e}  + k_1 \dot{e} + k_0 e \\
@@ -120,14 +120,14 @@ po dosadení do \cref{eqn:svlvvpr1-derivv} dostaneme:% \cref{eqn:svlvvPr1-dosade
         \end{aligned}
         \label{eqn:}
     \end{equation*} 
-    charakteristický polynóm teda bude \cref{eqn:svlvvPr1-odchchp}.
+    charakteristický polýnóm teda bude \cref{eqn:svlvvPr1-odchchp}.
     \begin{equation}
         \begin{aligned}
             s^2  + k_1s  + k_0 = 0
         \end{aligned}
         \label{eqn:svlvvPr1-odchchp}
     \end{equation} 
-    zvolíme žiadanú polohu pólov $p_1, p_2$ potom žiadaný charakteristický polynóm bude \cref{eqn:svlvvPr1-ziadchp}.
+    zvolíme žiadanú polohu pólov $p_1, p_2$ potom žadaný charakteristický polýnóm bude \cref{eqn:svlvvPr1-ziadchp}.
     \begin{equation}
         \begin{aligned}
             (s - p_1)(s-p_2) = s^2 - (p_1 + p_2)s + p_1p_2
@@ -146,7 +146,7 @@ po dosadení do \cref{eqn:svlvvpr1-derivv} dostaneme:% \cref{eqn:svlvvPr1-dosade
 
     Zvolme si $p_1 = -1$ a $p_2 = -1$ potom z \cref{eqn:svlvvPr1-odhcpp} dostaneme $k_1=2$ a $k_2 = 1$
 
-	Máme tak navrhnutý regulátor. Výsledok overíme simuláciou, pre niekoľko žiadaných úrovní výstupu. Priebehy zo simulácie sú na \cref{fig:svlvvPr1Vysledok}.
+	Máme tak navrhnutý regulátor a výsledok zo simulácie, pre niekoľko žiadaných úrovní výstupu je na \cref{fig:svlvvPr1Vysledok}.
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=\linewidth]{svlvvPr1/svlvvPr1Vysledok-crop}
@@ -157,13 +157,13 @@ po dosadení do \cref{eqn:svlvvpr1-derivv} dostaneme:% \cref{eqn:svlvvPr1-dosade
     \subsubsection*{Zhrnutie krokov metódy}
     Kroky návrhu sumarizujeme v 3 bodoch:
     \begin{enumerate}
-        \item Derivácia rovnice výstupu, až kým sa v rovnici neobjaví vstupná premenná
-        \item Voľba zákona linearizácie (napríklad odčítanie nelineárnych zložiek)
+        \item Derivácia rovnice výstupu, až kým sa v rovnici neobjavý vstupná premenná
+        \item Voľba zákona linearizácie (napríklad odčítanie nelineaárnych zložiek)
         \item Návrh zákona riadenia (regulátora) pre linearizovaný systém
     \end{enumerate}
 
     \subsubsection*{Porovnanie s PID}
-	Pre porovnanie skúsme navrhnúť ešte PID regulátor pre systém linearizovaný v rovnovážnom bode $x_1 = x_2 = 0$. Po linearizovaný bude mať systém tvar \cref{eqn:svlvvPr1LinearizovanySystem}. 
+	Pre porovnanie skúsme navrhnúť ešte PID regulátor pre systém linearizovaný v rovnovažnom bode $x_1 = x_2 = 0$. Po linearizovaní bude mať systém tvar \cref{eqn:svlvvPr1LinearizovanySystem}. 
 	\begin{equation}
 	\begin{gathered}
 	\Delta \dot{x_1}  = \Delta u \\
@@ -253,7 +253,7 @@ po dosadení do \cref{eqn:svlvvpr1-derivv} dostaneme:% \cref{eqn:svlvvPr1-dosade
     \begin{figure}[h!]
         \centering 
         \includegraphics[width=\linewidth]{svlvvPr1/svlvvPr1PIDVysledokLin-crop}
-        \caption{PID regulátor na linearizácii systému v pracovnom bode}
+        \caption{PID regulátor na lineairzácii systému v pracovnom bode}
         \label{fig:svlvvPr1VysledokPIDLin}
     \end{figure} 
 
@@ -261,11 +261,11 @@ po dosadení do \cref{eqn:svlvvpr1-derivv} dostaneme:% \cref{eqn:svlvvPr1-dosade
 		\begin{figure}[h!]
 			\centering
 		\includegraphics[width=\linewidth]{svlvvPr1/svlvvPr1PIDVysledok-crop}
-		\caption{PID regulátor na nelineárnom systéme}
+		\caption{PID regulátor na nelineaárnom systéme}
 		\label{fig:svlvPr1VysledokPID}
 	\end{figure}
 
-    Vidíme ako PID regulátor zvláda riadenie pre istú oblasť žiadaných hodnôt, kde sa linearizácia nelineárneho systému nelíši do veľkej miery od pôvodného systému.
+    Vidíme ako PID regulátor zvláda riadenie pre istú oblasť žiadaných hodnôť, kde sa linearizácia nelineárneho systému nelíši do veľkej miery od pôvodnho sytému.
 
     Avšak pre väčšie skoky PID regulátor prestáva fungovať ako to vidíme pre skok $w=\pi$.
 	Z výsledku môžeme usúdiť, že použiť nelineárne riadenie je v niektorých prípadoch nevyhnutné.

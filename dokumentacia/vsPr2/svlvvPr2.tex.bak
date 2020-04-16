@@ -250,7 +250,7 @@ Nech požadované póly uzavretého regulačného obvodu sú -1, -0.5 a -0.5. Po
 \newpage
 \subsection*{Simulácie - príklad 2}
 
-Navrhnuté riadenia môžeme porovnať pomocou simulácie v prostredí Matlab-simulink. Simulačná schéma s nelineárnym riadením je na \cref{fig:svlvs2_modelRiadenia} a s PID regulátorom je na \cref{fig:svlvs2_modelRiadeniaPID}. Pri nelineárnom riadení urobíme skok žiadanej hodnoty na 10. Pri PID regulátore urobíme dva skoky, na hodnotu 0.1 a 1, aby sme zostali čo najbližšie pri pracovnom bode.
+Navrhnuté riadenia môžeme porovnať pomocou simulácie v prostredí Matlab-simulink. Simulačná schéma s nelineárnym riadením je na \cref{fig:svlvs2_modelRiadenia} a s PID regulátorom je na \cref{fig:svlvs2_modelRiadeniaPID}. Pri nelineárnom riadení urobíme skok žiadanej hodnoty na 10. Pri PID regulátore urobime dva skoky, na hodnotu 0.1 a 1, aby sme zostali čo najbližšie pri pracovnom bode.
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=0.8\linewidth]{ModelRiadenia}
