@@ -7,4 +7,11 @@
 \contentsline {section}{\numberline {4}Štruktúra GUI}{6}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Zoznam panelov}{6}{subsection.4.1}%
 \contentsline {section}{\numberline {5}Ovládacie prvky}{8}{section.5}%
-\contentsline {section}{\numberline {6}Riadenie}{9}{section.6}%
+\contentsline {subsection}{\numberline {5.1}Animácia kyvadla}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Priebehy a zobrazovanie veličín}{9}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Vlastnosti kyvadla}{10}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Reset simulácie}{10}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Nastavenie stavov kyvadla}{11}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Riadiaci panel}{12}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Spustenie/Pozastavenie simulácie}{15}{subsection.5.7}%
+\contentsline {section}{\numberline {6}Ukončenie programu}{15}{section.6}%

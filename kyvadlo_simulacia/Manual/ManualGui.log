@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.28)  17 APR 2020 01:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.28)  17 APR 2020 22:28
 entering extended mode
 **./ManualGui.tex
 (ManualGui.tex
@@ -756,7 +756,7 @@ been already used, duplicate ignored
                    \relax 
 l.24 \newpage
               [1] [2]
-<pend.png, id=36, 330.23375pt x 320.19624pt>
+<pend.png, id=50, 330.23375pt x 320.19624pt>
 File: pend.png Graphic file (type png)
 <use pend.png>
 Package pdftex.def Info: pend.png  used on input line 49.
@@ -767,7 +767,7 @@ Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 59.
 
-<spustenie1.png, id=49, 751.30687pt x 386.19281pt>
+<spustenie1.png, id=63, 751.30687pt x 386.19281pt>
 File: spustenie1.png Graphic file (type png)
 <use spustenie1.png>
 Package pdftex.def Info: spustenie1.png  used on input line 65.
@@ -777,7 +777,7 @@ Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 73.
 
-<spustenie2.png, id=53, 1205.2528pt x 805.50937pt>
+<spustenie2.png, id=67, 1205.2528pt x 805.50937pt>
 File: spustenie2.png Graphic file (type png)
 <use spustenie2.png>
 Package pdftex.def Info: spustenie2.png  used on input line 80.
@@ -786,45 +786,118 @@ Package pdftex.def Info: spustenie2.png  used on input line 80.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [4 <./spustenie1.png>] [5 <./spustenie2.png>]
-<gui.png, id=74, 823.27576pt x 549.85425pt>
+<gui.png, id=88, 823.27576pt x 549.85425pt>
 File: gui.png Graphic file (type png)
 <use gui.png>
 Package pdftex.def Info: gui.png  used on input line 94.
 (pdftex.def)             Requested size: 376.42575pt x 251.40901pt.
-<structgui.png, id=77, 823.27576pt x 549.85425pt>
+<structgui.png, id=91, 823.27576pt x 549.85425pt>
 File: structgui.png Graphic file (type png)
 <use structgui.png>
 Package pdftex.def Info: structgui.png  used on input line 118.
 (pdftex.def)             Requested size: 376.42575pt x 251.40901pt.
- [6 <./gui.png>] [7 <./structgui.png>] [8
+ [6 <./gui.png>] [7 <./structgui.png>]
+<kyv.png, id=116, 310.15875pt x 281.853pt>
+File: kyv.png Graphic file (type png)
+<use kyv.png>
+Package pdftex.def Info: kyv.png  used on input line 131.
+(pdftex.def)             Requested size: 376.42575pt x 342.07106pt.
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 135.
+
+<priebehy.png, id=118, 540.8205pt x 242.1045pt>
+File: priebehy.png Graphic file (type png)
+<use priebehy.png>
+Package pdftex.def Info: priebehy.png  used on input line 140.
+(pdftex.def)             Requested size: 376.42575pt x 168.51149pt.
+[8
+
+ <./kyv.png>] [9 <./priebehy.png>]
+<fyz.png, id=131, 216.81pt x 237.88875pt>
+File: fyz.png Graphic file (type png)
+<use fyz.png>
+Package pdftex.def Info: fyz.png  used on input line 149.
+(pdftex.def)             Requested size: 292.77629pt x 321.28113pt.
+ [10 <./fyz.png>]
+<reset.png, id=140, 210.18526pt x 73.4745pt>
+File: reset.png Graphic file (type png)
+<use reset.png>
+Package pdftex.def Info: reset.png  used on input line 168.
+(pdftex.def)             Requested size: 292.77629pt x 102.35905pt.
+<cond.png, id=141, 243.309pt x 152.36925pt>
+File: cond.png Graphic file (type png)
+<use cond.png>
+Package pdftex.def Info: cond.png  used on input line 177.
+(pdftex.def)             Requested size: 292.77629pt x 183.36761pt.
+ [11 <./reset.png> <./cond.png>]
+<list.png, id=157, 116.8365pt x 120.45pt>
+File: list.png Graphic file (type png)
+<use list.png>
+Package pdftex.def Info: list.png  used on input line 191.
+(pdftex.def)             Requested size: 250.95476pt x 258.73268pt.
+<manualPID.png, id=160, 131.89275pt x 124.0635pt>
+File: manualPID.png Graphic file (type png)
+<use manualPID.png>
+Package pdftex.def Info: manualPID.png  used on input line 199.
+(pdftex.def)             Requested size: 250.95476pt x 236.06004pt.
+ [12 <./list.png>]
+<control.png, id=173, 241.50224pt x 321.6015pt>
+File: control.png Graphic file (type png)
+<use control.png>
+Package pdftex.def Info: control.png  used on input line 214.
+(pdftex.def)             Requested size: 376.42575pt x 501.27429pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13 <./manualPID.png>] [14 <./control.png>]
+<play.png, id=190, 248.127pt x 54.2025pt>
+File: play.png Graphic file (type png)
+<use play.png>
+Package pdftex.def Info: play.png  used on input line 227.
+(pdftex.def)             Requested size: 250.95476pt x 54.82018pt.
+<pause.png, id=191, 244.5135pt x 48.78226pt>
+File: pause.png Graphic file (type png)
+<use pause.png>
+Package pdftex.def Info: pause.png  used on input line 234.
+(pdftex.def)             Requested size: 250.95476pt x 50.06985pt.
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 239.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
+[15
+
+ <./play.png> <./pause.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
  (ManualGui.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 132.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 242.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 242.
  ) 
 Here is how much of TeX's memory you used:
- 13936 strings out of 481556
- 255683 string characters out of 2923634
- 518658 words of memory out of 3000000
- 28866 multiletter control sequences out of 15000+200000
- 582804 words of font info for 65 fonts, out of 3000000 for 9000
+ 14072 strings out of 481556
+ 257179 string characters out of 2923634
+ 519424 words of memory out of 3000000
+ 28963 multiletter control sequences out of 15000+200000
+ 587075 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,7n,42p,945b,814s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/d
 vips/lm/lm-mathit.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
-m/lmri12.pfb>
-Output written on ManualGui.pdf (10 pages, 480647 bytes).
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb>
+Output written on ManualGui.pdf (16 pages, 596903 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 81 named destinations out of 1000 (max. 500000)
+ 204 words of extra memory for PDF output out of 10000 (max. 10000000)
 
