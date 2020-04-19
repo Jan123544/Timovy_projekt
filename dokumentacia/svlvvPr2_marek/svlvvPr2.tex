@@ -2,7 +2,7 @@
 \documentclass[../main.tex]{subfiles}
 
 \begin{document}
-	\subsection*{Príklad 2}
+	\subsection{Príklad druhý}
 	Majme systém, ktorý je určený stavovým opisom \cref{eqn:svlv2vrov}. Bloková schéma systému je na \cref{fig:svlvv2schfig}.
 	\begin{equation}
 		\begin{aligned}
@@ -19,7 +19,7 @@
 		\caption{Bloková schéma systému z \cref{eqn:svlv2vrov}}
 		\label{fig:svlvv2schfig}
 	\end{figure}
-	\subsection*{Návrh riadenia - príklad 2}
+	\subsubsection{Návrh riadenia}
 	Teraz overíme, že bod  $x_1 = x_2 = x_3 = 0 $, je rovnovažný bodom systému. Systém sa nachádza v rovnováhe, keď časové derivácie všetkých stavových premenných sú nulové. 
 	\begin{equation}
 		\begin{aligned}
@@ -93,7 +93,7 @@
 		\caption{Kompletná schéma riadného systému pomocou nelineárneho riadenia.}
 		\label{fig:svlvvPr2All}
 	\end{figure}
-	\subsection*{Návrh PID - príklad 2}		
+	\subsubsection{Návrh PID}		
 	Pre porovnanie skúsme navrhnúť ešte PID regulátor pre systém linearizovaný v rovnovážnom bode $x_1 = x_2 = x_3 = 0$. Po linearizovaní bude mať systém tvar \cref{eqn:svlvvPr2LinearizSys}. 
 	\begin{equation}
 	\begin{aligned}
@@ -176,7 +176,7 @@
 	\end{equation}
 	Aplikujme PID regulátor na nelineárny systém (\cref{fig:svlvvPr2ZapPID}), ktorý chceme riadiť . Výsledok zo simulácie je na \cref{fig:svlvvPr2VysPID}.	
 	
-	\subsection*{Porovnanie riadenia - príklad 2}	
+	\subsubsection{Porovnanie riadenia}	
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=\linewidth]{pr2vys}
@@ -190,6 +190,6 @@
 		\label{fig:svlvvPr2VysPID}
 	\end{figure}
 	\newpage
-	\subsection*{Záver - príklad 2}
+	\subsubsection{Záver}
 	Z výsledku môžeme usúdiť, že nelineárne riadenie je v tomto prípade, nevyhnutné. Systém regulovaný PID regulátorom nebol schopný sa stabilizovať v takom okolí pracovného bodu ako to dokázal systém s regulátorom navrhnutým pomocou metódy vstupno-výstupnej spätnoväzbovej linearizácie. 
 \end{document}
