@@ -1,0 +1,22 @@
+\newpage
+\ifthenelse {\boolean{bachelor}}
+{
+	%\section{Introduction}
+	\section{Úvod}
+}
+{
+	%\chapter{Introduction}
+%	\chapter{Úvod}
+}
+
+    V tímovom projekte sa venujeme definovaniu neikoľkých modelov systémov v stavovom opise, vhodných na demonštráciu návrhu nelineárneho riadenia pomocou metód vstupno-stavovej a vstupno-výstupnej linearizácie a návrhom nelineárne riadenia pre dané modely. Navrhnuté nelineárne riadenie porovnávame s lineárnym PID regulátorom a uvádzame aj základné matematické princípy, využívané pri návrhu pomocou uvedených metód.
+
+    V časti \ref{sec:matematicke_zaklady} sa venujeme niektorým matematickým princípom, ktorých znalosť je nevyhnutná pre pochopenie metód, ale aj ďalšieho textu, v celom rozsahu. Konkrétne táto časť zahrňa opakovanie k nasledujúcim témam: stavový opis systému, rovnovažné stavy a linearizácia. 
+    
+    Časť \ref{sec:vsl} sa zaoberá návrhom nelineárneho riadenia pomocou metódy vstupno-stavovej linearizácie. Sú tu prezentované dva príklady, ku každému je vypracovaný návrh riadenia danou metódou a pre porovnanie je navrhnutý aj PID regulátor pre linearizáciu systému v rovnovažnom stave.
+
+    Návrhu pomocou metódy vstupno-výstupnej linearizácie sa venujeme v časti \ref{sec:vvl}. Podobne ako v predchádzajúcej časti, aj tu sa venujeme okrem návrhu pomcou hlavnej metódy aj návrhu PID regulátora pre linearizovaný systém.
+
+    V časti \ref{sec:anim} opisujeme program, písaný v matlabe, vhodný na ukážku navrhnutých zákonov riadenia pre jednoduchý príklad riadenia polohy matematického kyvadla. V programe sú implementované nelineárne zákony raidenia a aj dva PID regulátory navrhnuté pre linearizáciu kyvadla v stabilon a v nestabilnom rovnovažnom stave.
+
+    V časti \ref{sec:integracia} stručne opíšeme spôsoby ako by sa daný materiál dal integrovať do predmetu Riadenie Nelineárnych Systémov.

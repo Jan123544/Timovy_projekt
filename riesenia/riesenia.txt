@@ -1,1 +1,1 @@
-Vytvorte si zložku do ktorej dáte skripty a simulačné schémy.
+V tejto zložke sa nachádzajú skripty a simulačné schémy príkladov a riešení.

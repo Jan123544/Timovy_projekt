@@ -6,7 +6,42 @@
 \BOOKMARK [2][-]{section*.5}{Lineariz\341cia}{section.2}% 6
 \BOOKMARK [2][-]{section*.6}{Rie\235enie preurcenej s\372stavy rovn\355c}{section.2}% 7
 \BOOKMARK [2][-]{section*.7}{Parci\341lne deriv\341cie}{section.2}% 8
-\BOOKMARK [1][-]{section.3}{Sp\344tnov\344zbov\341 lineariz\341cia - vstupno-v\375stupn\341}{}% 9
-\BOOKMARK [2][-]{section*.8}{Pr\355klad prv\375}{section.3}% 10
-\BOOKMARK [1][-]{section.4}{Z\341ver}{}% 11
-\BOOKMARK [1][-]{section.4}{Literat\372ra}{}% 12
+\BOOKMARK [1][-]{section.3}{Sp\344tnov\344zbov\341 lineariz\341cia - vstupno-stavov\341}{}% 9
+\BOOKMARK [2][-]{section*.8}{\332vodn\375 pr\355klad}{section.3}% 10
+\BOOKMARK [3][-]{section*.9}{Rovnova\236n\351 stavy syst\351mu}{section*.8}% 11
+\BOOKMARK [3][-]{section*.10}{Prv\375 krok - urcenie transformacn\375ch vztahov}{section*.8}% 12
+\BOOKMARK [3][-]{section*.11}{Druh\375 krok - transform\341cia syst\351mu}{section*.8}% 13
+\BOOKMARK [3][-]{section*.12}{Tret\355 krok - n\341vrh line\341rneho stavov\351ho regul\341tora}{section*.8}% 14
+\BOOKMARK [3][-]{section*.13}{Overenie v\375sledokv}{section*.8}% 15
+\BOOKMARK [3][-]{section*.14}{N\341vrh PID regul\341tora}{section*.8}% 16
+\BOOKMARK [2][-]{section*.15}{Pr\355klad druh\375}{section.3}% 17
+\BOOKMARK [3][-]{section*.16}{Opis syst\351mu}{section*.15}% 18
+\BOOKMARK [3][-]{section*.17}{Rovnova\236n\351 stavy}{section*.15}% 19
+\BOOKMARK [3][-]{section*.18}{Prv\375 krok - n\341jdenie transformacn\375ch vztahov}{section*.15}% 20
+\BOOKMARK [3][-]{section*.19}{Druh\375 krok - transform\341cia syst\351mu}{section*.15}% 21
+\BOOKMARK [3][-]{section*.20}{Tret\355 krok - n\341vrh parametrov line\341rnho regul\341tra}{section*.15}% 22
+\BOOKMARK [3][-]{section*.21}{N\341vrh PID regul\341tora pre lineariz\341ciu syst\351mu}{section*.15}% 23
+\BOOKMARK [3][-]{section*.22}{Simulacn\351 overenie n\341vrhu}{section*.15}% 24
+\BOOKMARK [1][-]{section.4}{Sp\344tnov\344zbov\341 lineariz\341cia - vstupno-v\375stupn\341}{}% 25
+\BOOKMARK [2][-]{section*.23}{Pr\355klad prv\375}{section.4}% 26
+\BOOKMARK [3][-]{section*.24}{Rovnov\341\236ny stav syst\351mu}{section*.23}% 27
+\BOOKMARK [3][-]{section*.25}{Prv\375 krok - deriv\341cia rovnice v\375stupu}{section*.23}% 28
+\BOOKMARK [3][-]{section*.26}{Druh\375 krok - volba z\341kona lineariz\341cie}{section*.23}% 29
+\BOOKMARK [3][-]{section*.27}{Tret\355 krok - n\341vrh line\341rneho z\341kona riadenia}{section*.23}% 30
+\BOOKMARK [3][-]{section*.28}{Zhrnutie krokov met\363dy}{section*.23}% 31
+\BOOKMARK [3][-]{section*.29}{Porovnanie s PID}{section*.23}% 32
+\BOOKMARK [2][-]{section*.30}{Pr\355klad druh\375}{section.4}% 33
+\BOOKMARK [3][-]{section*.31}{N\341vrh riadenia}{section*.30}% 34
+\BOOKMARK [3][-]{section*.32}{N\341vrh PID}{section*.30}% 35
+\BOOKMARK [3][-]{section*.33}{Porovnanie riadenia}{section*.30}% 36
+\BOOKMARK [3][-]{section*.34}{Z\341ver}{section*.30}% 37
+\BOOKMARK [1][-]{section.5}{Integr\341cia do predmetu RNS}{}% 38
+\BOOKMARK [1][-]{section.6}{Riadenie projektu}{}% 39
+\BOOKMARK [2][-]{section*.35}{Predstavenie rie\235itelsk\351ho kolekt\355vu}{section.6}% 40
+\BOOKMARK [2][-]{section*.36}{Pl\341n projektu}{section.6}% 41
+\BOOKMARK [2][-]{section*.37}{Dohodnut\351 met\363dy pr\341ce}{section.6}% 42
+\BOOKMARK [2][-]{section*.38}{Komunik\341cia a koordin\341cia projektu}{section.6}% 43
+\BOOKMARK [2][-]{section*.39}{Kontrola rozhodnut\355 t\355mu}{section.6}% 44
+\BOOKMARK [2][-]{section*.40}{Podrobn\351 z\341znamy o stretnut\355}{section.6}% 45
+\BOOKMARK [1][-]{section.7}{Z\341ver}{}% 46
+\BOOKMARK [1][-]{section.7}{Literat\372ra}{}% 47

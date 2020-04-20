@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.26)  20 APR 2020 20:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.26)  20 APR 2020 21:01
 entering extended mode
 **./main.tex
 (main.tex
@@ -23,20 +23,9 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) (FormatsAndDefs.tex
-(C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\latex\epsf\epsf.sty
-This is `epsf.tex' v2.7.4 <14 February 2011>
-\epsffilein=\read1
-\epsfframemargin=\dimen103
-\epsfframethickness=\dimen104
-\epsfrsize=\dimen105
-\epsftmp=\dimen106
-\epsftsize=\dimen107
-\epsfxsize=\dimen108
-\epsfysize=\dimen109
-\pspoints=\dimen110
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
-Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
+Package: rotating 2016/05/22 v2.16c rotated objects in LaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
@@ -67,9 +56,29 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
 ))
-\Gin@req@height=\dimen111
-\Gin@req@width=\dimen112
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
 )
+\c@r@tfl@t=\count88
+\rotFPtop=\skip43
+\rotFPbot=\skip44
+\rot@float@box=\box26
+\rot@mess@toks=\toks15
+)
+(FormatsAndDefs.tex
+(C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\latex\epsf\epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+\epsffilein=\read1
+\epsfframemargin=\dimen105
+\epsfframethickness=\dimen106
+\epsfrsize=\dimen107
+\epsftmp=\dimen108
+\epsftsize=\dimen109
+\epsfxsize=\dimen110
+\epsfysize=\dimen111
+\pspoints=\dimen112
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfxsize=\dimen113
 \epsfysize=\dimen114
 )
@@ -92,26 +101,26 @@ Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 (C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\uni-global.def
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
-\uc@secondtry=\count88
-\uc@combtoks=\toks15
-\uc@combtoksb=\toks16
-\uc@temptokena=\toks17
+\uc@secondtry=\count89
+\uc@combtoks=\toks16
+\uc@combtoksb=\toks17
+\uc@temptokena=\toks18
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks18
-\inpenc@posthook=\toks19
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
 
 (C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count89
-\float@exts=\toks20
-\float@box=\box26
-\@float@everytoks=\toks21
-\@floatcapt=\box27
+\c@float@type=\count90
+\float@exts=\toks21
+\float@box=\box27
+\@float@everytoks=\toks22
+\@floatcapt=\box28
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
@@ -129,10 +138,10 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip43
-\bibsep=\skip44
+\bibhang=\skip45
+\bibsep=\skip46
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count90
+\c@NAT@ctr=\count91
 )
 (C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip10
@@ -152,16 +161,16 @@ Package: pdfpages 2016/04/19 v0.5f Insert pages of external PDF documents (AM)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count91
-\calc@Bcount=\count92
+\calc@Acount=\count92
+\calc@Bcount=\count93
 \calc@Adimen=\dimen115
 \calc@Bdimen=\dimen116
-\calc@Askip=\skip45
-\calc@Bskip=\skip46
+\calc@Askip=\skip47
+\calc@Bskip=\skip48
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count93
-\calc@Cskip=\skip47
+\calc@Ccount=\count94
+\calc@Cskip=\skip49
 )
 \AM@pagewidth=\dimen117
 \AM@pageheight=\dimen118
@@ -169,31 +178,31 @@ LaTeX Info: Redefining \addtolength on input line 81.
 (C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pppdftex.def
 File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box28
-\AM@global@opts=\toks22
-\AM@toc@title=\toks23
-\c@AM@survey=\count94
-\AM@templatesizebox=\box29
+\AM@pagebox=\box29
+\AM@global@opts=\toks23
+\AM@toc@title=\toks24
+\c@AM@survey=\count95
+\AM@templatesizebox=\box30
 )
 (C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
-\lst@mode=\count95
-\lst@gtempboxa=\box30
-\lst@token=\toks24
-\lst@length=\count96
+\lst@mode=\count96
+\lst@gtempboxa=\box31
+\lst@token=\toks25
+\lst@length=\count97
 \lst@currlwidth=\dimen119
-\lst@column=\count97
-\lst@pos=\count98
+\lst@column=\count98
+\lst@pos=\count99
 \lst@lostspace=\dimen120
 \lst@width=\dimen121
-\lst@newlines=\count99
-\lst@lineno=\count100
+\lst@newlines=\count100
+\lst@lineno=\count101
 \lst@maxwidth=\dimen122
 
 (C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count101
-\lst@skipnumbers=\count102
-\lst@framebox=\box31
+\c@lstnumber=\count102
+\lst@skipnumbers=\count103
+\lst@framebox=\box32
 )
 (C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
@@ -202,24 +211,24 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks25
-\verbatim@line=\toks26
+\every@verbatim=\toks26
+\verbatim@line=\toks27
 \verbatim@in@stream=\read2
 )
 (C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\latex\moreverb\moreverb.sty
 Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
-\tab@position=\count103
-\tab@size=\count104
-\listing@line=\count105
+\tab@position=\count104
+\tab@size=\count105
+\listing@line=\count106
 )
 (C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.sty
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
-\MT@toks=\toks27
-\MT@count=\count106
+\MT@toks=\toks28
+\MT@count=\count107
 LaTeX Info: Redefining \textls on input line 774.
 \MT@outer@kern=\dimen123
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
-\MT@listname@count=\count107
+\MT@listname@count=\count108
 
 (C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype-pdftex.
 def
@@ -227,7 +236,7 @@ File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 916.
 LaTeX Info: Redefining \lslig on input line 916.
-\MT@outer@space=\skip48
+\MT@outer@space=\skip50
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -275,9 +284,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 )
 (C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\latex\appendix\appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count108
-\c@@ppsavesec=\count109
-\c@@ppsaveapp=\count110
+\c@@pps=\count109
+\c@@ppsavesec=\count110
+\c@@ppsaveapp=\count111
 )
 (C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\latex\libertine\libertine.sty
 Package: libertine 2014/11/25 (Bob Tennent) Supports Libertine and Biolinum fon
@@ -295,10 +304,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks28
-\XKV@tempa@toks=\toks29
+\XKV@toks=\toks29
+\XKV@tempa@toks=\toks30
 )
-\XKV@depth=\count111
+\XKV@depth=\count112
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
@@ -410,7 +419,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/06/28 v2.15d AMS math features
-\@mathmargin=\skip49
+\@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
@@ -418,7 +427,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks30
+\@emptytoks=\toks31
 \ex@=\dimen124
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
@@ -428,41 +437,41 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count112
+\inf@bad=\count113
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count113
-\leftroot@=\count114
+\uproot@=\count114
+\leftroot@=\count115
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count115
-\DOTSCASE@=\count116
+\classnum@=\count116
+\DOTSCASE@=\count117
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
-\Mathstrutbox@=\box32
-\strutbox@=\box33
+\Mathstrutbox@=\box33
+\strutbox@=\box34
 \big@size=\dimen126
 LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
-\macc@depth=\count117
-\c@MaxMatrixCols=\count118
+\macc@depth=\count118
+\c@MaxMatrixCols=\count119
 \dotsspace@=\muskip11
-\c@parentequation=\count119
-\dspbrk@lvl=\count120
-\tag@help=\toks31
-\row@=\count121
-\column@=\count122
-\maxfields@=\count123
-\andhelp@=\toks32
+\c@parentequation=\count120
+\dspbrk@lvl=\count121
+\tag@help=\toks32
+\row@=\count122
+\column@=\count123
+\maxfields@=\count124
+\andhelp@=\toks33
 \eqnshift@=\dimen127
 \alignsep@=\dimen128
 \tagshift@=\dimen129
 \tagwidth@=\dimen130
 \totwidth@=\dimen131
 \lineht@=\dimen132
-\@envbody=\toks33
-\multlinegap=\skip50
-\multlinetaggap=\skip51
-\mathdisplay@stack=\toks34
+\@envbody=\toks34
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks35
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
@@ -481,15 +490,15 @@ Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen133
 \extrarowheight=\dimen134
-\NC@list=\toks35
-\extratabsurround=\skip52
-\backup@length=\skip53
+\NC@list=\toks36
+\extratabsurround=\skip54
+\backup@length=\skip55
 )
-\everycr=\toks36
-\minrowclearance=\skip54
+\everycr=\toks37
+\minrowclearance=\skip56
 )
 LaTeX Info: Redefining \color on input line 709.
-\rownum=\count124
+\rownum=\count125
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -507,8 +516,8 @@ Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 \TX@old@col=\dimen137
 \TX@target=\dimen138
 \TX@delta=\dimen139
-\TX@cols=\count125
-\TX@ftn=\toks37
+\TX@cols=\count126
+\TX@ftn=\toks38
 )
 (C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\latex\subfiles\subfiles.sty
 Package: subfiles 2020/02/14 v1.6 Multi-file projects (package)
@@ -523,9 +532,9 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count126
-\Gm@cntv=\count127
-\c@Gm@tempcnt=\count128
+\Gm@cnth=\count127
+\Gm@cntv=\count128
+\c@Gm@tempcnt=\count129
 \Gm@bindingoffset=\dimen140
 \Gm@wd@mp=\dimen141
 \Gm@odd@mp=\dimen142
@@ -534,7 +543,7 @@ Package ifvtex Info: VTeX not detected.
 \Gm@layoutheight=\dimen145
 \Gm@layouthoffset=\dimen146
 \Gm@layoutvoffset=\dimen147
-\Gm@dimlist=\toks38
+\Gm@dimlist=\toks39
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 (C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\latex\emptypage\emptypage.sty
@@ -556,13 +565,13 @@ Language: slovak 2008/07/06 v3.1a Slovak support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2016/04/23 3.9r Babel common definitions
-\babel@savecnt=\count129
+\babel@savecnt=\count130
 \U@D=\dimen148
 )
 Package babel Info: Making ^ an active character on input line 123.
 Package babel Info: Making " an active character on input line 126.
 Package babel Info: Making ' an active character on input line 129.
-\cs@wordlen=\count130
+\cs@wordlen=\count131
 Package babel Info: Making - an active character on input line 294.
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
@@ -636,13 +645,13 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen149
-\Hy@linkcounter=\count131
-\Hy@pagecounter=\count132
+\Hy@linkcounter=\count132
+\Hy@pagecounter=\count133
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count133
+\Hy@SavedSpaceFactor=\count134
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -655,10 +664,10 @@ Package hyperref Info: Plain pages OFF on input line 4501.
 Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count134
+\c@Hy@tempcnt=\count135
 LaTeX Info: Redefining \url on input line 5088.
 \XeTeXLinkMargin=\dimen150
-\Fld@menulength=\count135
+\Fld@menulength=\count136
 \Field@Width=\dimen151
 \Fld@charsize=\dimen152
 Package hyperref Info: Hyper figures OFF on input line 6342.
@@ -670,24 +679,24 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6367.
 Package hyperref Info: PDF/A mode OFF on input line 6372.
 LaTeX Info: Redefining \ref on input line 6412.
 LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count136
-\c@Item=\count137
-\c@Hfootnote=\count138
+\Hy@abspage=\count137
+\c@Item=\count138
+\c@Hfootnote=\count139
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
-\Fld@listcount=\count139
-\c@bookmark@seq@number=\count140
+\Fld@listcount=\count140
+\c@bookmark@seq@number=\count141
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip55
+\Hy@SectionHShift=\skip57
 )
 (C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\latex\cleveref\cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
@@ -759,6 +768,24 @@ LaTeX Warning: Label `eqn:matz_rovniceSystemuGradient' multiply defined.
 LaTeX Warning: Label `eqn:matz_rovniceSystemuGradient@cref' multiply defined.
 
 
+LaTeX Warning: Label `eqn:TransformovanySystem' multiply defined.
+
+
+LaTeX Warning: Label `eqn:TransformovanySystem@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:Vysledok1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Vysledok1@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:Vysledok2' multiply defined.
+
+
+LaTeX Warning: Label `fig:Vysledok2@cref' multiply defined.
+
+
 LaTeX Warning: Label `eqn:' multiply defined.
 
 
@@ -767,29 +794,29 @@ LaTeX Warning: Label `eqn:@cref' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 71.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for IL2/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Try loading font information for IL2+ptm on input line 70.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for IL2/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Try loading font information for IL2+ptm on input line 71.
 
 (C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\cslatex\cspsfonts\il2ptm.fd
 File: il2ptm.fd 1998/01/31 CS Times
@@ -800,17 +827,17 @@ LaTeX Font Info:    Created by CsPsFont utility v.1.0e (C) Z. Wagner, 1998/01/3
 )
 (C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count141
+\scratchcounter=\count142
 \scratchdimen=\dimen162
-\scratchbox=\box34
-\nofMPsegments=\count142
-\nofMParguments=\count143
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count144
+\scratchbox=\box35
+\nofMPsegments=\count143
+\nofMParguments=\count144
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count145
 \MPscratchDim=\dimen163
-\MPnumerator=\count145
-\makeMPintoPDFobject=\count146
-\everyMPtoPDFconversion=\toks40
+\MPnumerator=\count146
+\makeMPintoPDFobject=\count147
+\everyMPtoPDFconversion=\toks41
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -827,14 +854,14 @@ G,.JBIG2,.JB2,.eps]
 (C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-\AtBeginShipoutBox=\box35
+\AtBeginShipoutBox=\box36
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-\c@lstlisting=\count147
-LaTeX Info: Redefining \microtypecontext on input line 70.
+\c@lstlisting=\count148
+LaTeX Info: Redefining \microtypecontext on input line 71.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -848,8 +875,8 @@ Package microtype Info: No adjustment of character kerning.
 (C:\Users\Evka\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-\c@mv@tabular=\count148
-\c@mv@boldtabular=\count149
+\c@mv@tabular=\count149
+\c@mv@boldtabular=\count150
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -885,18 +912,18 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 * \@reversemargintrue
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 70.
+Package hyperref Info: Link coloring ON on input line 71.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count150
+\c@section@level=\count151
 )
-LaTeX Info: Redefining \ref on input line 70.
-LaTeX Info: Redefining \pageref on input line 70.
-LaTeX Info: Redefining \nameref on input line 70.
+LaTeX Info: Redefining \ref on input line 71.
+LaTeX Info: Redefining \pageref on input line 71.
+LaTeX Info: Redefining \nameref on input line 71.
 
 (main.out) (main.out)
 \@outlinefile=\write3
@@ -905,43 +932,43 @@ LaTeX Info: Redefining \nameref on input line 70.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (titlepage.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 49--76
+Underfull \hbox (badness 10000) in paragraph at lines 49--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--76
+Underfull \hbox (badness 10000) in paragraph at lines 49--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--76
+Underfull \hbox (badness 10000) in paragraph at lines 49--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--76
+Underfull \hbox (badness 10000) in paragraph at lines 49--77
 
  []
 
-<figures/TP_zadanie_1_KYB.png, id=50, 796.9775pt x 1127.21124pt>
+<figures/TP_zadanie_1_KYB.png, id=190, 796.9775pt x 1127.21124pt>
 File: figures/TP_zadanie_1_KYB.png Graphic file (type png)
 
 <use figures/TP_zadanie_1_KYB.png>
-Package pdftex.def Info: figures/TP_zadanie_1_KYB.png used on input line 77.
+Package pdftex.def Info: figures/TP_zadanie_1_KYB.png used on input line 78.
 (pdftex.def)             Requested size: 796.97554pt x 1127.2085pt.
 File: figures/TP_zadanie_1_KYB.png Graphic file (type png)
  <use figures/TP_zadanie_1_KYB.png>
-Package pdftex.def Info: figures/TP_zadanie_1_KYB.png used on input line 77.
+Package pdftex.def Info: figures/TP_zadanie_1_KYB.png used on input line 78.
 (pdftex.def)             Requested size: 796.97554pt x 1127.2085pt.
 File: figures/TP_zadanie_1_KYB.png Graphic file (type png)
 
 <use figures/TP_zadanie_1_KYB.png>
-Package pdftex.def Info: figures/TP_zadanie_1_KYB.png used on input line 77.
+Package pdftex.def Info: figures/TP_zadanie_1_KYB.png used on input line 78.
 (pdftex.def)             Requested size: 796.97554pt x 1127.2085pt.
 File: figures/TP_zadanie_1_KYB.png Graphic file (type png)
  <use figures/TP_zadanie_1_KYB.png>
-Package pdftex.def Info: figures/TP_zadanie_1_KYB.png used on input line 77.
+Package pdftex.def Info: figures/TP_zadanie_1_KYB.png used on input line 78.
 (pdftex.def)             Requested size: 597.58572pt x 845.19997pt.
  [1
 
@@ -949,16 +976,16 @@ Package pdftex.def Info: figures/TP_zadanie_1_KYB.png used on input line 77.
 File: figures/TP_zadanie_1_KYB.png Graphic file (type png)
 
 <use figures/TP_zadanie_1_KYB.png>
-Package pdftex.def Info: figures/TP_zadanie_1_KYB.png used on input line 77.
+Package pdftex.def Info: figures/TP_zadanie_1_KYB.png used on input line 78.
 (pdftex.def)             Requested size: 597.58572pt x 845.19997pt.
 File: figures/TP_zadanie_1_KYB.png Graphic file (type png)
  <use figures/TP_zadanie_1_KYB.png>
-Package pdftex.def Info: figures/TP_zadanie_1_KYB.png used on input line 77.
+Package pdftex.def Info: figures/TP_zadanie_1_KYB.png used on input line 78.
 (pdftex.def)             Requested size: 597.58572pt x 845.19997pt.
 File: figures/TP_zadanie_1_KYB.png Graphic file (type png)
 
 <use figures/TP_zadanie_1_KYB.png>
-Package pdftex.def Info: figures/TP_zadanie_1_KYB.png used on input line 77.
+Package pdftex.def Info: figures/TP_zadanie_1_KYB.png used on input line 78.
 (pdftex.def)             Requested size: 597.58572pt x 845.19997pt.
  [2 <./figures/TP_zadanie_1_KYB.png>]
 (main.toc
@@ -995,151 +1022,874 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 5.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-))
+) [3])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [3] (introduction.tex
-[4]
-
-LaTeX Warning: Reference `sec:matzaklady' on page 5 undefined on input line 14.
-
-
-
-LaTeX Warning: Reference `sec:vsl' on page 5 undefined on input line 16.
-
-
-Overfull \hbox (0.81816pt too wide) in paragraph at lines 16--17
-[]\IL2/ptm/m/n/14.4 Èas» [] sa za-oberá ná-vrhom ne-li-ne-ár-neho ria-de-nia po
--mo-cou me-tódy vstupno-
- []
-
-
-LaTeX Warning: Reference `sec:vvl' on page 5 undefined on input line 18.
-
-
-LaTeX Warning: Reference `sec:anim' on page 5 undefined on input line 20.
-
-
-LaTeX Warning: Reference `sec:integracia' on page 5 undefined on input line 22.
-
-
-) (analysis.tex [5] (matzaklady/matzaklady.tex [6]
-<figures/matzaklady/SchemaStavovyOpis.png, id=107, 1859.94875pt x 730.73pt>
+ [4]
+(introduction.tex [5]) (analysis.tex [6] (matzaklady/matzaklady.tex
+<figures/matzaklady/SchemaStavovyOpis.png, id=279, 1859.94875pt x 730.73pt>
 File: figures/matzaklady/SchemaStavovyOpis.png Graphic file (type png)
 
 <use figures/matzaklady/SchemaStavovyOpis.png>
 Package pdftex.def Info: figures/matzaklady/SchemaStavovyOpis.png used on input
- line 99.
+ line 88.
 (pdftex.def)             Requested size: 362.37569pt x 142.36354pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
-
- []
-
-[7 <./figures/matzaklady/SchemaStavovyOpis.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
-
- []
-
-[8] [9]
+ [7] [8 <./figures/matzaklady/SchemaStavovyOpis.png (PNG copy)>] [9] [10]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 219.
+(hyperref)                removing `\textasciicaron' on input line 202.
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 256--259
+[11] [12]) [13] (vsPr1/vsPr1.tex
+<vsPr1/Rovnica1.pdf, id=365, 487.7134pt x 237.85736pt>
+File: vsPr1/Rovnica1.pdf Graphic file (type pdf)
 
+<use vsPr1/Rovnica1.pdf>
+Package pdftex.def Info: vsPr1/Rovnica1.pdf used on input line 27.
+(pdftex.def)             Requested size: 390.17125pt x 190.28613pt.
+ <vsPr1/MVSlin.pdf, id=369, 498.52725pt x 145.22371pt>
+File: vsPr1/MVSlin.pdf Graphic file (type pdf)
+
+<use vsPr1/MVSlin.pdf>
+Package pdftex.def Info: vsPr1/MVSlin.pdf used on input line 34.
+(pdftex.def)             Requested size: 398.82234pt x 116.17911pt.
+ [14
+
+ <./vsPr1/Rovnica1.pdf>]
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 41.
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 41.
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+t'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 41.
+
+[15 <./vsPr1/MVSlin.pdf>] [16] [17]
+<vsPr1/Rovnica1MVS.pdf, id=607, 772.8736pt x 324.75337pt>
+File: vsPr1/Rovnica1MVS.pdf Graphic file (type pdf)
+
+<use vsPr1/Rovnica1MVS.pdf>
+Package pdftex.def Info: vsPr1/Rovnica1MVS.pdf used on input line 137.
+(pdftex.def)             Requested size: 618.29971pt x 259.80304pt.
+ <vsPr1/x.pdf, id=610, 421.575pt x 316.18124pt>
+File: vsPr1/x.pdf Graphic file (type pdf)
+
+<use vsPr1/x.pdf>
+Package pdftex.def Info: vsPr1/x.pdf used on input line 146.
+(pdftex.def)             Requested size: 208.36827pt x 156.2762pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 147.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 147.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 147.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 149.
+ <vsPr1/u.pdf, id=611, 421.575pt x 316.18124pt>
+File: vsPr1/u.pdf Graphic file (type pdf)
+
+<use vsPr1/u.pdf>
+Package pdftex.def Info: vsPr1/u.pdf used on input line 152.
+(pdftex.def)             Requested size: 208.36827pt x 156.2762pt.
+ [18 <./vsPr1/Rovnica1MVS.pdf>] [19 <./vsPr1/x.pdf> <./vsPr1/u.pdf
+
+pdfTeX warning: pdflatex (file ./vsPr1/u.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+>] [20] <vsPr1/pid.pdf, id=1070, 771.82205pt x 349.1046pt>
+File: vsPr1/pid.pdf Graphic file (type pdf)
+ <use vsPr1/pid.pdf>
+Package pdftex.def Info: vsPr1/pid.pdf used on input line 231.
+(pdftex.def)             Requested size: 463.0968pt x 209.46437pt.
+
+Overfull \hbox (10.1289pt too wide) in paragraph at lines 231--231
+ [] 
  []
 
-[11]) [12] (svlvvPr1/svlvvPr1.tex
-<figures/svlvvPr1/svlvvPr1Sys-crop.pdf, id=167, 428.60126pt x 179.67125pt>
+<vsPr1/xpid.pdf, id=1073, 421.575pt x 316.18124pt>
+File: vsPr1/xpid.pdf Graphic file (type pdf)
+ <use vsPr1/xpid.pdf>
+Package pdftex.def Info: vsPr1/xpid.pdf used on input line 240.
+(pdftex.def)             Requested size: 208.36827pt x 156.2762pt.
+
+<vsPr1/upid.pdf, id=1074, 421.575pt x 316.18124pt>
+File: vsPr1/upid.pdf Graphic file (type pdf)
+ <use vsPr1/upid.pdf>
+Package pdftex.def Info: vsPr1/upid.pdf used on input line 246.
+(pdftex.def)             Requested size: 208.36827pt x 156.2762pt.
+)
+(vsPr2/svlvvPr2.tex [21 <./vsPr1/pid.pdf>]
+<vsPr2/ModelSystemu.png, id=1279, 1591.9475pt x 815.045pt>
+File: vsPr2/ModelSystemu.png Graphic file (type png)
+
+<use vsPr2/ModelSystemu.png>
+Package pdftex.def Info: vsPr2/ModelSystemu.png used on input line 20.
+(pdftex.def)             Requested size: 362.37569pt x 185.52873pt.
+ [22 <./vsPr1/xpid.pdf> <./vsPr1/upid.pdf
+
+pdfTeX warning: pdflatex (file ./vsPr1/upid.pdf): PDF inclusion: multiple pdfs 
+with page group included in a single page
+> <./vsPr2/ModelSystemu.png (PNG copy)>]
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 38.
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+t'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 38.
+
+[23] [24] [25] [26]
+Overfull \hbox (8.50851pt too wide) in paragraph at lines 201--202
+\IL2/ptm/m/n/14.4 Rozvojom do Ta-y-lo-rovho radu do-sta-neme z pô-vod-ných rovn
+. ([][]45[][]) nové rovn. ([][]63[][]).
+ []
+
+[27]
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 257.
+
+<vsPr2/ModelRiadenia.png, id=1368, 1257.69875pt x 497.86pt>
+File: vsPr2/ModelRiadenia.png Graphic file (type png)
+
+<use vsPr2/ModelRiadenia.png>
+Package pdftex.def Info: vsPr2/ModelRiadenia.png used on input line 262.
+(pdftex.def)             Requested size: 362.37569pt x 143.4413pt.
+
+<vsPr2/ModelRiadeniaPID.png, id=1369, 1155.31625pt x 195.73125pt>
+File: vsPr2/ModelRiadeniaPID.png Graphic file (type png)
+
+<use vsPr2/ModelRiadeniaPID.png>
+Package pdftex.def Info: vsPr2/ModelRiadeniaPID.png used on input line 269.
+(pdftex.def)             Requested size: 362.37569pt x 61.39284pt.
+
+<vsPr2/SimulaciaNelin.png, id=1374, 526.96875pt x 395.22656pt>
+File: vsPr2/SimulaciaNelin.png Graphic file (type png)
+
+<use vsPr2/SimulaciaNelin.png>
+Package pdftex.def Info: vsPr2/SimulaciaNelin.png used on input line 279.
+(pdftex.def)             Requested size: 362.37569pt x 271.79597pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<vsPr2/SimulaciaPID.png, id=1375, 526.96875pt x 395.22656pt>
+File: vsPr2/SimulaciaPID.png Graphic file (type png)
+
+<use vsPr2/SimulaciaPID.png>
+Package pdftex.def Info: vsPr2/SimulaciaPID.png used on input line 286.
+(pdftex.def)             Requested size: 362.37569pt x 271.79597pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<vsPr2/SimulaciaPIDVelkySkok.png, id=1376, 526.96875pt x 395.22656pt>
+File: vsPr2/SimulaciaPIDVelkySkok.png Graphic file (type png)
+
+<use vsPr2/SimulaciaPIDVelkySkok.png>
+Package pdftex.def Info: vsPr2/SimulaciaPIDVelkySkok.png used on input line 293
+.
+(pdftex.def)             Requested size: 362.37569pt x 271.79597pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<vsPr2/SimulaciaNelinU.png, id=1377, 526.96875pt x 395.22656pt>
+File: vsPr2/SimulaciaNelinU.png Graphic file (type png)
+
+<use vsPr2/SimulaciaNelinU.png>
+Package pdftex.def Info: vsPr2/SimulaciaNelinU.png used on input line 300.
+(pdftex.def)             Requested size: 362.37569pt x 271.79597pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [28 <./vsPr2/ModelRiadenia.png (PNG copy)> <./vsPr2/ModelRiadeniaPID.png (PNG
+ copy)>] [29 <./vsPr2/SimulaciaNelin.png (PNG copy)> <./vsPr2/SimulaciaPID.png 
+(PNG copy)>] [30 <./vsPr2/SimulaciaPIDVelkySkok.png (PNG copy)> <./vsPr2/Simula
+ciaNelinU.png (PNG copy)>] (svlvvPr1/svlvvPr1.tex
+<figures/svlvvPr1/svlvvPr1Sys-crop.pdf, id=1398, 418.56375pt x 169.63374pt>
 File: figures/svlvvPr1/svlvvPr1Sys-crop.pdf Graphic file (type pdf)
 
 <use figures/svlvvPr1/svlvvPr1Sys-crop.pdf>
 Package pdftex.def Info: figures/svlvvPr1/svlvvPr1Sys-crop.pdf used on input li
-ne 18.
-(pdftex.def)             Requested size: 362.37569pt x 151.90976pt.
- [13
+ne 17.
+(pdftex.def)             Requested size: 362.37569pt x 146.86058pt.
+ [31
 
- <./figures/svlvvPr1/svlvvPr1Sys-crop.pdf>] [14] [15]
-<figures/svlvvPr1/svlvvPr1Vysledok-crop.pdf, id=224, 648.4225pt x 241.90375pt>
+ <./figures/svlvvPr1/svlvvPr1Sys-crop.pdf>]
+
+Package hyperref Warning: Composite letter `\textasciicaron+l'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 54.
+
+[32] [33]
+<figures/svlvvPr1/svlvvPr1Vysledok-crop.pdf, id=1450, 648.4225pt x 264.99pt>
 File: figures/svlvvPr1/svlvvPr1Vysledok-crop.pdf Graphic file (type pdf)
 
 <use figures/svlvvPr1/svlvvPr1Vysledok-crop.pdf>
 Package pdftex.def Info: figures/svlvvPr1/svlvvPr1Vysledok-crop.pdf used on inp
-ut line 153.
-(pdftex.def)             Requested size: 452.9679pt x 168.98819pt.
- [16 <./figures/svlvvPr1/svlvvPr1Vysledok-crop.pdf>]
-<figures/svlvvPr1/svlvvPr1ZapojeniePID-crop.pdf, id=377, 466.74374pt x 142.5325
+ut line 152.
+(pdftex.def)             Requested size: 452.9679pt x 185.11569pt.
+ [34 <./figures/svlvvPr1/svlvvPr1Vysledok-crop.pdf>]
+<figures/svlvvPr1/svlvvPr1ZapojeniePID-crop.pdf, id=1602, 456.70625pt x 132.495
 pt>
 File: figures/svlvvPr1/svlvvPr1ZapojeniePID-crop.pdf Graphic file (type pdf)
  <use figures/svlvvPr1/svlvvPr1ZapojeniePID-crop.pdf>
 Package pdftex.def Info: figures/svlvvPr1/svlvvPr1ZapojeniePID-crop.pdf used on
- input line 188.
-(pdftex.def)             Requested size: 362.37569pt x 110.66597pt.
+ input line 187.
+(pdftex.def)             Requested size: 362.37569pt x 105.13083pt.
 
-Overfull \hbox (10.69148pt too wide) in paragraph at lines 203--205
-\IL2/ptm/m/n/14.4 meho pra-vidla zá-por-nej spät-nej väzby rovn. ([][]37[][]). 
-Do-sta-neme tak pre-nos rovn. ([][]38[][]). 
+Overfull \hbox (10.69148pt too wide) in paragraph at lines 202--204
+\IL2/ptm/m/n/14.4 meho pra-vidla zá-por-nej spät-nej väzby rovn. ([][]84[][]). 
+Do-sta-neme tak pre-nos rovn. ([][]85[][]). 
  []
 
-[17 <./figures/svlvvPr1/svlvvPr1ZapojeniePID-crop.pdf>]
-<figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf, id=409, 848.16875pt x 316.18124
+[35 <./figures/svlvvPr1/svlvvPr1ZapojeniePID-crop.pdf>]
+<figures/svlvvPr1/svlvvPr1PIDVysledokLin-crop.pdf, id=1633, 640.3925pt x 264.99
 pt>
-File: figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf Graphic file (type pdf)
- <use figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf>
-Package pdftex.def Info: figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf used on 
-input line 255.
-(pdftex.def)             Requested size: 452.9679pt x 168.85858pt.
-)
+File: figures/svlvvPr1/svlvvPr1PIDVysledokLin-crop.pdf Graphic file (type pdf)
+ <use figures/svlvvPr1/svlvvPr1PIDVysledokLin-crop.pdf>
+Package pdftex.def Info: figures/svlvvPr1/svlvvPr1PIDVysledokLin-crop.pdf used 
+on input line 255.
+(pdftex.def)             Requested size: 452.9679pt x 187.43661pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (conclusions.tex [18]) [19 <./figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf>]
-(appendix.tex [20])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
+
+<figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf, id=1635, 640.3925pt x 264.99pt>
+File: figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf Graphic file (type pdf)
+<use figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf>
+Package pdftex.def Info: figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf used on 
+input line 263.
+(pdftex.def)             Requested size: 452.9679pt x 187.43661pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[36]) (svlvvPr2_marek/svlvvPr2.tex [37 <./figures/svlvvPr1/svlvvPr1PIDVysledokL
+in-crop.pdf> <./figures/svlvvPr1/svlvvPr1PIDVysledok-crop.pdf>]
+<svlvvPr2_marek/sysPr2.png, id=1892, 493.24275pt x 425.79076pt>
+File: svlvvPr2_marek/sysPr2.png Graphic file (type png)
+
+<use svlvvPr2_marek/sysPr2.png>
+Package pdftex.def Info: svlvvPr2_marek/sysPr2.png used on input line 18.
+(pdftex.def)             Requested size: 362.37569pt x 312.83224pt.
+ [38 <./svlvvPr2_marek/sysPr2.png>] [39]
+<svlvvPr2_marek/sysPr2complet.png, id=1917, 528.7755pt x 519.74174pt>
+File: svlvvPr2_marek/sysPr2complet.png Graphic file (type png)
+
+<use svlvvPr2_marek/sysPr2complet.png>
+Package pdftex.def Info: svlvvPr2_marek/sysPr2complet.png used on input line 92
+.
+(pdftex.def)             Requested size: 452.9679pt x 445.24825pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<svlvvPr2_marek/svlvvPr2ZapPID.png, id=1923, 682.9515pt x 317.38576pt>
+File: svlvvPr2_marek/svlvvPr2ZapPID.png Graphic file (type png)
+
+<use svlvvPr2_marek/svlvvPr2ZapPID.png>
+Package pdftex.def Info: svlvvPr2_marek/svlvvPr2ZapPID.png used on input line 1
+18.
+(pdftex.def)             Requested size: 362.37569pt x 168.40736pt.
+ [40]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[41 <./svlvvPr2_marek/sysPr2complet.png>] [42 <./svlvvPr2_marek/svlvvPr2ZapPID.
+png>] <svlvvPr2_marek/pr2vys.png, id=1959, 1445.4pt x 742.27313pt>
+File: svlvvPr2_marek/pr2vys.png Graphic file (type png)
+
+<use svlvvPr2_marek/pr2vys.png>
+Package pdftex.def Info: svlvvPr2_marek/pr2vys.png used on input line 182.
+(pdftex.def)             Requested size: 452.9679pt x 232.6167pt.
+
+<svlvvPr2_marek/pr2vysPID.png, id=1960, 1445.4pt x 742.27313pt>
+File: svlvvPr2_marek/pr2vysPID.png Graphic file (type png)
+
+<use svlvvPr2_marek/pr2vysPID.png>
+Package pdftex.def Info: svlvvPr2_marek/pr2vysPID.png used on input line 188.
+(pdftex.def)             Requested size: 452.9679pt x 232.6167pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[43 <./svlvvPr2_marek/pr2vys.png (PNG copy)>]) [44 <./svlvvPr2_marek/pr2vysPID.
+png (PNG copy)>] (integracia/integracia.tex) [45
+
+]
+(riadenieprojektu/riadenieprojektu.tex
+
+Package hyperref Warning: Composite letter `\textasciicaron+l'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 4.
+
+[46
+
+]
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 34.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020.pdf, id=1988, 597.50829
+pt x 845.0471pt>
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020.pdf>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020
+.pdf used on input line 54.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020.pdf>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020
+.pdf used on input line 54.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+<./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020.pdf, id=1991, page=1, 5
+97.50829pt x 845.0471pt>
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020
+.pdf, page1 used on input line 54.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020
+.pdf, page1 used on input line 54.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[47]
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020.pdf Graphic file (
+type pdf)
+ <use ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020
+.pdf, page1 used on input line 54.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020
+.pdf, page1 used on input line 54.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020
+.pdf, page1 used on input line 54.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[48 <./riadenieprojektu/../../Zapisnice/Zapisnica1_18022020.pdf>]
+<./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020.pdf, id=2018, 597.50829
+pt x 845.0471pt>
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020.pdf>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020
+.pdf used on input line 55.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020.pdf>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020
+.pdf used on input line 55.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+<./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020.pdf, id=2021, page=1, 5
+97.50829pt x 845.0471pt>
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020
+.pdf, page1 used on input line 55.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020
+.pdf, page1 used on input line 55.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020
+.pdf, page1 used on input line 55.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020
+.pdf, page1 used on input line 55.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020
+.pdf, page1 used on input line 55.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[49 <./riadenieprojektu/../../Zapisnice/Zapisnica2_25022020.pdf>]
+<./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020.pdf, id=2037, 597.50829
+pt x 845.0471pt>
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020.pdf>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020
+.pdf used on input line 56.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020.pdf>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020
+.pdf used on input line 56.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+<./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020.pdf, id=2040, page=1, 5
+97.50829pt x 845.0471pt>
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020
+.pdf, page1 used on input line 56.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020
+.pdf, page1 used on input line 56.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020
+.pdf, page1 used on input line 56.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020
+.pdf, page1 used on input line 56.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020
+.pdf, page1 used on input line 56.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[50 <./riadenieprojektu/../../Zapisnice/Zapisnica3_02032020.pdf>]
+<./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020.pdf, id=2055, 597.50829
+pt x 845.0471pt>
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020.pdf>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020
+.pdf used on input line 57.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020.pdf>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020
+.pdf used on input line 57.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+<./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020.pdf, id=2058, page=1, 5
+97.50829pt x 845.0471pt>
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020
+.pdf, page1 used on input line 57.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020
+.pdf, page1 used on input line 57.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020
+.pdf, page1 used on input line 57.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020
+.pdf, page1 used on input line 57.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020
+.pdf, page1 used on input line 57.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[51 <./riadenieprojektu/../../Zapisnice/Zapisnica4_03032020.pdf>]
+<./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020.pdf, id=2073, 597.50829
+pt x 845.0471pt>
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020.pdf>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020
+.pdf used on input line 58.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020.pdf>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020
+.pdf used on input line 58.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+<./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020.pdf, id=2076, page=1, 5
+97.50829pt x 845.0471pt>
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020
+.pdf, page1 used on input line 58.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020
+.pdf, page1 used on input line 58.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020
+.pdf, page1 used on input line 58.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020
+.pdf, page1 used on input line 58.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020
+.pdf, page1 used on input line 58.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[52 <./riadenieprojektu/../../Zapisnice/Zapisnica5_16032020.pdf>]
+<./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020.pdf, id=2091, 597.50829
+pt x 845.0471pt>
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020.pdf>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020
+.pdf used on input line 59.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020.pdf>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020
+.pdf used on input line 59.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+<./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020.pdf, id=2094, page=1, 5
+97.50829pt x 845.0471pt>
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020
+.pdf, page1 used on input line 59.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020
+.pdf, page1 used on input line 59.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020
+.pdf, page1 used on input line 59.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020
+.pdf, page1 used on input line 59.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020
+.pdf, page1 used on input line 59.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[53 <./riadenieprojektu/../../Zapisnice/Zapisnica6_23032020.pdf>]
+<./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020.pdf, id=2109, 597.50829
+pt x 845.0471pt>
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020.pdf>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020
+.pdf used on input line 60.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020.pdf>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020
+.pdf used on input line 60.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+<./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020.pdf, id=2112, page=1, 5
+97.50829pt x 845.0471pt>
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020
+.pdf, page1 used on input line 60.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020
+.pdf, page1 used on input line 60.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020
+.pdf, page1 used on input line 60.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020
+.pdf, page1 used on input line 60.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020
+.pdf, page1 used on input line 60.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[54 <./riadenieprojektu/../../Zapisnice/Zapisnica7_30032020.pdf>]
+<./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020.pdf, id=2127, 597.50829
+pt x 845.0471pt>
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020.pdf>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020
+.pdf used on input line 61.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020.pdf>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020
+.pdf used on input line 61.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+<./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020.pdf, id=2130, page=1, 5
+97.50829pt x 845.0471pt>
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020
+.pdf, page1 used on input line 61.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020
+.pdf, page1 used on input line 61.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020
+.pdf, page1 used on input line 61.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020
+.pdf, page1 used on input line 61.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020
+.pdf, page1 used on input line 61.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[55 <./riadenieprojektu/../../Zapisnice/Zapisnica8_06042020.pdf>]
+<./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020.pdf, id=2143, 597.50829
+pt x 845.0471pt>
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020.pdf>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020
+.pdf used on input line 62.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020.pdf>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020
+.pdf used on input line 62.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+<./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020.pdf, id=2146, page=1, 5
+97.50829pt x 845.0471pt>
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020
+.pdf, page1 used on input line 62.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020
+.pdf, page1 used on input line 62.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020
+.pdf, page1 used on input line 62.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020
+.pdf, page1 used on input line 62.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020.pdf Graphic file (
+type pdf)
+
+<use ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020.pdf, page 1>
+Package pdftex.def Info: ./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020
+.pdf, page1 used on input line 62.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[56 <./riadenieprojektu/../../Zapisnice/Zapisnica9_14042020.pdf>]))
+(conclusions.tex) [57] (appendix.tex [58])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A1851D3E525516F2E0067C483D2091FA;781.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: E2E178125CCE4E59D29D0A34DE7609AA;3630.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 192.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
  ) 
 Here is how much of TeX's memory you used:
- 17684 strings out of 493333
- 283452 string characters out of 3139196
- 415757 words of memory out of 3000000
- 20759 multiletter control sequences out of 15000+200000
- 27790 words of font info for 51 fonts, out of 3000000 for 9000
- 1142 hyphenation exceptions out of 8191
- 55i,21n,92p,688b,593s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
-es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8a.
-enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/tim
-es/utmri8a.pfb>
-Output written on main.pdf (20 pages, 673610 bytes).
+ 18411 strings out of 493333
+ 299475 string characters out of 3139196
+ 424045 words of memory out of 3000000
+ 21233 multiletter control sequences out of 15000+200000
+ 44012 words of font info for 69 fonts, out of 3000000 for 9000
+ 1149 hyphenation exceptions out of 8191
+ 55i,23n,92p,770b,682s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/Mi
+KTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dv
+ips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.
+enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8a.enc}{C:/Program Files/
+MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
+mex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
+y7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (58 pages, 1354749 bytes).
 PDF statistics:
- 517 PDF objects out of 1000 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
- 2185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2277 PDF objects out of 2487 (max. 8388607)
+ 254 named destinations out of 1000 (max. 500000)
+ 5310 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350) (preloaded format=pdflatex 2020.4.2)  8 APR 2020 07:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350) (preloaded format=pdflatex 2020.4.2)  16 APR 2020 16:46
 entering extended mode
 **./integracia.tex
 (integracia.tex
@@ -36,20 +36,8 @@ File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 (/home/dot/.miktex/texmfs/install/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(../FormatsAndDefs.tex
-(/home/dot/.miktex/texmfs/install/tex/latex/epsf/epsf.sty
-This is `epsf.tex' v2.7.4 <14 February 2011>
-\epsffilein=\read3
-\epsfframemargin=\dimen135
-\epsfframethickness=\dimen136
-\epsfrsize=\dimen137
-\epsftmp=\dimen138
-\epsftsize=\dimen139
-\epsfxsize=\dimen140
-\epsfysize=\dimen141
-\pspoints=\dimen142
-) (/home/dot/.miktex/texmfs/install/tex/latex/graphics/epsfig.sty
-Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+(/home/dot/.miktex/texmfs/install/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
 (/home/dot/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -72,9 +60,29 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 (/home/dot/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen143
-\Gin@req@width=\dimen144
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
 )
+\c@r@tfl@t=\count175
+\rotFPtop=\skip49
+\rotFPbot=\skip50
+\rot@float@box=\box45
+\rot@mess@toks=\toks18
+)
+(../FormatsAndDefs.tex
+(/home/dot/.miktex/texmfs/install/tex/latex/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+\epsffilein=\read3
+\epsfframemargin=\dimen137
+\epsfframethickness=\dimen138
+\epsfrsize=\dimen139
+\epsftmp=\dimen140
+\epsftsize=\dimen141
+\epsfxsize=\dimen142
+\epsfysize=\dimen143
+\pspoints=\dimen144
+) (/home/dot/.miktex/texmfs/install/tex/latex/graphics/epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 \epsfxsize=\dimen145
 \epsfysize=\dimen146
 )
@@ -93,26 +101,26 @@ Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 (/home/dot/.miktex/texmfs/install/tex/latex/ucs/uni-global.def
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
-\uc@secondtry=\count175
-\uc@combtoks=\toks18
-\uc@combtoksb=\toks19
-\uc@temptokena=\toks20
+\uc@secondtry=\count176
+\uc@combtoks=\toks19
+\uc@combtoksb=\toks20
+\uc@temptokena=\toks21
 )
 (/home/dot/.miktex/texmfs/install/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks21
-\inpenc@posthook=\toks22
+\inpenc@prehook=\toks22
+\inpenc@posthook=\toks23
 
 (/home/dot/.miktex/texmfs/install/tex/latex/ucs/utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ))
 (/home/dot/.miktex/texmfs/install/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count176
-\float@exts=\toks23
-\float@box=\box45
-\@float@everytoks=\toks24
-\@floatcapt=\box46
+\c@float@type=\count177
+\float@exts=\toks24
+\float@box=\box46
+\@float@everytoks=\toks25
+\@floatcapt=\box47
 )
 (/home/dot/.miktex/texmfs/install/tex/latex/graphics/color.sty
 Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
@@ -130,10 +138,10 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/home/dot/.miktex/texmfs/install/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip49
-\bibsep=\skip50
+\bibhang=\skip51
+\bibsep=\skip52
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count177
+\c@NAT@ctr=\count178
 )
 (/home/dot/.miktex/texmfs/install/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
@@ -159,16 +167,16 @@ Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
 
 (/home/dot/.miktex/texmfs/install/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count178
-\calc@Bcount=\count179
+\calc@Acount=\count179
+\calc@Bcount=\count180
 \calc@Adimen=\dimen147
 \calc@Bdimen=\dimen148
-\calc@Askip=\skip51
-\calc@Bskip=\skip52
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count180
-\calc@Cskip=\skip53
+\calc@Ccount=\count181
+\calc@Cskip=\skip55
 )
 \AM@pagewidth=\dimen149
 \AM@pageheight=\dimen150
@@ -176,32 +184,32 @@ LaTeX Info: Redefining \addtolength on input line 81.
 (/home/dot/.miktex/texmfs/install/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box47
-\AM@global@opts=\toks25
-\AM@pagecnt=\count181
-\AM@toc@title=\toks26
-\c@AM@survey=\count182
-\AM@templatesizebox=\box48
+\AM@pagebox=\box48
+\AM@global@opts=\toks26
+\AM@pagecnt=\count182
+\AM@toc@title=\toks27
+\c@AM@survey=\count183
+\AM@templatesizebox=\box49
 )
 (/home/dot/.miktex/texmfs/install/tex/latex/listings/listings.sty
-\lst@mode=\count183
-\lst@gtempboxa=\box49
-\lst@token=\toks27
-\lst@length=\count184
+\lst@mode=\count184
+\lst@gtempboxa=\box50
+\lst@token=\toks28
+\lst@length=\count185
 \lst@currlwidth=\dimen151
-\lst@column=\count185
-\lst@pos=\count186
+\lst@column=\count186
+\lst@pos=\count187
 \lst@lostspace=\dimen152
 \lst@width=\dimen153
-\lst@newlines=\count187
-\lst@lineno=\count188
+\lst@newlines=\count188
+\lst@lineno=\count189
 \lst@maxwidth=\dimen154
 
 (/home/dot/.miktex/texmfs/install/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count189
-\lst@skipnumbers=\count190
-\lst@framebox=\box50
+\c@lstnumber=\count190
+\lst@skipnumbers=\count191
+\lst@framebox=\box51
 )
 (/home/dot/.miktex/texmfs/install/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -210,25 +218,25 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
 (/home/dot/.miktex/texmfs/install/tex/latex/moreverb/moreverb.sty
 Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
-\tab@position=\count191
-\tab@size=\count192
-\listing@line=\count193
+\tab@position=\count192
+\tab@size=\count193
+\listing@line=\count194
 )
 (/home/dot/.miktex/texmfs/install/tex/latex/microtype/microtype.sty
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
-\MT@toks=\toks28
-\MT@count=\count194
+\MT@toks=\toks29
+\MT@count=\count195
 LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen155
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count195
+\MT@listname@count=\count196
 
 (/home/dot/.miktex/texmfs/install/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 914.
 LaTeX Info: Redefining \lslig on input line 914.
-\MT@outer@space=\skip54
+\MT@outer@space=\skip56
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -276,9 +284,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 )
 (/home/dot/.miktex/texmfs/install/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count196
-\c@@ppsavesec=\count197
-\c@@ppsaveapp=\count198
+\c@@pps=\count197
+\c@@ppsavesec=\count198
+\c@@ppsaveapp=\count199
 )
 (/home/dot/.miktex/texmfs/install/tex/latex/libertine/libertine.sty
 Package: libertine 2020/03/26 (Bob Tennent) Supports Libertine and Biolinum fon
@@ -295,10 +303,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/home/dot/.miktex/texmfs/install/tex/generic/xkeyval/xkeyval.tex
 (/home/dot/.miktex/texmfs/install/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks29
-\XKV@tempa@toks=\toks30
+\XKV@toks=\toks30
+\XKV@tempa@toks=\toks31
 )
-\XKV@depth=\count199
+\XKV@depth=\count266
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/home/dot/.miktex/texmfs/install/tex/latex/base/textcomp.sty
@@ -333,7 +341,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/home/dot/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
-\@mathmargin=\skip55
+\@mathmargin=\skip57
 
 For additional information on amsmath, use the `?' option.
 (/home/dot/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
@@ -341,7 +349,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/home/dot/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks31
+\@emptytoks=\toks32
 \ex@=\dimen156
 ))
 (/home/dot/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
@@ -351,41 +359,41 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/home/dot/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count266
+\inf@bad=\count267
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count267
-\leftroot@=\count268
+\uproot@=\count268
+\leftroot@=\count269
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count269
-\DOTSCASE@=\count270
+\classnum@=\count270
+\DOTSCASE@=\count271
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
+\Mathstrutbox@=\box52
+\strutbox@=\box53
 \big@size=\dimen158
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count271
-\c@MaxMatrixCols=\count272
+\macc@depth=\count272
+\c@MaxMatrixCols=\count273
 \dotsspace@=\muskip17
-\c@parentequation=\count273
-\dspbrk@lvl=\count274
-\tag@help=\toks32
-\row@=\count275
-\column@=\count276
-\maxfields@=\count277
-\andhelp@=\toks33
+\c@parentequation=\count274
+\dspbrk@lvl=\count275
+\tag@help=\toks33
+\row@=\count276
+\column@=\count277
+\maxfields@=\count278
+\andhelp@=\toks34
 \eqnshift@=\dimen159
 \alignsep@=\dimen160
 \tagshift@=\dimen161
 \tagwidth@=\dimen162
 \totwidth@=\dimen163
 \lineht@=\dimen164
-\@envbody=\toks34
-\multlinegap=\skip56
-\multlinetaggap=\skip57
-\mathdisplay@stack=\toks35
+\@envbody=\toks35
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks36
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -403,18 +411,18 @@ Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 (/home/dot/.miktex/texmfs/install/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen165
-\ar@mcellbox=\box53
+\ar@mcellbox=\box54
 \extrarowheight=\dimen166
-\NC@list=\toks36
-\extratabsurround=\skip58
-\backup@length=\skip59
-\ar@cellbox=\box54
+\NC@list=\toks37
+\extratabsurround=\skip60
+\backup@length=\skip61
+\ar@cellbox=\box55
 )
-\everycr=\toks37
-\minrowclearance=\skip60
+\everycr=\toks38
+\minrowclearance=\skip62
 )
 LaTeX Info: Redefining \color on input line 709.
-\rownum=\count278
+\rownum=\count279
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -432,8 +440,8 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@old@col=\dimen169
 \TX@target=\dimen170
 \TX@delta=\dimen171
-\TX@cols=\count279
-\TX@ftn=\toks38
+\TX@cols=\count280
+\TX@ftn=\toks39
 )
 (/home/dot/.miktex/texmfs/install/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2020/02/14 v1.6 Multi-file projects (package)
@@ -444,9 +452,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/home/dot/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count280
-\Gm@cntv=\count281
-\c@Gm@tempcnt=\count282
+\Gm@cnth=\count281
+\Gm@cntv=\count282
+\c@Gm@tempcnt=\count283
 \Gm@bindingoffset=\dimen172
 \Gm@wd@mp=\dimen173
 \Gm@odd@mp=\dimen174
@@ -455,7 +463,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen177
 \Gm@layouthoffset=\dimen178
 \Gm@layoutvoffset=\dimen179
-\Gm@dimlist=\toks39
+\Gm@dimlist=\toks40
 
 (/home/dot/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
 (/home/dot/.miktex/texmfs/install/tex/latex/emptypage/emptypage.sty
@@ -480,12 +488,12 @@ Language: slovak 2008/07/06 v3.1a Slovak support from the babel system
 
 (/home/dot/.miktex/texmfs/install/tex/generic/babel/babel.def
 File: babel.def 2020/03/22 3.42 Babel common definitions
-\babel@savecnt=\count283
+\babel@savecnt=\count284
 \U@D=\dimen180
 
 (/home/dot/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read4
-\bbl@dirlevel=\count284
+\bbl@dirlevel=\count285
 )
 
 Package babel Warning: No hyphenation patterns were preloaded for
@@ -497,7 +505,7 @@ Package babel Warning: No hyphenation patterns were preloaded for
 Package babel Info: Making ^ an active character on input line 123.
 Package babel Info: Making " an active character on input line 126.
 Package babel Info: Making ' an active character on input line 129.
-\cs@wordlen=\count285
+\cs@wordlen=\count286
 Package babel Info: Making - an active character on input line 294.
 )) (/home/dot/.miktex/texmfs/install/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
@@ -569,8 +577,8 @@ Package auxhook Warning: Cannot patch \document,
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen181
-\Hy@linkcounter=\count286
-\Hy@pagecounter=\count287
+\Hy@linkcounter=\count287
+\Hy@pagecounter=\count288
 
 (/home/dot/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
@@ -581,7 +589,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/home/dot/.miktex/texmfs/install/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count288
+\Hy@SavedSpaceFactor=\count289
 Package hyperref Info: Option `colorlinks' set `true' on input line 4421.
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
@@ -590,7 +598,7 @@ Package hyperref Info: Plain pages OFF on input line 4562.
 Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count289
+\c@Hy@tempcnt=\count290
 LaTeX Info: Redefining \url on input line 5159.
 \XeTeXLinkMargin=\dimen182
 
@@ -601,7 +609,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count290
+\Fld@menulength=\count291
 \Field@Width=\dimen183
 \Fld@charsize=\dimen184
 Package hyperref Info: Hyper figures OFF on input line 6430.
@@ -613,9 +621,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6455.
 Package hyperref Info: PDF/A mode OFF on input line 6460.
 LaTeX Info: Redefining \ref on input line 6500.
 LaTeX Info: Redefining \pageref on input line 6504.
-\Hy@abspage=\count291
-\c@Item=\count292
-\c@Hfootnote=\count293
+\Hy@abspage=\count292
+\c@Item=\count293
+\c@Hfootnote=\count294
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -625,8 +633,8 @@ File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 (/home/dot/.miktex/texmfs/install/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 )
-\Fld@listcount=\count294
-\c@bookmark@seq@number=\count295
+\Fld@listcount=\count295
+\c@bookmark@seq@number=\count296
 
 (/home/dot/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -637,7 +645,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip61
+\Hy@SectionHShift=\skip63
 ) (/home/dot/.miktex/texmfs/install/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
@@ -693,8 +701,8 @@ File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
 )))
 (/home/dot/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count296
-\l__pdf_internal_box=\box55
+\l__kernel_color_stack_int=\count297
+\l__pdf_internal_box=\box56
 )
 
 LaTeX Warning: Unused global option(s):
@@ -733,17 +741,17 @@ LaTeX Font Info:    Created by CsPsFont utility v.1.0e (C) Z. Wagner, 1998/01/3
 )
 (/home/dot/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count297
+\scratchcounter=\count298
 \scratchdimen=\dimen194
-\scratchbox=\box56
-\nofMPsegments=\count298
-\nofMParguments=\count299
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count300
+\scratchbox=\box57
+\nofMPsegments=\count299
+\nofMParguments=\count300
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count301
 \MPscratchDim=\dimen195
-\MPnumerator=\count301
-\makeMPintoPDFobject=\count302
-\everyMPtoPDFconversion=\toks41
+\MPnumerator=\count302
+\makeMPintoPDFobject=\count303
+\everyMPtoPDFconversion=\toks42
 ) (/home/dot/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -760,13 +768,13 @@ G,.JBIG2,.JB2,.eps]
 (/home/dot/.miktex/texmfs/install/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-\AtBeginShipoutBox=\box57
+\AtBeginShipoutBox=\box58
 
 (/home/dot/.miktex/texmfs/install/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-\c@lstlisting=\count303
+\c@lstlisting=\count304
 LaTeX Info: Redefining \microtypecontext on input line 2.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -782,8 +790,8 @@ Package microtype Info: No adjustment of character kerning.
 (/home/dot/.miktex/texmfs/install/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-\c@mv@tabular=\count304
-\c@mv@boldtabular=\count305
+\c@mv@tabular=\count305
+\c@mv@boldtabular=\count306
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -829,7 +837,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/home/dot/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count306
+\c@section@level=\count307
 )
 LaTeX Info: Redefining \ref on input line 2.
 LaTeX Info: Redefining \pageref on input line 2.
@@ -868,12 +876,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 17184 strings out of 482860
- 276669 string characters out of 2953169
- 590867 words of memory out of 3000000
- 32477 multiletter control sequences out of 15000+200000
+ 17253 strings out of 482860
+ 277634 string characters out of 2953169
+ 592065 words of memory out of 3000000
+ 32538 multiletter control sequences out of 15000+200000
  537800 words of font info for 30 fonts, out of 3000000 for 9000
- 0 hyphenation exceptions out of 8191
+ 5 hyphenation exceptions out of 8191
  70i,6n,111p,427b,519s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/home/dot/.miktex/texmfs/install/fonts/enc/dvips/base/8a.enc}</home/dot/.mik
 tex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb>
