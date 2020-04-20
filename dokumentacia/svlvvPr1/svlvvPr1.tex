@@ -18,7 +18,7 @@
 		\caption{Bloková schéma systému z \cref{eqn:svlvvPr1SyavovyOpis}}
 		\label{fig:svlvvPr1BlockSchemaSystemu}
 	\end{figure}
-    \subsubsection*{Rovnovážny stav systému}
+    \subsubsection{Rovnovážny stav systému}
     Bod $x_1 = x_2 = 0$ je rovnovážnym bodom tohto systému, čo si môžeme overiť dosadením:
 	\begin{equation*}
 	    \begin{aligned}
@@ -31,7 +31,7 @@
 	
 	Predpokladajme, že chceme tento systém riadiť tak, aby výstup dosiahol žiadanú hodnotu $r$ a aplikujme nelineárne riadenie navrhnuté metódou vstupno výstupnej spätnoväzobnej linearizácie. Metódu vysvetlíme rovno počas návrhu. 
 	
-    \subsubsection*{Prvý krok metódy - derivácia rovnice výstupu}
+    \subsubsection{Prvý krok - derivácia rovnice výstupu}
     Prvým krokom metódy je derivácia vzťahu pre výstup systému $y$. Derivujeme toľkokrát koľkokrát je potrebné, nato aby sa vstup systému $u$ objavil v rovnici.
 	\begin{equation*}
 	\begin{aligned}
@@ -51,7 +51,7 @@
         \label{eqn:svlvvpr1-derivv}
     \end{equation} 
 
-    \subsubsection*{Druhý krok - voľba zákona linearizácie}
+    \subsubsection{Druhý krok - voľba zákona linearizácie}
 	Teraz si všimnime, že ak zvolíme vstup $u$ do systému, tak ako je \cref{eqn:svlvvPr1ZakonLinearizacie} 
 	\begin{equation}
 	    u = -\sin(x_1) x_2  +  \frac{v}{2 + \cos x_1}
@@ -76,7 +76,7 @@ po dosadení do \cref{eqn:svlvvpr1-derivv} dostaneme:% \cref{eqn:svlvvPr1-dosade
     \end{equation} 
      Voľba takéhoto zákona, nazvime ho zákonom linearizácie, pre vstup $u$ do systému, je druhým krokom metódy.
 
-    \subsubsection*{Tretí krok - návrh zákona riadenia linearizovaného systému}
+    \subsubsection{Tretí krok - návrh lineárneho zákona riadenia}
     Ako posledný krok, musíme zvoliť tvar $v$, tak aby sme dosiahli požadovanú dynamiku systému.
     
     Zvolme si $v$ podľa \cref{eqn:svlvvPr1ZakonRiadenia}.
@@ -154,7 +154,7 @@ po dosadení do \cref{eqn:svlvvpr1-derivv} dostaneme:% \cref{eqn:svlvvPr1-dosade
 		\label{fig:svlvvPr1Vysledok}
 	\end{figure}
 
-    \subsubsection*{Zhrnutie krokov metódy}
+    \subsubsection{Zhrnutie krokov metódy}
     Kroky návrhu sumarizujeme v 3 bodoch:
     \begin{enumerate}
         \item Derivácia rovnice výstupu, až kým sa v rovnici neobjaví vstupná premenná
@@ -162,7 +162,7 @@ po dosadení do \cref{eqn:svlvvpr1-derivv} dostaneme:% \cref{eqn:svlvvPr1-dosade
         \item Návrh zákona riadenia (regulátora) pre linearizovaný systém
     \end{enumerate}
 
-    \subsubsection*{Porovnanie s PID}
+    \subsubsection{Porovnanie s PID}
 	Pre porovnanie skúsme navrhnúť ešte PID regulátor pre systém linearizovaný v rovnovážnom bode $x_1 = x_2 = 0$. Po linearizovaný bude mať systém tvar \cref{eqn:svlvvPr1LinearizovanySystem}. 
 	\begin{equation}
 	\begin{gathered}
