@@ -1,48 +1,48 @@
-\select@language {slovak}
-\contentsline {section}{Zoznam pou\IeC {\v z}it\IeC {\'y}ch skratiek}{5}{section*.2}
-\contentsline {section}{\numberline {1}\IeC {\'U}vod}{6}{section.1}
-\contentsline {section}{\numberline {2}Matematick\IeC {\'e} z\IeC {\'a}klady}{7}{section.2}
-\contentsline {subsection}{Stavov\IeC {\'y} opis}{7}{section*.3}
-\contentsline {subsection}{Rovnvoa\IeC {\v z}n\IeC {\'e} stavy}{8}{section*.4}
-\contentsline {subsection}{Lineariz\IeC {\'a}cia}{9}{section*.5}
-\contentsline {subsection}{Rie\IeC {\v s}enie preur\IeC {\v c}enej s\IeC {\'u}stavy rovn\IeC {\'\i }c}{11}{section*.6}
-\contentsline {subsection}{Parci\IeC {\'a}lne deriv\IeC {\'a}cie}{12}{section*.7}
-\contentsline {section}{\numberline {3}Sp\IeC {\"a}tnov\IeC {\"a}zbov\IeC {\'a} lineariz\IeC {\'a}cia - vstupno-stavov\IeC {\'a}}{14}{section.3}
-\contentsline {subsection}{\IeC {\'U}vodn\IeC {\'y} pr\IeC {\'\i }klad}{14}{section*.8}
-\contentsline {subsubsection}{Rovnova\IeC {\v z}n\IeC {\'e} stavy syst\IeC {\'e}mu}{14}{section*.9}
-\contentsline {subsubsection}{Prv\IeC {\'y} krok - ur\IeC {\v c}enie transforma\IeC {\v c}n\IeC {\'y}ch vz\IeC {\v t}ahov}{15}{section*.10}
-\contentsline {subsubsection}{Druh\IeC {\'y} krok - transform\IeC {\'a}cia syst\IeC {\'e}mu}{15}{section*.11}
-\contentsline {subsubsection}{Tret\IeC {\'\i } krok - n\IeC {\'a}vrh line\IeC {\'a}rneho stavov\IeC {\'e}ho regul\IeC {\'a}tora}{16}{section*.12}
-\contentsline {subsubsection}{Overenie v\IeC {\'y}sledokv}{17}{section*.13}
-\contentsline {subsubsection}{N\IeC {\'a}vrh PID regul\IeC {\'a}tora}{19}{section*.14}
-\contentsline {subsection}{Pr\IeC {\'\i }klad druh\IeC {\'y}}{22}{section*.15}
-\contentsline {subsubsection}{Opis syst\IeC {\'e}mu}{22}{section*.16}
-\contentsline {subsubsection}{Rovnova\IeC {\v z}n\IeC {\'e} stavy}{23}{section*.17}
-\contentsline {subsubsection}{Prv\IeC {\'y} krok - n\IeC {\'a}jdenie transforma\IeC {\v c}n\IeC {\'y}ch vz\IeC {\v t}ahov}{23}{section*.18}
-\contentsline {subsubsection}{Druh\IeC {\'y} krok - transform\IeC {\'a}cia syst\IeC {\'e}mu}{23}{section*.19}
-\contentsline {subsubsection}{Tret\IeC {\'\i } krok - n\IeC {\'a}vrh parametrov line\IeC {\'a}rnho regul\IeC {\'a}tra}{25}{section*.20}
-\contentsline {subsubsection}{N\IeC {\'a}vrh PID regul\IeC {\'a}tora pre lineariz\IeC {\'a}ciu syst\IeC {\'e}mu}{27}{section*.21}
-\contentsline {subsubsection}{Simula\IeC {\v c}n\IeC {\'e} overenie n\IeC {\'a}vrhu}{28}{section*.22}
-\contentsline {section}{\numberline {4}Sp\IeC {\"a}tnov\IeC {\"a}zbov\IeC {\'a} lineariz\IeC {\'a}cia - vstupno-v\IeC {\'y}stupn\IeC {\'a}}{31}{section.4}
-\contentsline {subsection}{Pr\IeC {\'\i }klad prv\IeC {\'y}}{31}{section*.23}
-\contentsline {subsubsection}{Rovnov\IeC {\'a}\IeC {\v z}ny stav syst\IeC {\'e}mu}{31}{section*.24}
-\contentsline {subsubsection}{Prv\IeC {\'y} krok - deriv\IeC {\'a}cia rovnice v\IeC {\'y}stupu}{32}{section*.25}
-\contentsline {subsubsection}{Druh\IeC {\'y} krok - vo\IeC {\v l}ba z\IeC {\'a}kona lineariz\IeC {\'a}cie}{32}{section*.26}
-\contentsline {subsubsection}{Tret\IeC {\'\i } krok - n\IeC {\'a}vrh line\IeC {\'a}rneho z\IeC {\'a}kona riadenia}{33}{section*.27}
-\contentsline {subsubsection}{Zhrnutie krokov met\IeC {\'o}dy}{34}{section*.28}
-\contentsline {subsubsection}{Porovnanie s PID}{35}{section*.29}
-\contentsline {subsection}{Pr\IeC {\'\i }klad druh\IeC {\'y}}{38}{section*.30}
-\contentsline {subsubsection}{N\IeC {\'a}vrh riadenia}{38}{section*.31}
-\contentsline {subsubsection}{N\IeC {\'a}vrh PID}{40}{section*.32}
-\contentsline {subsubsection}{Porovnanie riadenia}{43}{section*.33}
-\contentsline {subsubsection}{Z\IeC {\'a}ver}{44}{section*.34}
-\contentsline {section}{\numberline {5}Integr\IeC {\'a}cia do predmetu RNS}{45}{section.5}
-\contentsline {section}{\numberline {6}Riadenie projektu}{46}{section.6}
-\contentsline {subsection}{Predstavenie rie\IeC {\v s}ite\IeC {\v l}sk\IeC {\'e}ho kolekt\IeC {\'\i }vu}{46}{section*.35}
-\contentsline {subsection}{Pl\IeC {\'a}n projektu}{46}{section*.36}
-\contentsline {subsection}{Dohodnut\IeC {\'e} met\IeC {\'o}dy pr\IeC {\'a}ce}{47}{section*.37}
-\contentsline {subsection}{Komunik\IeC {\'a}cia a koordin\IeC {\'a}cia projektu}{47}{section*.38}
-\contentsline {subsection}{Kontrola rozhodnut\IeC {\'\i } t\IeC {\'\i }mu}{47}{section*.39}
-\contentsline {subsection}{Podrobn\IeC {\'e} z\IeC {\'a}znamy o stretnut\IeC {\'\i }}{47}{section*.40}
-\contentsline {section}{\numberline {7}Z\IeC {\'a}ver}{57}{section.7}
-\contentsline {section}{Literat\'ura}{58}{section.7}
+\babel@toc {slovak}{}
+\contentsline {section}{Zoznam pou\IeC {\v z}it\IeC {\'y}ch skratiek}{5}{section*.2}%
+\contentsline {section}{\numberline {1}\IeC {\'U}vod}{6}{section.1}%
+\contentsline {section}{\numberline {2}Matematick\IeC {\'e} z\IeC {\'a}klady}{7}{section.2}%
+\contentsline {subsection}{Stavov\IeC {\'y} opis}{7}{section*.3}%
+\contentsline {subsection}{Rovnov\IeC {\'a}\IeC {\v z}ne stavy}{8}{section*.4}%
+\contentsline {subsection}{Lineariz\IeC {\'a}cia}{9}{section*.5}%
+\contentsline {subsection}{Rie\IeC {\v s}enie preur\IeC {\v c}enej s\IeC {\'u}stavy rovn\IeC {\'\i }c}{11}{section*.6}%
+\contentsline {subsection}{Parci\IeC {\'a}lne deriv\IeC {\'a}cie}{12}{section*.7}%
+\contentsline {section}{\numberline {3}Sp\IeC {\"a}tnov\IeC {\"a}zbov\IeC {\'a} lineariz\IeC {\'a}cia - vstupno-stavov\IeC {\'a}}{14}{section.3}%
+\contentsline {subsection}{\IeC {\'U}vodn\IeC {\'y} pr\IeC {\'\i }klad}{14}{section*.8}%
+\contentsline {subsubsection}{Rovnov\IeC {\'a}\IeC {\v z}ne stavy syst\IeC {\'e}mu}{14}{section*.9}%
+\contentsline {subsubsection}{Prv\IeC {\'y} krok - ur\IeC {\v c}enie transforma\IeC {\v c}n\IeC {\'y}ch vz\IeC {\v t}ahov}{15}{section*.10}%
+\contentsline {subsubsection}{Druh\IeC {\'y} krok - transform\IeC {\'a}cia syst\IeC {\'e}mu}{15}{section*.11}%
+\contentsline {subsubsection}{Tret\IeC {\'\i } krok - n\IeC {\'a}vrh line\IeC {\'a}rneho stavov\IeC {\'e}ho regul\IeC {\'a}tora}{16}{section*.12}%
+\contentsline {subsubsection}{Overenie v\IeC {\'y}sledokv}{17}{section*.13}%
+\contentsline {subsubsection}{N\IeC {\'a}vrh PID regul\IeC {\'a}tora}{19}{section*.14}%
+\contentsline {subsection}{Pr\IeC {\'\i }klad druh\IeC {\'y}}{22}{section*.15}%
+\contentsline {subsubsection}{Opis syst\IeC {\'e}mu}{22}{section*.16}%
+\contentsline {subsubsection}{Rovnov\IeC {\'a}\IeC {\v z}ne stavy}{23}{section*.17}%
+\contentsline {subsubsection}{Prv\IeC {\'y} krok - n\IeC {\'a}jdenie transforma\IeC {\v c}n\IeC {\'y}ch vz\IeC {\v t}ahov}{23}{section*.18}%
+\contentsline {subsubsection}{Druh\IeC {\'y} krok - transform\IeC {\'a}cia syst\IeC {\'e}mu}{23}{section*.19}%
+\contentsline {subsubsection}{Tret\IeC {\'\i } krok - n\IeC {\'a}vrh parametrov line\IeC {\'a}rnho regul\IeC {\'a}tra}{25}{section*.20}%
+\contentsline {subsubsection}{N\IeC {\'a}vrh PID regul\IeC {\'a}tora pre lineariz\IeC {\'a}ciu syst\IeC {\'e}mu}{27}{section*.21}%
+\contentsline {subsubsection}{Simula\IeC {\v c}n\IeC {\'e} overenie n\IeC {\'a}vrhu}{28}{section*.22}%
+\contentsline {section}{\numberline {4}Sp\IeC {\"a}tnov\IeC {\"a}zbov\IeC {\'a} lineariz\IeC {\'a}cia - vstupno-v\IeC {\'y}stupn\IeC {\'a}}{31}{section.4}%
+\contentsline {subsection}{Pr\IeC {\'\i }klad prv\IeC {\'y}}{31}{section*.23}%
+\contentsline {subsubsection}{Rovnov\IeC {\'a}\IeC {\v z}ny stav syst\IeC {\'e}mu}{31}{section*.24}%
+\contentsline {subsubsection}{Prv\IeC {\'y} krok - deriv\IeC {\'a}cia rovnice v\IeC {\'y}stupu}{32}{section*.25}%
+\contentsline {subsubsection}{Druh\IeC {\'y} krok - vo\IeC {\v l}ba z\IeC {\'a}kona lineariz\IeC {\'a}cie}{32}{section*.26}%
+\contentsline {subsubsection}{Tret\IeC {\'\i } krok - n\IeC {\'a}vrh line\IeC {\'a}rneho z\IeC {\'a}kona riadenia}{33}{section*.27}%
+\contentsline {subsubsection}{Zhrnutie krokov met\IeC {\'o}dy}{34}{section*.28}%
+\contentsline {subsubsection}{Porovnanie s PID}{35}{section*.29}%
+\contentsline {subsection}{Pr\IeC {\'\i }klad druh\IeC {\'y}}{38}{section*.30}%
+\contentsline {subsubsection}{N\IeC {\'a}vrh riadenia}{38}{section*.31}%
+\contentsline {subsubsection}{N\IeC {\'a}vrh PID}{40}{section*.32}%
+\contentsline {subsubsection}{Porovnanie riadenia}{43}{section*.33}%
+\contentsline {subsubsection}{Z\IeC {\'a}ver}{44}{section*.34}%
+\contentsline {section}{\numberline {5}Integr\IeC {\'a}cia do predmetu RNS}{45}{section.5}%
+\contentsline {section}{\numberline {6}Riadenie projektu}{46}{section.6}%
+\contentsline {subsection}{Predstavenie rie\IeC {\v s}ite\IeC {\v l}sk\IeC {\'e}ho kolekt\IeC {\'\i }vu}{46}{section*.35}%
+\contentsline {subsection}{Pl\IeC {\'a}n projektu}{46}{section*.36}%
+\contentsline {subsection}{Dohodnut\IeC {\'e} met\IeC {\'o}dy pr\IeC {\'a}ce}{47}{section*.37}%
+\contentsline {subsection}{Komunik\IeC {\'a}cia a koordin\IeC {\'a}cia projektu}{47}{section*.38}%
+\contentsline {subsection}{Kontrola rozhodnut\IeC {\'\i } t\IeC {\'\i }mu}{47}{section*.39}%
+\contentsline {subsection}{Podrobn\IeC {\'e} z\IeC {\'a}znamy o stretnut\IeC {\'\i }}{47}{section*.40}%
+\contentsline {section}{\numberline {7}Z\IeC {\'a}ver}{57}{section.7}%
+\contentsline {section}{Literat\'ura}{58}{section.7}%

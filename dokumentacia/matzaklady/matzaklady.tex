@@ -90,10 +90,10 @@ Simulačná schéma je na obr. \ref{fig:matz_systemStavovyOpisSimulink}. V bloku
 	\label{fig:matz_systemStavovyOpisSimulink}
 \end{figure}
 
-\subsection{Rovnvoažné stavy}
+\subsection{Rovnovážne stavy}
 Rovnovážny stav $\dot{x_r}$ systému je definovaný ako stav, kedy sa stavové premenné nelineárneho systému nemenia v čase. 
 
-V rovnovažnom stave platí pre vstup $u$, že je v každom čase nulový, $u(t)=0$. Pre stavove premenné platí $\dot{x}|_{x = x_r} = 0$.
+V rovnovážnom stave platí pre vstup $u$, že je v každom čase nulový, $u(t)=0$. Pre stavove premenné platí $\dot{x}|_{x = x_r} = 0$.
 
 Uvažujme príklad \ref{eqn:matz_system} a nájdime jeho rovnovážne stavy. Ako prvé položíme všetky derivácie (označené bodkami nad premennými v stavovom opise) rovné 0 ($\dot{x_1} = 0,\dot{x_2} = 0,\dot{x_3} = 0$). Dostaneme tak sústavu \ref{eqn:rovnovazny_stav1}.
 \begin{equation}
@@ -104,9 +104,9 @@ Uvažujme príklad \ref{eqn:matz_system} a nájdime jeho rovnovážne stavy. Ako
 	\end{aligned}
 	\label{eqn:rovnovazny_stav1}
 \end{equation}
-hodnoty $x_2$ a $x_3$ vieme priamo vyčítať z rovnice vyššie, majú byť $x_2=0$ a $x_3=0$. Hodnotu $x_1$ musíme vypočítať. Našťastie, pre tento jednoduchí prípad, stačí dosadiť $x_2=0$ a $x_3=0$ do tretej rovnice sústavy \ref{eqn:rovnovazny_stav1} a dostaneme $x_1=0$.
+hodnoty $x_2$ a $x_3$ vieme priamo vyčítať z rovnice vyššie, majú byť $x_2=0$ a $x_3=0$. Hodnotu $x_1$ musíme vypočítať. Našťastie, pre tento jednoduchý prípad, stačí dosadiť $x_2=0$ a $x_3=0$ do tretej rovnice sústavy \ref{eqn:rovnovazny_stav1} a dostaneme $x_1=0$.
 
-Bod $[x_{r1},x_{r2},x_{r3}] = [0,0,0]$ je riešením sústavy rovníc \ref{eqn:rovnovazny_stav1}, preto je rovnovažným stavom systému rovníc \ref{eqn:matz_system}.
+Bod $[x_{r1},x_{r2},x_{r3}] = [0,0,0]$ je riešením sústavy rovníc \ref{eqn:rovnovazny_stav1}, preto je rovnovážnym stavom systému rovníc \ref{eqn:matz_system}.
 
 Uvažujme teraz systém opisaný rovnicami \ref{eqn:rovnovazny_stav2} a nájdime jeho rovnovážne stavy.
 \begin{equation}
@@ -200,7 +200,7 @@ Ak vynásobíme gradienty v pracovnom bode vektorom $x$, dostaneme linearizovan�
 \end{equation}
 	
 \subsection{Riešenie preurčenej sústavy rovníc}
-Preurčená sústava rovníc, obsahuje viac rovníc ako neznámych premenných. Pri riešení preurčene sústavy rovníc použijeme metódu najmenších štvorcov. Pomocou metódy najmenších štvorcov určíme riešenie preurčenej sústavy rovníc \ref{eqn:MaticovyZapisPSR} s najmenšou chybou.
+Preurčená sústava rovníc, obsahuje viac rovníc ako neznámych premenných. Pri riešení preurčenej sústavy rovníc použijeme metódu najmenších štvorcov. Pomocou metódy najmenších štvorcov určíme riešenie preurčenej sústavy rovníc \ref{eqn:MaticovyZapisPSR} s najmenšou chybou.
 \begin{equation}
     Ax = b 
 	\label{eqn:MaticovyZapisPSR}
