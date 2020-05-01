@@ -253,7 +253,7 @@ Nech požadované póly uzavretého regulačného obvodu sú -1, -0.5 a -0.5. Po
 \newpage
 \subsubsection{Simulačné overenie návrhu}
 
-Navrhnuté riadenia môžeme porovnať pomocou simulácie v prostredí Matlab-simulink. Simulačná schéma s nelineárnym riadením je na \cref{fig:svlvs2_modelRiadenia} a s PID regulátorom je na \cref{fig:svlvs2_modelRiadeniaPID}. Pri nelineárnom riadení urobíme skok žiadanej hodnoty na 10. Pri PID regulátore urobíme dva skoky, na hodnotu 0.1 a 1, aby sme zostali čo najbližšie pri pracovnom bode.
+Navrhnuté riadenia môžeme porovnať pomocou simulácie v prostredí Matlab-simulink. Simulačná schéma s nelineárnym riadením je na \cref{fig:svlvs2_modelRiadenia} a s PID regulátorom je na \cref{fig:svlvs2_modelRiadeniaPID}. Pri nelineárnom riadení urobíme skok žiadanej hodnoty na 10. Pri PID regulátore urobíme dva skoky, na hodnotu 1 a 10.
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=0.8\linewidth]{ModelRiadenia}
@@ -268,7 +268,7 @@ Navrhnuté riadenia môžeme porovnať pomocou simulácie v prostredí Matlab-si
 		\label{fig:svlvs2_modelRiadeniaPID}
 	\end{figure}
 
-Na \cref{fig:svlvs2_SimulaciaPID} môžeme vidieť, že takto navrhnutý PID regulátor dokáže pri malom skoku uriadiť náš systém. Pri väčšom skoku (\cref{fig:svlvs2_SimulaciaPIDVelkySkok}) sa náš uzavretý systém stal nestabilným. Je to spôsobené tým, že pri väčšej vzdialenosti od pracovného bodu sa chyba spôsobená linearizáciou zväčšuje a systému má iné vlastnosti ako systém, pre ktorý sme daný regulátor navrhovali.
+Na \cref{fig:svlvs2_SimulaciaPID} môžeme vidieť, že takto navrhnutý PID regulátor dokáže pri malom skoku uriadiť náš systém. Pri väčšom skoku (\cref{fig:svlvs2_SimulaciaPIDVelkySkok}) sa náš uzavretý systém rozkmital. Je to spôsobené tým, že pri väčšej vzdialenosti od pracovného bodu sa chyba spôsobená linearizáciou zväčšuje a systému má iné vlastnosti ako systém, pre ktorý sme daný regulátor navrhovali.
 
 Na \cref{fig:svlvs2_simulaciaNelin} a \cref{fig:svlvs2_simulaciaNelinU} je vidieť, že nelineárny regulátor dokázal uriadiť náš systém bez problémov aj na hodnotu 10.
 	\begin{figure}[h!]
@@ -281,14 +281,14 @@ Na \cref{fig:svlvs2_simulaciaNelin} a \cref{fig:svlvs2_simulaciaNelinU} je vidie
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=0.8\linewidth]{SimulaciaPID}
-		\caption{Priebeh výstupu a stavových veličín s PID (skok na 0.1)}
+		\caption{Priebeh výstupu a stavových veličín s PID (skok na 1)}
 		\label{fig:svlvs2_SimulaciaPID}
 	\end{figure}
 
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=0.8\linewidth]{SimulaciaPIDVelkySkok}
-		\caption{Priebeh výstupu a stavových veličín s PID (skok na 1)}
+		\caption{Priebeh výstupu a stavových veličín s PID (skok na 10)}
 		\label{fig:svlvs2_SimulaciaPIDVelkySkok}
 	\end{figure}
 
