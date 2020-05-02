@@ -14,7 +14,7 @@ Uvažujme nelineárny systém, opísaný stavovými rovnicami \ref{eqn:Rovnica1}
 	\label{eqn:Rovnica1}
 \end{equation}
 
-\subsubsection{Rovnovažné stavy systému}
+\subsubsection{Rovnovážne stavy systému}
 Aby sme mohli navrhnúť nelineárne riadenie najskôr overíme že je bod  $x_1 = x_2 = 0$ rovnovážnym bodom. V rovnovážnom stave sú derivácie rovné nule. Z rovníc \ref{eqn:RB} vyplýva, že bod $x_1 = x_2 = 0$ je rovnovážnym bodom.
 \begin{equation}
 \begin{aligned}
@@ -60,7 +60,7 @@ Následne transformujeme zadaný nelineárný systém (rovnica \ref{eqn:Rovnica1
 	\end{aligned}
 	\label{eqn:TransformovanySystem}
 \end{equation}
-Aby sme dosiali lineárny transformovaný systéme zavedieme novú premennú $v$.
+Aby sme dosiahli lineárny transformovaný systém, zavedieme novú premennú $v$.
 \begin{equation}
 	\begin{split}
 	 v = u - z_1^2 + 2z_1z_2 - z_1 - z_2 \\
@@ -204,7 +204,7 @@ Na výpočet parametrov PID regulátora použijeme metódu Pole-Placement. Aby s
 	\label{eqn:GURO}
 \end{equation}
 
-Keď sme získali charakteristický polynóm N(s), využijeme  metódu Pole-Placement, ktorá spočíva v porovnaní charakteristického polynómu so želaným polynómom P(s). Umiestníme póly želaného polynómu P(s) do zápornej reálnej polroviny. My si zvolíme korene: $p_1 = -1$, $p_2 = -2$, $p_3 = -3$, čím sme zabezpečíme stabilitu lineárneho systému. Polynóm P(s) potom bude mať nasledujúci tvar (rovnica \ref{eqn:Ps}). 
+Keď sme získali charakteristický polynóm N(s), využijeme  metódu Pole-Placement, ktorá spočíva v porovnaní charakteristického polynómu so želaným polynómom P(s). Umiestníme póly želaného polynómu P(s) do zápornej reálnej polroviny. My si zvolíme korene: $p_1 = -1$, $p_2 = -2$, $p_3 = -3$, čím zabezpečíme stabilitu lineárneho systému. Polynóm P(s) potom bude mať nasledujúci tvar (rovnica \ref{eqn:Ps}). 
 \begin{equation}
 	\begin{aligned}
 	P(s) &= (s + 1)(s + 2)(s + 3) \\
