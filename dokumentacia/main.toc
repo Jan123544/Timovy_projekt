@@ -3,21 +3,13 @@
 \contentsline {section}{\numberline {1}\IeC {\'U}vod}{6}{section.1}%
 \contentsline {section}{\numberline {2}Matematick\IeC {\'e} z\IeC {\'a}klady}{7}{section.2}%
 \contentsline {subsection}{Stavov\IeC {\'y} opis}{7}{section*.3}%
-<<<<<<< HEAD
-\contentsline {subsection}{Rovnvoa\IeC {\v z}n\IeC {\'e} stavy}{8}{section*.4}%
-=======
 \contentsline {subsection}{Rovnov\IeC {\'a}\IeC {\v z}ne stavy}{8}{section*.4}%
->>>>>>> f99e2b95e690021cc1ea7672940a586f71c79a8f
 \contentsline {subsection}{Lineariz\IeC {\'a}cia}{9}{section*.5}%
 \contentsline {subsection}{Rie\IeC {\v s}enie preur\IeC {\v c}enej s\IeC {\'u}stavy rovn\IeC {\'\i }c}{11}{section*.6}%
 \contentsline {subsection}{Parci\IeC {\'a}lne deriv\IeC {\'a}cie}{12}{section*.7}%
 \contentsline {section}{\numberline {3}Sp\IeC {\"a}tnov\IeC {\"a}zbov\IeC {\'a} lineariz\IeC {\'a}cia - vstupno-stavov\IeC {\'a}}{14}{section.3}%
 \contentsline {subsection}{\IeC {\'U}vodn\IeC {\'y} pr\IeC {\'\i }klad}{14}{section*.8}%
-<<<<<<< HEAD
-\contentsline {subsubsection}{Rovnova\IeC {\v z}n\IeC {\'e} stavy syst\IeC {\'e}mu}{14}{section*.9}%
-=======
 \contentsline {subsubsection}{Rovnov\IeC {\'a}\IeC {\v z}ne stavy syst\IeC {\'e}mu}{14}{section*.9}%
->>>>>>> f99e2b95e690021cc1ea7672940a586f71c79a8f
 \contentsline {subsubsection}{Prv\IeC {\'y} krok - ur\IeC {\v c}enie transforma\IeC {\v c}n\IeC {\'y}ch vz\IeC {\v t}ahov}{15}{section*.10}%
 \contentsline {subsubsection}{Druh\IeC {\'y} krok - transform\IeC {\'a}cia syst\IeC {\'e}mu}{15}{section*.11}%
 \contentsline {subsubsection}{Tret\IeC {\'\i } krok - n\IeC {\'a}vrh line\IeC {\'a}rneho stavov\IeC {\'e}ho regul\IeC {\'a}tora}{16}{section*.12}%
@@ -25,11 +17,7 @@
 \contentsline {subsubsection}{N\IeC {\'a}vrh PID regul\IeC {\'a}tora}{19}{section*.14}%
 \contentsline {subsection}{Pr\IeC {\'\i }klad druh\IeC {\'y}}{22}{section*.15}%
 \contentsline {subsubsection}{Opis syst\IeC {\'e}mu}{22}{section*.16}%
-<<<<<<< HEAD
-\contentsline {subsubsection}{Rovnova\IeC {\v z}n\IeC {\'e} stavy}{23}{section*.17}%
-=======
 \contentsline {subsubsection}{Rovnov\IeC {\'a}\IeC {\v z}ne stavy}{23}{section*.17}%
->>>>>>> f99e2b95e690021cc1ea7672940a586f71c79a8f
 \contentsline {subsubsection}{Prv\IeC {\'y} krok - n\IeC {\'a}jdenie transforma\IeC {\v c}n\IeC {\'y}ch vz\IeC {\v t}ahov}{23}{section*.18}%
 \contentsline {subsubsection}{Druh\IeC {\'y} krok - transform\IeC {\'a}cia syst\IeC {\'e}mu}{23}{section*.19}%
 \contentsline {subsubsection}{Tret\IeC {\'\i } krok - n\IeC {\'a}vrh parametrov line\IeC {\'a}rnho regul\IeC {\'a}tra}{25}{section*.20}%
@@ -55,11 +43,6 @@
 \contentsline {subsection}{Dohodnut\IeC {\'e} met\IeC {\'o}dy pr\IeC {\'a}ce}{47}{section*.37}%
 \contentsline {subsection}{Komunik\IeC {\'a}cia a koordin\IeC {\'a}cia projektu}{47}{section*.38}%
 \contentsline {subsection}{Kontrola rozhodnut\IeC {\'\i } t\IeC {\'\i }mu}{47}{section*.39}%
-\contentsline {subsection}{Podrobn\IeC {\'e} z\IeC {\'a}znamy o stretnut\IeC {\'\i }}{47}{section*.40}%
-<<<<<<< HEAD
-\contentsline {section}{\numberline {7}Z\IeC {\'a}ver}{48}{section.7}%
-\contentsline {section}{Literat\'ura}{49}{section.7}%
-=======
-\contentsline {section}{\numberline {7}Z\IeC {\'a}ver}{57}{section.7}%
-\contentsline {section}{Literat\'ura}{58}{section.7}%
->>>>>>> f99e2b95e690021cc1ea7672940a586f71c79a8f
+\contentsline {subsection}{Podrobn\IeC {\'e} z\IeC {\'a}znamy o stretnut\IeC {\'\i }}{48}{section*.40}%
+\contentsline {section}{\numberline {7}Z\IeC {\'a}ver}{49}{section.7}%
+\contentsline {section}{Literat\'ura}{50}{section.7}%

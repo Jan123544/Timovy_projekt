@@ -2,7 +2,7 @@
 
 \begin{document}
     \subsection{Predstavenie riešiteľského kolektívu}   
-    Na riešení projektu sa podieľali nasledovní študenti:
+    Na riešení projektu sa podielali nasledovní študenti:
 
         Bc. Eva Štalmachová - študentka inžinierského študijného programu Robotika a Kybernetika na Ústave Robotiky a Kybernetiky FEI STU
 
@@ -23,7 +23,7 @@
     	\item Dokumentácia vyriešených častí úlohy. A príprava prezentácie čiastočného riešenia.
     	\item Prezentácia čiastočného riešenia vedúcemu projektu, analýza kritiky vedúceho a syntéza nových úloh. 
     	\item Riešenie a dokumentácia nových úloh, konzultácia s vedúcim projektu.
-    	\item Pokračovanie v riešení úloh z predchádzajúceho týždňa.
+    	\item Pokračovanie v riešení úloh z predchádzajúceho týždna.
     	\item Destilácia obsahu riešenia do formy prezentácie.
     	\item Vypracovanie posudku na konkurenčný projekt.
     	\item Prezentácia.
@@ -36,7 +36,7 @@
             \item Dokumentácia bude vytvorená v dokumentačnom systéme LaTeX.
             \item Simulácie budú vytvorené v simulačnom prostredí Matlab/Simulink.
             \item Verzie riešenia budú spravované využitím programu git a jednotlivé verzie budú hostované na stránkach github.com ako súkromný repozitár.
-            \item Pre zabezpečenie dodržania termínov sme zaviedli aj časové obmedzenia doby riešenia jednotlivých úloh pridelených členom skupiny.
+            \item Pre zabezpečenie dodržania termínov sme zaviedli aj časové obmedzenia doby riešnia jednotlivých úloh pridelených členom skupiny.
     	\end{itemize}
 
     \subsection{Komunikácia a koordinácia projektu}
@@ -47,7 +47,7 @@
     	\end{itemize}
 
     \subsection{Kontrola rozhodnutí tímu}
-    Rozhodnutia o forme riešenia sme robili v prvých týždňoch semestra. Uvažovali sme nad rôznymi rozdeleniami práce, ako aj nad tým, čo by v riešení malo byť. 
+    Rozhodnutia o forme riešenia sme robili v prvých týždňoch semestra. Uvažovali sme nad rôznymi rozdeleniami práce, ako aj nad tý, čo by v riešení malo byť. 
 
     Rozhodli sme predviesť každú metódu dvoma príkladmi. Čo umožňovalo priradiť každému členu tímu jeden príklad. Ukázalo sa, že to bolo dobré rozhodnutie, pretože takto mohli členovia tímu pracovať paralelne.
 
@@ -55,7 +55,7 @@
 
     Využitie programovacieho jazyka TeX a balíčka makier LaTeX na formátovanie dokumentácie bolo dobrým rozhodnutím, pretože sme sa nemuseli zaoberať napríklad manuálnym číslovaním obrázkov.
 
-    Ukladanie čiastočných riešení do git repozitáru na internet, sa ukázalo ako efektívny spôsob zaručenia aktuálnosti verzií a zosúladenia zmien súborov projektu medzi členmi tímu.
+    Ukladanie čiastočných riešení do git repozitáru na internet, sa ukázalo ako efektívny spôsob zaručenia aktuálnosti verzií a zosúladenia zmien súborov projektu medzi členy tímu.
 
     Zavedenie časových limitov (deadline), na dokončenie čiastočných úloh, viedlo, podľa nášho názoru, k výrazne vyššej produktivite. Čiže ich zavedenie bolo dobrým rozhodnutím.
     
