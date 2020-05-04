@@ -1,8 +1,8 @@
-\begin{thebibliography}{1}
-
-\bibitem{slotine1991applied}
-Jean-Jacques~E Slotine, Weiping Li, et~al.
-\newblock {\em Applied nonlinear control}, volume 199.
-\newblock Prentice hall Englewood Cliffs, NJ, 1991.
+\begin{thebibliography}{0}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
 \end{thebibliography}

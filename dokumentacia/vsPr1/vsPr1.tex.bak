@@ -14,7 +14,8 @@ Uvažujme nelineárny systém, opísaný stavovými rovnicami \ref{eqn:Rovnica1}
 	\label{eqn:Rovnica1}
 \end{equation}
 
-Aby sme mohli navrhnúť nelineárne riadenie najskôr overíme že je bod  $x_1 = x_2 = 0$ rovnovážnym bodom. V rovnovážnom stave sú derivácie rovné nule. Z rovníc \ref{eqn:RB} vyplýva, že bod $x_1 = x_2 = 0$ je rovnovážnym bodom.
+\subsubsection{Rovnovážne stavy systému}
+V rovnovážnom stave sú derivácie rovné nule. Z rovníc \ref{eqn:RB} vyplýva, že bod $x_1 = x_2 = 0$ je rovnovážnym bodom.
 \begin{equation}
 \begin{aligned}
     \dot{x_1}|_{x_1 = x_2 = u = 0} &=  0 \\
@@ -37,6 +38,7 @@ Na riadenie nelineárneho systému (rovnica \ref{eqn:Rovnica1}), použijeme met�
 
 Postup pri metóde vstupno-stavovej spätnoväzobnej linearizácie je nasledovný.
 
+\subsubsection{Prvý krok - určenie transformačných vzťahov}
 Najskôr si určíme transformačné vzťahy, tzn. určíme vektor $r$.
 \begin{equation}
 	\begin{aligned}
@@ -45,6 +47,8 @@ Najskôr si určíme transformačné vzťahy, tzn. určíme vektor $r$.
 	\end{aligned}
 	\label{eqn:TransformacneVztahy}
 \end{equation}
+
+\subsubsection{Druhý krok - transformácia systému}
 Následne transformujeme zadaný nelineárný systém (rovnica \ref{eqn:Rovnica1}), pomocou nájdených transformačných vzťahov (rovnica \ref{eqn:TransformacneVztahy}).
 \begin{equation}
 	\begin{aligned}
@@ -56,14 +60,14 @@ Následne transformujeme zadaný nelineárný systém (rovnica \ref{eqn:Rovnica1
 	\end{aligned}
 	\label{eqn:TransformovanySystem}
 \end{equation}
-Aby sme dosiali lineárny transformovaný systéme zavedieme novú premennú $v$.
+Aby sme dosiahli lineárny transformovaný systém, zavedieme novú premennú $v$.
 \begin{equation}
 	\begin{split}
 	 v = u - z_1^2 + 2z_1z_2 - z_1 - z_2 \\
 	\end{split}
 	\label{eqn:SubsV}
 \end{equation}
-Z trasformovanej sústavy získame vzťah pre nelineárne riadenie, akčný zásah $u$.
+Z transformovanej sústavy získame vzťah pre nelineárne riadenie, akčný zásah $u$.
 \begin{equation}
 	\begin{gathered}
 		u = v + z_1^2 - 2z_1z_2 + z_1 + z_2\\
@@ -78,6 +82,8 @@ Zavedením novej premennej sme získali nový transformovaný lineárny systém.
 	\end{aligned}
 	\label{eqn:TransformovanySystem}
 \end{equation}
+
+\subsubsection{Tretí krok - návrh lineárneho stavového regulátora}
 Po získaní lineárneho systému môžeme zaviesť lineárny stavový regulátor (rovnica \ref{eqn:LinReg}).
 \begin{equation}
 	\begin{split}
@@ -123,6 +129,8 @@ k_2 &= -4\\
 \end{aligned}
 \label{eqn:Korene}
 \end{equation}
+
+\subsubsection{Overenie výsledokv}
 Výsledky overíme simulačne pomocou schémy na obrázku \ref{fig:PrikladsRiadenim}.
 \newpage
 \begin{figure}[H]
@@ -131,7 +139,7 @@ Výsledky overíme simulačne pomocou schémy na obrázku \ref{fig:PrikladsRiade
 	\label{fig:PrikladsRiadenim}
 \end{figure}
 
-Z výsledkov simulácie, ktoré su zobrazené na obrázkoch \ref{fig:Vysledok1}, \ref{fig:Vysledok2}, môžeme vidieť, že s pomocou navrhnutého riadenia pre nelinárny systém sme dokázali dosiahnúť požadovanú hodnotu $r$.
+Z výsledkov simulácie, ktoré sú zobrazené na obrázkoch \ref{fig:Vysledok1}, \ref{fig:Vysledok2}, môžeme vidieť, že s pomocou navrhnutého riadenia pre nelineárny systém sme dokázali dosiahnúť požadovanú hodnotu $r$.
 \begin{figure}[!htb]
    \begin{minipage}{0.46\textwidth}
      \centering
@@ -147,7 +155,7 @@ Z výsledkov simulácie, ktoré su zobrazené na obrázkoch \ref{fig:Vysledok1},
    \end{minipage}
 \end{figure}
 
-\subsubsection*{Návrh PID regulátora}
+\subsubsection{Návrh PID regulátora}
 Teraz môžeme pre porovnanie navrhnúť PID regulátor. Aby sme mohli navrhnúť PID regulátor potrebujeme získať prenosovú funkciu systému, preto náš systém linearzijeme v pracovnom bode $x_1 = x_2 = 0$ (rovnica \ref{eqn:LS}).
 \begin{equation}
 \begin{split} 
@@ -196,7 +204,7 @@ Na výpočet parametrov PID regulátora použijeme metódu Pole-Placement. Aby s
 	\label{eqn:GURO}
 \end{equation}
 
-Keď sme získali charakteristický polynóm N(s), využijeme  metódu Pole-Placement, ktorá spočíva v porovnaní charakteristického polynómu so žalaným polynómom P(s). Umiestníme póly žalaného polynómu P(s) do zápornej reálnej polroviny. My si zvolíme korene: $p_1 = -1$, $p_2 = -2$, $p_3 = -3$, čím sme zabezpečíme stabilitu lineárneho systému. Polynóm P(s) potom bude mať nasledujúci tvar (rovnica \ref{eqn:Ps}). 
+Keď sme získali charakteristický polynóm N(s), využijeme  metódu Pole-Placement, ktorá spočíva v porovnaní charakteristického polynómu so želaným polynómom P(s). Umiestníme póly želaného polynómu P(s) do zápornej reálnej polroviny. My si zvolíme korene: $p_1 = -1$, $p_2 = -2$, $p_3 = -3$, čím zabezpečíme stabilitu lineárneho systému. Polynóm P(s) potom bude mať nasledujúci tvar (rovnica \ref{eqn:Ps}). 
 \begin{equation}
 	\begin{aligned}
 	P(s) &= (s + 1)(s + 2)(s + 3) \\
@@ -225,7 +233,7 @@ Výsledky overíme simulačne pomocou schémy na obrázku \ref{fig:PrikladsRiade
 	\label{fig:PrikladsRiadenimPID}
 \end{figure}
 
-Z výsledkov simulácie, ktoré su zobrazené na obrázkoch \ref{fig:Vysledok1}, \ref{fig:Vysledok2}, môžeme vidieť, že s pomocou PID regulátora sme dokázali dosiahnúť niektoré požadované hodnoty $r$, avšak pri vyšších požadovaných hodnotách bol už systém nestabilný.
+Z výsledkov simulácie, ktoré sú zobrazené na obrázkoch \ref{fig:Vysledok1}, \ref{fig:Vysledok2}, môžeme vidieť, že s pomocou PID regulátora sme dokázali dosiahnúť niektoré požadované hodnoty $r$, avšak pri vyšších požadovaných hodnotách bol už systém nestabilný.
 \begin{figure}[!htb]
    \begin{minipage}{0.46\textwidth}
      \centering

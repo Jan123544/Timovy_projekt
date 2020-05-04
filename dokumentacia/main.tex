@@ -96,8 +96,8 @@ pdfkeywords={robot stopar robotika kybernetika},%
 \newpage
 \tableofcontents{}
 \setcounter{secnumdepth}{0}
-\newpage
-\section{Zoznam použitých skratiek}
+%\newpage
+%\section{Zoznam použitých skratiek}
 
  
 \setcounter{secnumdepth}{1}
@@ -169,24 +169,24 @@ pdfkeywords={robot stopar robotika kybernetika},%
 \begin{thebibliography}{9}
 \bibitem{slotine1991applied} SLOTINE, Jean-Jacques E., et al. Applied nonlinear control. Englewood Cliffs, NJ: Prentice hall, 1991.
 \end{thebibliography}
-%%
-%% Appendix
-%%
-%\ifthenelse {\boolean{bachelor}}
-%{
-%}
-%{
-%	\ifthenelse {\boolean{english}}
-%	{
-%		\renewcommand{\appendixname}{Appendix}
-%		\renewcommand{\appendixtocname}{Appendix}
-%	}
-%	{
-%		\renewcommand{\appendixname}{Príloha}
-%		\renewcommand{\appendixtocname}{Prílohy}
-%	}
-%	\pagenumbering{bychapter}
-%}
+%
+% Appendix
+%
+\ifthenelse {\boolean{bachelor}}
+{
+}
+{
+	\ifthenelse {\boolean{english}}
+	{
+		\renewcommand{\appendixname}{Appendix}
+		\renewcommand{\appendixtocname}{Appendix}
+	}
+	{
+		\renewcommand{\appendixname}{Príloha}
+		\renewcommand{\appendixtocname}{Prílohy}
+	}
+	\pagenumbering{bychapter}
+}
 \appendix
 \input{appendix.tex}
 

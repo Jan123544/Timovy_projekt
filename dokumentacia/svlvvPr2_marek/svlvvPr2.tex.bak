@@ -79,10 +79,10 @@
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=\linewidth]{sysPr2complet}
-		\caption{Kompletná schéma riadeného systému pomocou nelineárneho riadenia.}
+		\caption{Kompletná schéma riadného systému pomocou nelineárneho riadenia.}
 		\label{fig:svlvvPr2All}
 	\end{figure}
-    \subsubsection{Rovnovážny stav}
+    \subsubsection{Rovnovažný stav}
 	Teraz overíme, že bod  $x_1 = x_2 = x_3 = 0 $, je rovnovážnym bodom systému. Systém sa nachádza v rovnováhe, keď časové derivácie všetkých stavových premenných sú nulové. 
 	\begin{equation}
 		\begin{aligned}

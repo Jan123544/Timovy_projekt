@@ -18,16 +18,6 @@
 		\caption{Bloková schéma systému z \cref{eqn:svlvvPr1SyavovyOpis}}
 		\label{fig:svlvvPr1BlockSchemaSystemu}
 	\end{figure}
-    \subsubsection{Rovnovážny stav systému}
-    Bod $x_1 = x_2 = 0$ je rovnovážnym bodom tohto systému, čo si môžeme overiť dosadením:
-	\begin{equation*}
-	    \begin{aligned}
-            \dot{x_1}|_{(x_1 = x_2 = 0)} &= \sin(0) 0 = 0 \\
-            \dot{x_2}|_{(x_1 = x_2 = 0)}  &= 0 + sin(0) = 0 \\
-	    \end{aligned}
-	    \label{eqn:svlvvPr1OverenieRB}
-	\end{equation*}
-	všimnime si, že v tomto bode sú derivácie stavových premenných v čase nulové, čo je charakteristické pre rovnovážne body.
 	
 	Predpokladajme, že chceme tento systém riadiť tak, aby výstup dosiahol žiadanú hodnotu $r$ a aplikujme nelineárne riadenie navrhnuté metódou vstupno výstupnej spätnoväzobnej linearizácie. Metódu vysvetlíme rovno počas návrhu. 
 	
@@ -162,6 +152,17 @@ po dosadení do \cref{eqn:svlvvpr1-derivv} dostaneme:% \cref{eqn:svlvvPr1-dosade
         \item Návrh zákona riadenia (regulátora) pre linearizovaný systém
     \end{enumerate}
 
+    \subsubsection{Rovnovážny stav systému}
+    Bod $x_1 = x_2 = 0$ je rovnovážnym bodom tohto systému, čo si môžeme overiť dosadením:
+	\begin{equation*}
+	    \begin{aligned}
+            \dot{x_1}|_{(x_1 = x_2 = 0)} &= \sin(0) 0 = 0 \\
+            \dot{x_2}|_{(x_1 = x_2 = 0)}  &= 0 + sin(0) = 0 \\
+	    \end{aligned}
+	    \label{eqn:svlvvPr1OverenieRB}
+	\end{equation*}
+
+	všimnime si, že v tomto bode sú derivácie stavových premenných v čase nulové, čo je charakteristické pre rovnovážne body.
     \subsubsection{Porovnanie s PID}
 	Pre porovnanie skúsme navrhnúť ešte PID regulátor pre systém linearizovaný v rovnovážnom bode $x_1 = x_2 = 0$. Po linearizovaný bude mať systém tvar \cref{eqn:svlvvPr1LinearizovanySystem}. 
 	\begin{equation}
