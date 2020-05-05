@@ -4,7 +4,7 @@
 \begin{document}
 	\subsection{Príklad druhý}
     \subsubsection{Opis systému}
-	Majme systém, ktorý je určený stavovým opisom \cref{eqn:svlvs2_rovniceSystemu}. Bloková schéma systému je na \cref{fig:svlvs2_obrazokModelSystemu}.
+	Majme systém, ktorý je určený stavovým opisom \cref{eqn:svlvs2_rovniceSystemu}. Tento systém má stavy $x_1$, $x_2$ a $x_3$. Stav $x_1$ je zároveň výstupom systému. Bloková schéma systému je na \cref{fig:svlvs2_obrazokModelSystemu}.
 	\begin{equation}
 		\begin{aligned}
 		\dot{x_1} &= x_1 + x_2 - x_3 + sin(x_2) 			\\
@@ -22,18 +22,6 @@
 		\label{fig:svlvs2_obrazokModelSystemu}
 	\end{figure}
 
-    \subsubsection{Rovnovážne stavy}
-Tento systém má stavy $x_1$, $x_2$ a $x_3$. Stav $x_1$ je zároveň výstupom systému.
-Bod [0 0 0] je rovnovážny stav systému. V tomto bode sú časové derivácie všetkých stavových premenných rovné nule.
-
-	\begin{equation}
-		\begin{aligned}
-		\dot{x_1}|_{x_1 = x_2 = x_3 = 0} &= 0 + 0 - 1 + sin(0) = 0 					\\
-		\dot{x_2}|_{x_1 = x_2 = x_3 = 0} &= -0 - 0 = 0 							\\
-		\dot{x_3}|_{x_1 = x_2 = x_3 = 0} &= cos(0)sin(0) - 0cos(0) - 0 = 0 			\\
-		\end{aligned}
-		\label{eqn:svlvs2_rovniceRovnovaznyStav}
-	\end{equation}
 
     \subsubsection{Prvý krok - nájdenie transformačných vzťahov}
 	Našim cieľom je riadiť tento systém tak, aby výstup $y$ dosiahol žiadanú hodnotu $r$. Systém obsahuje nelinearity v dvoch rovniciach, preto je ťažké určiť zákon riadenia len pohľadom na tieto rovnice. Použijeme metódu Vstupno-stavovej linearizácie, pri ktorej navrhneme linearizačnú slučku, s ktorou sa náš systém bude správať ako lineárny. Pre tento lineárny systém potom navrhneme regulátor, ktorý zabezpečí, že sa výstup systému ustáli na žiadanej hodnote.
@@ -192,7 +180,21 @@ Z toho určíme zosilnenie $K$, \cref{eqn:svlvs2_hodnotaK}.
 		\label{eqn:svlvs2_hodnotaK}
 	\end{equation}
 
+
 \newpage
+
+    \subsubsection{Rovnovážne stavy}
+
+Bod [0 0 0] je rovnovážny stav systému. V tomto bode sú časové derivácie všetkých stavových premenných rovné nule.
+
+	\begin{equation}
+		\begin{aligned}
+		\dot{x_1}|_{x_1 = x_2 = x_3 = 0} &= 0 + 0 - 1 + sin(0) = 0 					\\
+		\dot{x_2}|_{x_1 = x_2 = x_3 = 0} &= -0 - 0 = 0 							\\
+		\dot{x_3}|_{x_1 = x_2 = x_3 = 0} &= cos(0)sin(0) - 0cos(0) - 0 = 0 			\\
+		\end{aligned}
+		\label{eqn:svlvs2_rovniceRovnovaznyStav}
+	\end{equation}
 \subsubsection{Návrh PID regulátora pre linearizáciu systému}
 
 Rozvojom do Taylorovho radu dostaneme z pôvodných \cref{eqn:svlvs2_rovniceSystemu} nové \cref{eqn:svlvs2_rovniceSystemuLinearizovane}. Pracovný bod nech je [0 0 0]. Po linearizácií dokážeme odvodiť prenosovú funkciu \cref{eqn:svlvs2_prenosSystemuLinearizovane} a navrhnúť PID regulátor pomocou PPM.

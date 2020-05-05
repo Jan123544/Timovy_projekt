@@ -7,18 +7,18 @@
 \BOOKMARK [2][-]{section*.6}{Parci\341lne deriv\341cie}{section.2}% 7
 \BOOKMARK [1][-]{section.3}{Sp\344tnov\344zbov\341 lineariz\341cia - vstupno-stavov\341}{}% 8
 \BOOKMARK [2][-]{section*.7}{\332vodn\375 pr\355klad}{section.3}% 9
-\BOOKMARK [3][-]{section*.8}{Rovnov\341\236ne stavy syst\351mu}{section*.7}% 10
-\BOOKMARK [3][-]{section*.9}{Prv\375 krok - urcenie transformacn\375ch vztahov}{section*.7}% 11
-\BOOKMARK [3][-]{section*.10}{Druh\375 krok - transform\341cia syst\351mu}{section*.7}% 12
-\BOOKMARK [3][-]{section*.11}{Tret\355 krok - n\341vrh line\341rneho stavov\351ho regul\341tora}{section*.7}% 13
-\BOOKMARK [3][-]{section*.12}{Overenie v\375sledkov}{section*.7}% 14
+\BOOKMARK [3][-]{section*.8}{Prv\375 krok - urcenie transformacn\375ch vztahov}{section*.7}% 10
+\BOOKMARK [3][-]{section*.9}{Druh\375 krok - transform\341cia syst\351mu}{section*.7}% 11
+\BOOKMARK [3][-]{section*.10}{Tret\355 krok - n\341vrh line\341rneho stavov\351ho regul\341tora}{section*.7}% 12
+\BOOKMARK [3][-]{section*.11}{Overenie v\375sledkov}{section*.7}% 13
+\BOOKMARK [3][-]{section*.12}{Rovnov\341\236ne stavy syst\351mu}{section*.7}% 14
 \BOOKMARK [3][-]{section*.13}{N\341vrh PID regul\341tora}{section*.7}% 15
 \BOOKMARK [2][-]{section*.14}{Pr\355klad druh\375}{section.3}% 16
 \BOOKMARK [3][-]{section*.15}{Opis syst\351mu}{section*.14}% 17
-\BOOKMARK [3][-]{section*.16}{Rovnov\341\236ne stavy}{section*.14}% 18
-\BOOKMARK [3][-]{section*.17}{Prv\375 krok - n\341jdenie transformacn\375ch vztahov}{section*.14}% 19
-\BOOKMARK [3][-]{section*.18}{Druh\375 krok - transform\341cia syst\351mu}{section*.14}% 20
-\BOOKMARK [3][-]{section*.19}{Tret\355 krok - n\341vrh parametrov line\341rneho regul\341tora}{section*.14}% 21
+\BOOKMARK [3][-]{section*.16}{Prv\375 krok - n\341jdenie transformacn\375ch vztahov}{section*.14}% 18
+\BOOKMARK [3][-]{section*.17}{Druh\375 krok - transform\341cia syst\351mu}{section*.14}% 19
+\BOOKMARK [3][-]{section*.18}{Tret\355 krok - n\341vrh parametrov line\341rneho regul\341tora}{section*.14}% 20
+\BOOKMARK [3][-]{section*.19}{Rovnov\341\236ne stavy}{section*.14}% 21
 \BOOKMARK [3][-]{section*.20}{N\341vrh PID regul\341tora pre lineariz\341ciu syst\351mu}{section*.14}% 22
 \BOOKMARK [3][-]{section*.21}{Simulacn\351 overenie n\341vrhu}{section*.14}% 23
 \BOOKMARK [1][-]{section.4}{Sp\344tnov\344zbov\341 lineariz\341cia - vstupno-v\375stupn\341}{}% 24

@@ -14,20 +14,7 @@ Uvažujme nelineárny systém, opísaný stavovými rovnicami \ref{eqn:Rovnica1}
 	\label{eqn:Rovnica1}
 \end{equation}
 
-\subsubsection{Rovnovážne stavy systému}
-V rovnovážnom stave sú derivácie rovné nule. Z rovníc \ref{eqn:RB} vyplýva, že bod $x_1 = x_2 = 0$ je rovnovážnym bodom.
-\begin{equation}
-\begin{aligned}
-    \dot{x_1}|_{x_1 = x_2 = u = 0} &=  0 \\
-\dot{x_2}|_{x_1 = x_2 = u = 0} &= 0 \\
-\end{aligned}
-\label{eqn:RB}
-\end{equation}
-\begin{figure}[H]
-	\begin{center}\includegraphics[scale=0.8]{Rovnica1.pdf}\end{center}
-	\caption{Bloková schéma systému \ref{eqn:Rovnica1}}
-	\label{fig:BlokovaSchemaPr1}
-\end{figure}
+
 
 Na riadenie nelineárneho systému (rovnica \ref{eqn:Rovnica1}), použijeme metódu vstupno-stavovej spätnoväzobnej linearizácie (obrázok \ref{fig:MetodaVS}), tak aby sme dosiahli požadovanú hodnotu $r$.
 \begin{figure}[H]
@@ -153,6 +140,21 @@ Z výsledkov simulácie, ktoré sú zobrazené na obrázkoch \ref{fig:Vysledok1}
      \caption{Priebeh akčného zásahu $u$ s nelineárnym riadením}
 	\label{fig:Vysledok2}
    \end{minipage}
+\end{figure}
+
+\subsubsection{Rovnovážne stavy systému}
+V rovnovážnom stave sú derivácie rovné nule. Z rovníc \ref{eqn:RB} vyplýva, že bod $x_1 = x_2 = 0$ je rovnovážnym bodom.
+\begin{equation}
+\begin{aligned}
+    \dot{x_1}|_{x_1 = x_2 = u = 0} &=  0 \\
+\dot{x_2}|_{x_1 = x_2 = u = 0} &= 0 \\
+\end{aligned}
+\label{eqn:RB}
+\end{equation}
+\begin{figure}[H]
+	\begin{center}\includegraphics[scale=0.8]{Rovnica1.pdf}\end{center}
+	\caption{Bloková schéma systému \ref{eqn:Rovnica1}}
+	\label{fig:BlokovaSchemaPr1}
 \end{figure}
 
 \subsubsection{Návrh PID regulátora}
