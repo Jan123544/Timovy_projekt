@@ -46,3 +46,4 @@
 \contentsline {subsection}{Podrobn\IeC {\'e} z\IeC {\'a}znamy o stretnut\IeC {\'\i }}{47}{section*.40}%
 \contentsline {section}{\numberline {7}Z\IeC {\'a}ver}{58}{section.7}%
 \contentsline {section}{Literat\'ura}{59}{section.7}%
+\contentsline {subsection}{Pr\IeC {\'\i }loha A:}{60}{section*.43}%
