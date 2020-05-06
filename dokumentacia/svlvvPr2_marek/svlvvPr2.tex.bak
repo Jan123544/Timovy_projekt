@@ -79,10 +79,10 @@
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=\linewidth]{sysPr2complet}
-		\caption{Kompletná schéma riadného systému pomocou nelineárneho riadenia.}
+		\caption{Kompletná schéma riadeného systému pomocou nelineárneho riadenia.}
 		\label{fig:svlvvPr2All}
 	\end{figure}
-    \subsubsection{Rovnovažný stav}
+    \subsubsection{Rovnovážny stav}
 	Teraz overíme, že bod  $x_1 = x_2 = x_3 = 0 $, je rovnovážnym bodom systému. Systém sa nachádza v rovnováhe, keď časové derivácie všetkých stavových premenných sú nulové. 
 	\begin{equation}
 		\begin{aligned}
@@ -191,6 +191,8 @@
 		\label{fig:svlvvPr2VysPID}
 	\end{figure}
 	\newpage
+    \subsubsection{Interná dynamika}
+    Riadený systém je tretieho rádu. Avšak vstupno výstupný vzťah \cref{eqn:svlvvPr2DerVys} je len druhého rádu. Keďže navrhujeme riadenie pre systém druhého rádu ale skutočný systém je tretieho rádu, zanedbali sme časť dynamiky systému. Táto zanedbaná časť sa nazýva interná dynamika. Návrh bude úspešný len ak táto interná dynamika je stabilá. Spôsob akým zistiť, či je interná dynaimka stabilná neuvádzame.
 	\subsubsection{Záver}
 	Z výsledku môžeme usúdiť, že nelineárne riadenie je v tomto prípade, nevyhnutné. Systém regulovaný PID regulátorom nebol schopný sa stabilizovať v takom okolí pracovného bodu ako to dokázal systém s regulátorom navrhnutým pomocou metódy vstupno-výstupnej spätnoväzbovej linearizácie. 
 \end{document}
